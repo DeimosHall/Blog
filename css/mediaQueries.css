@@ -11,21 +11,26 @@
     .navbar__right-box__menu {
         background-color: #1a2022;
         position: absolute;
-        width: 50vh;
+        width: 50%;
         height: 100vh;
-        display: flex;
+        display: none;
         margin-top: 40px;
         margin-right: -10px;
         padding: 30px;
         flex-direction: column;
         align-items: center;
         justify-content: start;
-        transform: translateX(100%);
-        transition: all 0.5s;
+        opacity: 0;
+    }
+
+    @keyframes showMenu {
+        from {opacity: 0;}
+        to {opacity: 1;}
     }
 
     .navbar__right-box__menu--show {
-        transform: translateX(0%);
+        display: flex;
+        animation: showMenu 500ms ease-in-out both; 
     }
 
     .navbar__items--link {
