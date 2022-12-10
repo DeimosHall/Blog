@@ -18,6 +18,14 @@ header {
     justify-content: center;
 }
 
+iframe {
+    width: 50%;
+    height: 60px;
+    background-color: #1a2022;
+    display: flex;
+    justify-content: center;
+}
+
 .navbar {
     width: 50em;
     display: flex;
@@ -44,7 +52,7 @@ header {
 }
 
 .navbar__items {
-    color: white;
+    color: var(--text-color);
 }
 
 .navbar__items--link {
@@ -58,8 +66,9 @@ header {
 }
 
 main {
+    min-height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -82,7 +91,7 @@ main {
 }
 
 .profile__profile-title {
-    color: #cdded9;
+    color: var(--text-color);
 }
 
 .profile__profile-skills-content {
