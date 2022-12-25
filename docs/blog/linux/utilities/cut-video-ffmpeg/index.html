@@ -73,6 +73,7 @@ ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4 Explanation # W
 
   </head>
   <body class="dark-theme">
+
     <div class="container">
       <header class="header">
   <span class="header__inner">
@@ -100,17 +101,36 @@ ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4 Explanation # W
     
       
         
+          <li><a href="/">Home</a></li>
+        
+      
+        
+          <li><a href="/blog">Blog</a></li>
+        
+      
+        
           <li><a href="/about">About</a></li>
         
       
-        
-          <li><a href="/">Blog</a></li>
-        
       
-        
-          <li><a href="/none">Terms and conditions</a></li>
-        
-      
+        <ul class="menu__sub-inner">
+          <li class="menu__sub-inner-more-trigger">
+            Show more
+            <span class="menu__sub-inner-more-trigger-icon"
+              ><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span
+            >
+          </li>
+          <ul class="menu__sub-inner-more hidden">
+            
+              
+                <li><a href="/">Terms and conditions</a></li>
+              
+            
+          </ul>
+        </ul>
       
       
   </ul>
@@ -118,15 +138,19 @@ ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4 Explanation # W
   <ul class="menu__inner menu__inner--mobile">
     
       
+        <li><a href="/">Home</a></li>
+      
+    
+      
+        <li><a href="/blog">Blog</a></li>
+      
+    
+      
         <li><a href="/about">About</a></li>
       
     
       
-        <li><a href="/">Blog</a></li>
-      
-    
-      
-        <li><a href="/none">Terms and conditions</a></li>
+        <li><a href="/">Terms and conditions</a></li>
       
     
   </ul>
@@ -207,6 +231,8 @@ ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4 Explanation # W
 
     <div class="post-content">
       
+        
+      
 
       <p>If you want to cut a video but you don&rsquo;t want to open a video editor, you can
 use a terminal utility called <strong>&ldquo;ffmpeg&rdquo;</strong>.</p>
@@ -219,7 +245,10 @@ use a terminal utility called <strong>&ldquo;ffmpeg&rdquo;</strong>.</p>
   <a href="#explanation" class="h-anchor" aria-hidden="true">#</a>
 </h2>
 <p>With <em>&ldquo;ffmpeg -i input.mp4&rdquo;</em> we say we want to use the video called <em>&ldquo;input.mp4&rdquo;</em>. It&rsquo;s important to use the mp4 file extension.</p>
-<p>In the part <em>&quot;-ss 01:29:23 -to 01:35:02&quot;</em> we say we want to cut the video from 01:29:23 to 01:35:02, the time is in the format hour:minute:second. <strong>Note:</strong> if your file is not too longer, you don&rsquo;t need to specify the hour, you can just use 29:23 for example.</p>
+<p>In the part <em>&quot;-ss 01:29:23 -to 01:35:02&quot;</em> we say we want to cut the video from 01:29:23 to 01:35:02, the time is in the format hour:minute:second.</p>
+<blockquote>
+<p><strong>Note:</strong> if your file is not too longer, you don&rsquo;t need to specify the hour, you can just use 29:23 for example.</p>
+</blockquote>
 <p>Finally, with <em>&quot;-c copy output.mp4&quot;</em> we say we want to copy the audio and video codecs and we also say that output.mp4 is the name for the cutted video.</p>
 
     </div>

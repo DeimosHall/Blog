@@ -36,5 +36,26 @@ ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4 Explanation # W
         </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://deimoshall.dev/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://deimoshall.dev/about/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+           Hello, my name is Francisco Torres # I&amp;rsquo;m an electronic engineer and a software developer.
+My main languages are: HTML XML CSS Shell/bash scripting Javascript Python Kotlin Java My technology stack is: Git Android Windows GNU/Linux 
+          
+        
+        </description>
+    </item>
+    
   </channel>
 </rss>
