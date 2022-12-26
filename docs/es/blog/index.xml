@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/es/blog/</link>
+    <description>Recent content in Blog on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Dec 2022 21:27:07 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/es/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cut video on a linux terminal</title>
+      <link>https://deimoshall.dev/es/blog/linux/utilities/cut-video-ffmpeg/</link>
+      <pubDate>Sat, 24 Dec 2022 20:20:49 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/linux/utilities/cut-video-ffmpeg/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://deimoshall.dev/es/blog/linux/utilities/cut-video-ffmpeg/cover.jpg&#34;/&gt;
+          
+        
+        
+        
+          Si quieres recortar un vídeo pero no quieres abrir un editor de vídeo, puedes usar una utilidad de terminal llamada &amp;ldquo;ffmpeg&amp;rdquo;.
+En sistemas basados en Debian/Ubuntu podemos instalarlo con:
+sudo apt install ffmpeg Ahora podemos usar el siguiente comando para cortar un vídeo:
+ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4 Explicación # Con &amp;ldquo;ffmpeg -i input.mp4&amp;rdquo; decimos que queremos usar el vídeo llamado &amp;ldquo;input.mp4&amp;rdquo;. Es importante usar la extensión de archivo mp4.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
