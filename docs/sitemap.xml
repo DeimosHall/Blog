@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://deimoshall.dev/blog/</loc>
-    <lastmod>2022-12-24T20:20:49-06:00</lastmod>
-  </url><url>
-    <loc>https://deimoshall.dev/blog/linux/utilities/cut-video-ffmpeg/</loc>
-    <lastmod>2022-12-24T20:20:49-06:00</lastmod>
-  </url><url>
-    <loc>https://deimoshall.dev/</loc>
-    <lastmod>2022-12-24T19:48:58-06:00</lastmod>
-  </url><url>
-    <loc>https://deimoshall.dev/about/</loc>
-  </url><url>
-    <loc>https://deimoshall.dev/categories/</loc>
-  </url><url>
-    <loc>https://deimoshall.dev/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://deimoshall.dev/en/sitemap.xml</loc>
+    
+      <lastmod>2022-12-25T21:26:51-06:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://deimoshall.dev/es/sitemap.xml</loc>
+    
+      <lastmod>2022-12-25T21:27:07-06:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>
