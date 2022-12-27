@@ -10,13 +10,13 @@ showReadingTime: false
 
 {{< image src="discord_profile_rounded.png" alt="Hello Friend" position="center" style="border-radius: 50%;" >}}
 
-## Hello, my name is Francisco Torres
+## Hola, mi nombre es Francisco Torres
 
-I'm an electronic engineer and a software developer.
+Soy ingeniero en electrónica y desarrollador de software.
 
 {{< two-columns >}}
     {{< column >}}
-        My main languages are:
+        Mis lenguages principales son:
         {{< ul >}}
             {{< li >}}HTML{{< /li >}}
             {{< li >}}XML{{< /li >}}
@@ -29,7 +29,7 @@ I'm an electronic engineer and a software developer.
         {{< /ul >}}
     {{< /column >}}
     {{< column >}}
-        My technology stack is:
+        Mi stack de tecnologías es:
         {{< ul >}}
             {{< li >}}Git{{< /li >}}
             {{< li >}}Android{{< /li >}}

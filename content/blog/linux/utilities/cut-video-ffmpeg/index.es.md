@@ -1,5 +1,5 @@
 ---
-title: "Cut video on a linux terminal"
+title: "Cortar vídeo en una terminal de linux"
 date: 2022-12-24T20:20:49-06:00
 author: Francisco Torres
 draft: false
