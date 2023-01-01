@@ -1,0 +1,8 @@
+{{ if .Get "src" }}
+  <figure class="{{ with .Get "position"}}{{ . }}{{ else -}} center {{- end }}" >
+    <img src="{{ .Get "src" | safeURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} style="border-radius: 10px" />
+    {{ if .Get "caption" }}
+      <figcaption class="{{ with .Get "captionPosition"}}{{ . }}{{ else -}} center {{- end }}" {{ with .Get "captionStyle" }} style="{{ . | safeCSS }}" {{ end }}>{{ .Get "caption" | markdownify }}</figcaption>
+    {{ end }}
+  </figure>
+{{ end }}

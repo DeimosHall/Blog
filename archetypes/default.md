@@ -8,6 +8,6 @@ cover: "cover.jpg"
 useRelativeCover: true
 CoverCaption: ""
 toc: false
-showReadingTime: true   
+showReadingTime: true
 ---
 
