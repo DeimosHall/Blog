@@ -7,6 +7,10 @@ section: "blog"
 translationKey: "home"
 ---
 
-# Wellcome to my blog
+## Wellcome to my blog
 
-# [Blog](blog/)
+## [Blog](blog/)
+{{< image
+src="https://drive.google.com/uc?id=1pdtEv08XIFFEr-V3aOS3BEHu9PqRtsdT"
+alt="Cover image"
+link="blog" >}}

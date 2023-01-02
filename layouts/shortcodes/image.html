@@ -1,0 +1,7 @@
+{{ if .Get "src" }}
+  <div style="padding: 15px">
+    <a {{ with .Get "link" }} href="{{ . | plainify }}" {{ end }}>
+      <img src="{{ .Get "src" | safeURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} class="{{ with .Get "position"}}{{ . }}{{ else -}} center {{- end }}" style="{{ with .Get "style" }}{{ . | safeCSS }}{{ else }} width: 500px; border-radius: 10px; {{ end }}" />
+    </a>
+  </div>
+{{ end }}
