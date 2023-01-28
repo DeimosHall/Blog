@@ -91,7 +91,7 @@ The copy function is as follows.
 {{< code language="kotlin" >}}
 fun copyToClipboard(context: Context, text: String) {
     val clipboardManager =
-        context.getSystemService(Context.CLIPBOARD_SERVICE) as android.content.ClipboardManager
+        context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
     val clip = ClipData.newPlainText("password", text)
     clipboardManager.setPrimaryClip(clip)
 }
