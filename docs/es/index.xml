@@ -15,6 +15,25 @@
     
     
     <item>
+      <title>Copy to Clipboard using Jetpack Compose</title>
+      <link>https://deimoshall.dev/es/blog/software/android/copy-to-clipboard/</link>
+      <pubDate>Sat, 28 Jan 2023 08:56:07 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/software/android/copy-to-clipboard/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/uc?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&#34;/&gt;
+          
+        
+        
+        
+          Content of this page
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Cortar vídeo en una terminal de linux</title>
       <link>https://deimoshall.dev/es/blog/linux/utilities/cut-video-ffmpeg/</link>
       <pubDate>Sat, 24 Dec 2022 20:20:49 -0600</pubDate>
@@ -52,6 +71,27 @@ ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4 Explicación # 
         
            Hola, mi nombre es Francisco Torres # Soy ingeniero en electrónica y desarrollador de software.
 Mis lenguages principales son: HTML XML CSS Shell/bash scripting Javascript Python Kotlin Java Mi stack de tecnologías es: Git Android Windows GNU/Linux 
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Get Started</title>
+      <link>https://deimoshall.dev/es/courses/vhdl/get-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://deimoshall.dev/es/courses/vhdl/get-started/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Hello friends! This is a practical course about VHDL. Don&amp;rsquo;t expect boring theory, we&amp;rsquo;re going to learn by making examples. I&amp;rsquo;m going to use the Cyclone II FPGA beacuse it&amp;rsquo;s cheap and easy to get, but you can use the board you want because the VHDL language doesn&amp;rsquo;t change.
+Installing Quartus II # Quartus II is the embedded systems design software we need to work with the Cyclone II FPGA. We can download it from the Intel&amp;rsquo;s page by searching &amp;ldquo;Quartus II&amp;rdquo; or by clicking on this link.
           
         
         </description>

@@ -15,6 +15,26 @@
     
     
     <item>
+      <title>Copy to Clipboard using Jetpack Compose</title>
+      <link>https://deimoshall.dev/blog/software/android/copy-to-clipboard/</link>
+      <pubDate>Sat, 28 Jan 2023 08:56:07 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/software/android/copy-to-clipboard/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/uc?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&#34;/&gt;
+          
+        
+        
+        
+          In this article we&amp;rsquo;ll learn how to create a function for copying text to the clipboard. The method for managing context in the application is slightly different.
+The app I&amp;rsquo;m using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: https://github.com/DeimosHall/Glocker.git. However, you can follow the steps in your own app.
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Cut video on a linux terminal</title>
       <link>https://deimoshall.dev/blog/linux/utilities/cut-video-ffmpeg/</link>
       <pubDate>Sat, 24 Dec 2022 20:20:49 -0600</pubDate>
