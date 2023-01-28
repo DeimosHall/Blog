@@ -50,7 +50,7 @@ fun MyApp() {
 }
 {{< /code >}}
 
-The password field receives the context from the `MyApp()` module, and we send that context to the `copyToClipboard` function.
+The password field receives the context from the `MyApp()` module, so we send that context to the `copyToClipboard` function.
 
 {{< code language="kotlin" >}}
 @Composable

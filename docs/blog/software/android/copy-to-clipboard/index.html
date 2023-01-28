@@ -245,8 +245,8 @@ The app I&rsquo;m using for this example is a password manager where I need to c
 
 
   <div class="collapsable-code">
-    <input id="256871934" type="checkbox"  />
-    <label for="256871934">
+    <input id="412893675" type="checkbox"  />
+    <label for="412893675">
       <span class="collapsable-code__language">kotlin</span>
       
       <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
@@ -277,13 +277,13 @@ fun MyApp() {
   </div>
 
 
-<p>The password field receives the context from the <code>MyApp()</code> module, and we send that context to the <code>copyToClipboard</code> function.</p>
+<p>The password field receives the context from the <code>MyApp()</code> module, so we send that context to the <code>copyToClipboard</code> function.</p>
 
 
 
   <div class="collapsable-code">
-    <input id="569874321" type="checkbox"  />
-    <label for="569874321">
+    <input id="947368125" type="checkbox"  />
+    <label for="947368125">
       <span class="collapsable-code__language">kotlin</span>
       
       <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
@@ -329,8 +329,8 @@ fun PasswordField(
 
 
   <div class="collapsable-code">
-    <input id="957146823" type="checkbox"  />
-    <label for="957146823">
+    <input id="768549321" type="checkbox"  />
+    <label for="768549321">
       <span class="collapsable-code__language">kotlin</span>
       
       <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
@@ -338,7 +338,7 @@ fun PasswordField(
     <pre class="language-kotlin" ><code>
 fun copyToClipboard(context: Context, text: String) {
     val clipboardManager =
-        context.getSystemService(Context.CLIPBOARD_SERVICE) as android.content.ClipboardManager
+        context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
     val clip = ClipData.newPlainText(&#34;password&#34;, text)
     clipboardManager.setPrimaryClip(clip)
 }
@@ -351,8 +351,8 @@ fun copyToClipboard(context: Context, text: String) {
 
 
   <div class="collapsable-code">
-    <input id="598472361" type="checkbox"  />
-    <label for="598472361">
+    <input id="231569847" type="checkbox"  />
+    <label for="231569847">
       <span class="collapsable-code__language">kotlin</span>
       
       <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
