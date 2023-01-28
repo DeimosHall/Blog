@@ -86,7 +86,7 @@ fun PasswordField(
 }
 {{< /code >}}
 
-The copy function is as follows.
+The copy function is as follows. Please note that the label "password" is because I'm copying a password, you should replace it with a label that describes what you're copying.
 
 {{< code language="kotlin" >}}
 fun copyToClipboard(context: Context, text: String) {

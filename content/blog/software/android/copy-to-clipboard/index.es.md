@@ -86,7 +86,7 @@ fun PasswordField(
 }
 {{< /code >}}
 
-La función de copiar es la siguiente.
+La función de copiar es la siguiente. Ten en cuenta que la etiqueta "password" es porque estoy copiando una contraseña, deberías reemplazarla con un etiqueta que describa lo que estás copiando.
 
 {{< code language="kotlin" >}}
 fun copyToClipboard(context: Context, text: String) {
@@ -97,7 +97,7 @@ fun copyToClipboard(context: Context, text: String) {
 }
 {{< /code >}}
 
-Si tienes problemas, aseguráte de que estás importando estas bibliotecas:
+Si tienes problemas, asegúrate de que estás importando estas bibliotecas:
 
 {{< code language="kotlin" >}}
 import android.content.ClipData
