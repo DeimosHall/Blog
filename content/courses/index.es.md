@@ -9,10 +9,10 @@ showReadingTime: false
 ---
 
 {{< center >}}
-## [Introduction to VHDL](vhdl/)
+## [Introducción a VHDL](vhdl/)
 {{< /center >}}
 
 {{< image
 src="https://drive.google.com/uc?id=1HrKvmMYB88lM9nBie7mViLQpjvllEbTB"
 alt="Cover image for the VHDL course"
-link="/vhdl/" >}}
+link="/es/courses/vhdl/get-started" >}}
