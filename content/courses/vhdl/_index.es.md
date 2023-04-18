@@ -1,13 +1,10 @@
 ---
+title: "VHDL"
 draft: false
 section: "post"
-cover: ""
-useRelativeCover: true
+cover: "https://drive.google.com/uc?id=1HrKvmMYB88lM9nBie7mViLQpjvllEbTB"
+useRelativeCover: false
 CoverCaption: ""
 toc: false
 showReadingTime: false
 ---
-
-## VHDL Index
-
-More text

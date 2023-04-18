@@ -1,9 +1,9 @@
 ---
-title: "Get Started"
+title: "Quartus II Installation"
 draft: false
 section: "post"
-cover: ""
-useRelativeCover: true
+cover: "https://drive.google.com/uc?id=1vgYXvEkofyHH8SQ9nCHVJZcm31mNPfAB"
+useRelativeCover: false
 CoverCaption: ""
 toc: false
 showReadingTime: false
