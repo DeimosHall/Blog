@@ -1,5 +1,5 @@
 ---
-title: "Git Github"
+title: "Git and Github"
 date: 2023-04-17T20:24:38-06:00
 author: Francisco Torres
 draft: false
