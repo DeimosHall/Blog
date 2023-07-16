@@ -11,7 +11,7 @@ toc: false
 showReadingTime: true
 ---
 
-Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for [MicroPyhon](https://micropython.org/). Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is [here](https://github.com/arduino/ArduinoCore-mbed/issues/220).
+Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for [MicroPython](https://micropython.org/). Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is [here](https://github.com/arduino/ArduinoCore-mbed/issues/220).
 
 > Consider giving a star to the repository if you find it useful. You can find it [here](https://github.com/DeimosHall/RP2040_CPU_Temperature.git).
 
