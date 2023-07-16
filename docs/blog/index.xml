@@ -16,6 +16,26 @@
     
     
     <item>
+      <title>How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino)</title>
+      <link>https://deimoshall.dev/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</link>
+      <pubDate>Sun, 16 Jul 2023 09:26:04 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/uc?id=1ZNP418VFB99iqKQsX6tdW-edU0IIxBWF&#34;/&gt;
+          
+        
+        
+        
+          Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for MicroPyhon. Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is here.
+Consider giving a star to the repository if you find it useful.
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>How Did I Get My First IT Job</title>
       <link>https://deimoshall.dev/blog/deimos/experiences/how-did-i-get-my-first-it-job/</link>
       <pubDate>Sat, 15 Jul 2023 19:52:01 -0600</pubDate>
