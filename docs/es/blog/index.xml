@@ -8,12 +8,32 @@
     <link>https://deimoshall.dev/es/blog/</link>
     <description>Recent content in Blog on Deimos Hall</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>es</language>
     <copyright>Por Francisco Torres | Todos los derechos reservados</copyright>
     <lastBuildDate>Sun, 25 Dec 2022 21:27:07 -0600</lastBuildDate>
     
 	<atom:link href="https://deimoshall.dev/es/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>¿Cómo conseguí mi primer trabajo en TI?</title>
+      <link>https://deimoshall.dev/es/blog/deimos/experiences/how-did-i-get-my-first-it-job/</link>
+      <pubDate>Sat, 15 Jul 2023 19:52:01 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/deimos/experiences/how-did-i-get-my-first-it-job/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/uc?id=1Hrp9_pAwFs9mEb4o6iCCNdod2BqTveYK&#34;/&gt;
+          
+        
+        
+        
+          Hola, soy Francisco Torres, un desarrollador de software de México. Estudié ingeniería electrónica, no está muy relacionada con el desarrollo de software, pero aprendí por mi cuenta. Sí, vi algo de programación en C en la universidad, pero no fue de una manera profunda y no tuve demasiadas materias relacionadas con la programación.
+Ahora que sabes un poco sobre mí, hablemos de cómo conseguí mi primer trabajo como desarrollador de software.
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>Copiar al portapapeles usando Jetpack Compose</title>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git and Github on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/es/courses/git-github/</link>
+    <description>Recent content in Git and Github on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>Por Francisco Torres | Todos los derechos reservados</copyright>
+    <lastBuildDate>Mon, 17 Apr 2023 20:24:38 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/es/courses/git-github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configuración de Git</title>
+      <link>https://deimoshall.dev/es/courses/git-github/quickstart/</link>
+      <pubDate>Wed, 19 Apr 2023 09:20:38 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/courses/git-github/quickstart/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Git necesita conocer tu nombre y tu correo para poder vincularlos a los commits que vayas creando. Para configurar tu nombre puedes usar el siguiente comando, reemplaza deimos por tu nombre de usuario, no tiene que ser tu nombre real.
+bash git config --global user.name &amp;#34;deimos&amp;#34; Para configurar tu correo puedes hacerlo de esta manera:
+bash git config --global user.email &amp;#34;deimoshall@gmail.com&amp;#34; Puedes elegir el editor de tu preferencia para el momento en que vayas a escribir los mensajes para los commits, yo te recomiendo nano ya que es fácil de utilizar, pero si gustas puedes utilizar vim, vscode o el editor de tu preferencia.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Instalación de Git</title>
+      <link>https://deimoshall.dev/es/courses/git-github/installation/</link>
+      <pubDate>Mon, 17 Apr 2023 20:46:37 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/courses/git-github/installation/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+           Git para Windows # Descarga la última versión de Git para Windows.
+Selecciona el standalone installer de acuerdo con la arquitectura de tu sistema operativo (32 o 64 bits).
+Selecciona el instalador para descargar 
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

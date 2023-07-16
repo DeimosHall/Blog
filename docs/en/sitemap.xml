@@ -2,6 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://deimoshall.dev/blog/deimos/experiences/how-did-i-get-my-first-it-job/</loc>
+    <lastmod>2023-07-15T19:52:01-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/deimos/experiences/how-did-i-get-my-first-it-job/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/deimos/experiences/how-did-i-get-my-first-it-job/"
+                />
+  </url><url>
+    <loc>https://deimoshall.dev/courses/</loc>
+    <lastmod>2023-04-17T20:46:37-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/es/courses/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/courses/"
+                />
+  </url><url>
+    <loc>https://deimoshall.dev/courses/git-github/installation/</loc>
+    <lastmod>2023-04-17T20:46:37-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/es/courses/git-github/installation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/courses/git-github/installation/"
+                />
+  </url><url>
+    <loc>https://deimoshall.dev/courses/git-github/</loc>
+    <lastmod>2023-04-17T20:24:38-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/es/courses/git-github/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/courses/git-github/"
+                />
+  </url><url>
     <loc>https://deimoshall.dev/blog/software/android/copy-to-clipboard/</loc>
     <lastmod>2023-01-28T08:56:07-06:00</lastmod>
     <xhtml:link
@@ -66,8 +118,6 @@
                 href="https://deimoshall.dev/about/"
                 />
   </url><url>
-    <loc>https://deimoshall.dev/courses/</loc>
-  </url><url>
     <loc>https://deimoshall.dev/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -80,6 +130,18 @@
                 href="https://deimoshall.dev/categories/"
                 />
   </url><url>
+    <loc>https://deimoshall.dev/courses/vhdl/get-started/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/es/courses/vhdl/get-started/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/courses/vhdl/get-started/"
+                />
+  </url><url>
     <loc>https://deimoshall.dev/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -90,6 +152,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://deimoshall.dev/tags/"
+                />
+  </url><url>
+    <loc>https://deimoshall.dev/courses/vhdl/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/es/courses/vhdl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/courses/vhdl/"
                 />
   </url>
 </urlset>

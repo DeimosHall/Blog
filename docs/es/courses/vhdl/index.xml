@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VHDL on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/es/courses/vhdl/</link>
+    <description>Recent content in VHDL on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>Por Francisco Torres | Todos los derechos reservados</copyright>
+    
+	<atom:link href="https://deimoshall.dev/es/courses/vhdl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Instalación de Quartus II</title>
+      <link>https://deimoshall.dev/es/courses/vhdl/get-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://deimoshall.dev/es/courses/vhdl/get-started/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/uc?id=1vgYXvEkofyHH8SQ9nCHVJZcm31mNPfAB&#34;/&gt;
+          
+        
+        
+        
+          ¡Hola amigos! Este es un curso practico sobre VHDL. No esperen teoria aburrida, vamos a aprender haciendo ejemplos. Voy a usar la FPGA Cyclone II porque es barata y fácil de conseguir, pero pueden usar la placa que quieran porque el lenguaje VHDL no cambia.
+Instalando Quartus II # Quartus II es el software de diseño de sistemas embebidos que necesitamos para trabajar con la FPGA Cyclone II. Lo podemos descargar de la pagina de Intel buscando &amp;ldquo;Quartus II&amp;rdquo; o haciendo click aquí.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

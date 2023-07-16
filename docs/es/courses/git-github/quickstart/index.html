@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    
+      <title>
+        Configuración de Git ::
+        Deimos Hall
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Git necesita conocer tu nombre y tu correo para poder vincularlos a los commits que vayas creando. Para configurar tu nombre puedes usar el siguiente comando, reemplaza deimos por tu nombre de usuario, no tiene que ser tu nombre real.
+bash git config --global user.name &amp;#34;deimos&amp;#34; Para configurar tu correo puedes hacerlo de esta manera:
+bash git config --global user.email &amp;#34;deimoshall@gmail.com&amp;#34; Puedes elegir el editor de tu preferencia para el momento en que vayas a escribir los mensajes para los commits, yo te recomiendo nano ya que es fácil de utilizar, pero si gustas puedes utilizar vim, vscode o el editor de tu preferencia."
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://deimoshall.dev/es/courses/git-github/quickstart/" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+<link rel="stylesheet" href="https://deimoshall.dev/style.css" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://deimoshall.dev/img/apple-touch-icon-144-precomposed.png" />
+<link rel="shortcut icon" href="https://deimoshall.dev/img/favicon.png" />
+
+
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Configuración de Git"/>
+<meta name="twitter:description" content="Git necesita conocer tu nombre y tu correo para poder vincularlos a los commits que vayas creando. Para configurar tu nombre puedes usar el siguiente comando, reemplaza deimos por tu nombre de usuario, no tiene que ser tu nombre real.
+bash git config --global user.name &#34;deimos&#34; Para configurar tu correo puedes hacerlo de esta manera:
+bash git config --global user.email &#34;deimoshall@gmail.com&#34; Puedes elegir el editor de tu preferencia para el momento en que vayas a escribir los mensajes para los commits, yo te recomiendo nano ya que es fácil de utilizar, pero si gustas puedes utilizar vim, vscode o el editor de tu preferencia."/>
+
+
+
+<meta property="og:title" content="Configuración de Git" />
+<meta property="og:description" content="Git necesita conocer tu nombre y tu correo para poder vincularlos a los commits que vayas creando. Para configurar tu nombre puedes usar el siguiente comando, reemplaza deimos por tu nombre de usuario, no tiene que ser tu nombre real.
+bash git config --global user.name &#34;deimos&#34; Para configurar tu correo puedes hacerlo de esta manera:
+bash git config --global user.email &#34;deimoshall@gmail.com&#34; Puedes elegir el editor de tu preferencia para el momento en que vayas a escribir los mensajes para los commits, yo te recomiendo nano ya que es fácil de utilizar, pero si gustas puedes utilizar vim, vscode o el editor de tu preferencia." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://deimoshall.dev/es/courses/git-github/quickstart/" /><meta property="article:section" content="courses" />
+<meta property="article:published_time" content="2023-04-19T09:20:38-06:00" />
+<meta property="article:modified_time" content="2023-04-19T09:20:38-06:00" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/es"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Deimos Hall</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/es">Inicio</a></li>
+        
+      
+        
+          <li><a href="/es/blog">Blog</a></li>
+        
+      
+        
+          <li><a href="/es/about">Acerca de mí</a></li>
+        
+      
+      
+        <ul class="menu__sub-inner">
+          <li class="menu__sub-inner-more-trigger">
+            Mostrar mas
+            <span class="menu__sub-inner-more-trigger-icon"
+              ><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span
+            >
+          </li>
+          <ul class="menu__sub-inner-more hidden">
+            
+              
+                <li><a href="/es">Terminos y condiciones</a></li>
+              
+            
+          </ul>
+        </ul>
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/es">Inicio</a></li>
+      
+    
+      
+        <li><a href="/es/blog">Blog</a></li>
+      
+    
+      
+        <li><a href="/es/about">Acerca de mí</a></li>
+      
+    
+      
+        <li><a href="/es">Terminos y condiciones</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <article class="post">
+    <h1 class="post-title">Configuración de Git</h1>
+    <div class="post-meta">
+      
+        <time class="post-date">
+          2023-04-19
+        </time>
+
+        
+      
+
+      
+        <span class="post-author"
+          >— Escrito por Francisco Torres</span
+        >
+
+
+      
+        <span class="post-read-time"
+          >— 2 minutos de lectura</span
+        >
+      
+    </div>
+
+    
+    
+    
+
+    <div class="post-content">
+      
+        
+      
+
+      <p>Git necesita conocer tu nombre y tu correo para poder vincularlos a los commits que vayas creando. Para configurar tu nombre puedes usar el siguiente comando, reemplaza <code>deimos</code> por tu nombre de usuario, no tiene que ser tu nombre real.</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="517269843" type="checkbox"  />
+    <label for="517269843">
+      <span class="collapsable-code__language">bash</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-bash" ><code>
+git config --global user.name &#34;deimos&#34;
+</code></pre>
+  </div>
+
+
+<p>Para configurar tu correo puedes hacerlo de esta manera:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="948152763" type="checkbox"  />
+    <label for="948152763">
+      <span class="collapsable-code__language">bash</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-bash" ><code>
+git config --global user.email &#34;deimoshall@gmail.com&#34;
+</code></pre>
+  </div>
+
+
+<p>Puedes elegir el editor de tu preferencia para el momento en que vayas a escribir los mensajes para los commits, yo te recomiendo <code>nano</code> ya que es fácil de utilizar, pero si gustas puedes utilizar <code>vim</code>, <code>vscode</code> o el editor de tu preferencia.</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="186523947" type="checkbox"  />
+    <label for="186523947">
+      <span class="collapsable-code__language">bash</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-bash" ><code>
+git config --global core.editor nano
+</code></pre>
+  </div>
+
+
+<p>Es practicamente un hecho que en algún punto de nuestras vidas vamos a trabajar en equipos con personas que usen diferentes sistemas operativos, típicamente <code>Windows</code>, <code>Linux</code> o <code>Mac</code>. Linux y Mac comparten muchas características entre sí y ambos difieren en algunas cosas con Windows. Una de ellas es la manera en la que guardan el salto de línea, no nos vamos a meter muy en profundidad en eso, pero Windows lo maneja como <code>\r\n</code>, mientras que Linux y Mac como <code>\n</code>. Git puede manejar esto siempre y cuando le digamos cómo.</p>
+<p>Para configuar el salto de línea en Windows.</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="429763815" type="checkbox"  />
+    <label for="429763815">
+      <span class="collapsable-code__language">bash</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-bash" ><code>
+git config --global core.autocrlf true
+</code></pre>
+  </div>
+
+
+<p>Para configurar el salto de línea en Linux y Mac.</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="365481297" type="checkbox"  />
+    <label for="365481297">
+      <span class="collapsable-code__language">bash</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-bash" ><code>
+git config --global core.autocrlf input
+</code></pre>
+  </div>
+
+
+<p>Podemos configurar el nombre de la rama por defecto que se crea cuando iniciamos un nuevo repositorio. Hoy en día, la mayoría de los repositorios se crean con la rama <code>main</code> por defecto. Para lograr esto, podemos configuarlo de la siguiente manera:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="948157362" type="checkbox"  />
+    <label for="948157362">
+      <span class="collapsable-code__language">bash</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-bash" ><code>
+git config --global init.defaultBranch main
+</code></pre>
+  </div>
+
+
+<p>Finalmente, una configuración que personalmente me ahorra mucho tiempo es guardar las credenciales como mi nombre de usuario y el <code>token</code> de acceso a mi cuenta de GitHub de forma local. Más adelante veremos esto del token cuando creemos nuestra cuenta de Github, mientas tanto, el comando para guardar estas configuraciones es el siguiente:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="796581234" type="checkbox"  />
+    <label for="796581234">
+      <span class="collapsable-code__language">bash</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-bash" ><code>
+git config --global credential.helper store
+</code></pre>
+  </div>
+
+
+
+    </div>
+    
+
+    
+      
+    
+  </article>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">© 2023 Por Francisco Torres | Todos los derechos reservados</div>
+    
+  </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

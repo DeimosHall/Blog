@@ -8,12 +8,76 @@
     <link>https://deimoshall.dev/es/</link>
     <description>Recent content on Deimos Hall</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>es</language>
     <copyright>Por Francisco Torres | Todos los derechos reservados</copyright>
     <lastBuildDate>Sat, 24 Dec 2022 19:48:58 -0600</lastBuildDate>
     
 	<atom:link href="https://deimoshall.dev/es/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>¿Cómo conseguí mi primer trabajo en TI?</title>
+      <link>https://deimoshall.dev/es/blog/deimos/experiences/how-did-i-get-my-first-it-job/</link>
+      <pubDate>Sat, 15 Jul 2023 19:52:01 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/deimos/experiences/how-did-i-get-my-first-it-job/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/uc?id=1Hrp9_pAwFs9mEb4o6iCCNdod2BqTveYK&#34;/&gt;
+          
+        
+        
+        
+          Hola, soy Francisco Torres, un desarrollador de software de México. Estudié ingeniería electrónica, no está muy relacionada con el desarrollo de software, pero aprendí por mi cuenta. Sí, vi algo de programación en C en la universidad, pero no fue de una manera profunda y no tuve demasiadas materias relacionadas con la programación.
+Ahora que sabes un poco sobre mí, hablemos de cómo conseguí mi primer trabajo como desarrollador de software.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Configuración de Git</title>
+      <link>https://deimoshall.dev/es/courses/git-github/quickstart/</link>
+      <pubDate>Wed, 19 Apr 2023 09:20:38 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/courses/git-github/quickstart/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Git necesita conocer tu nombre y tu correo para poder vincularlos a los commits que vayas creando. Para configurar tu nombre puedes usar el siguiente comando, reemplaza deimos por tu nombre de usuario, no tiene que ser tu nombre real.
+bash git config --global user.name &amp;#34;deimos&amp;#34; Para configurar tu correo puedes hacerlo de esta manera:
+bash git config --global user.email &amp;#34;deimoshall@gmail.com&amp;#34; Puedes elegir el editor de tu preferencia para el momento en que vayas a escribir los mensajes para los commits, yo te recomiendo nano ya que es fácil de utilizar, pero si gustas puedes utilizar vim, vscode o el editor de tu preferencia.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Instalación de Git</title>
+      <link>https://deimoshall.dev/es/courses/git-github/installation/</link>
+      <pubDate>Mon, 17 Apr 2023 20:46:37 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/courses/git-github/installation/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+           Git para Windows # Descarga la última versión de Git para Windows.
+Selecciona el standalone installer de acuerdo con la arquitectura de tu sistema operativo (32 o 64 bits).
+Selecciona el instalador para descargar 
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>Copiar al portapapeles usando Jetpack Compose</title>
@@ -80,21 +144,20 @@ Mis lenguages principales son: HTML XML CSS Shell/bash scripting Javascript Pyth
     </item>
     
     <item>
-      <title>Get Started</title>
+      <title>Instalación de Quartus II</title>
       <link>https://deimoshall.dev/es/courses/vhdl/get-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://deimoshall.dev/es/courses/vhdl/get-started/</guid>
       <description>
         
-          
-          
+          &lt;img src=&#34;https://drive.google.com/uc?id=1vgYXvEkofyHH8SQ9nCHVJZcm31mNPfAB&#34;/&gt;
           
         
         
         
-          Hello friends! This is a practical course about VHDL. Don&amp;rsquo;t expect boring theory, we&amp;rsquo;re going to learn by making examples. I&amp;rsquo;m going to use the Cyclone II FPGA beacuse it&amp;rsquo;s cheap and easy to get, but you can use the board you want because the VHDL language doesn&amp;rsquo;t change.
-Installing Quartus II # Quartus II is the embedded systems design software we need to work with the Cyclone II FPGA. We can download it from the Intel&amp;rsquo;s page by searching &amp;ldquo;Quartus II&amp;rdquo; or by clicking on this link.
+          ¡Hola amigos! Este es un curso practico sobre VHDL. No esperen teoria aburrida, vamos a aprender haciendo ejemplos. Voy a usar la FPGA Cyclone II porque es barata y fácil de conseguir, pero pueden usar la placa que quieran porque el lenguaje VHDL no cambia.
+Instalando Quartus II # Quartus II es el software de diseño de sistemas embebidos que necesitamos para trabajar con la FPGA Cyclone II. Lo podemos descargar de la pagina de Intel buscando &amp;ldquo;Quartus II&amp;rdquo; o haciendo click aquí.
           
         
         </description>
