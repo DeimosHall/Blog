@@ -35,6 +35,12 @@ git commit -m "feat: add some content"
 hugo -d docs/
 ```
 
+6. Commit the new page released that `hugo -d docs/` created.
+```
+git commit add .
+git commit -m "feat: add new page"
+```
+
 6. Switch to the main branch
 
 ```
