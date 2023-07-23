@@ -37,20 +37,22 @@ paginate = 5
     title = "Deimos Hall"
     languageName = "English"
     weight = 1
-    subtitle = ""
-    keywords = ""
-    copyright = "By Francisco Torres | All rights reserved"
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
-    # leave empty to disable, enter display text to enable
-    # lastModDisplay = ""
+
+    [languages.en.params]
+      keywords = ""
+      subtitle = ""
+      copyright = "By Francisco Torres | All rights reserved"
+      menuMore = "Show more"
+      writtenBy = "Written by"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      minuteReadingTime = "min read"
+      dateFormatSingle = "2006-01-02"
+      dateFormatList = "2006-01-02"
+      # leave empty to disable, enter display text to enable
+      # lastModDisplay = ""
 
     [languages.en.params.logo]
       logoText = "Deimos Hall"
@@ -88,20 +90,21 @@ paginate = 5
     title = "Deimos Hall"
     languageName = "Español"
     weight = 2
-    subtitle = ""
-    keywords = ""
-    copyright = "Por Francisco Torres | Todos los derechos reservados"
-    menuMore = "Mostrar mas"
-    writtenBy = "Escrito por"
-    readMore = "Leer más"
-    readOtherPosts = "Leer otras publicaciones"
-    newerPosts = "Nuevas publicaciones"
-    olderPosts = "Publicaciones anteriores"
-    minuteReadingTime = "minutos de lectura"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
-    # leave empty to disable, enter display text to enable
-    # lastModDisplay = ""
+    [languages.es.params]
+      keywords = ""
+      subtitle = ""
+      copyright = "Por Francisco Torres | Todos los derechos reservados"
+      menuMore = "Mostrar mas"
+      writtenBy = "Escrito por"
+      readMore = "Leer más"
+      readOtherPosts = "Leer otras publicaciones"
+      newerPosts = "Nuevas publicaciones"
+      olderPosts = "Publicaciones anteriores"
+      minuteReadingTime = "minutos de lectura"
+      dateFormatSingle = "2006-01-02"
+      dateFormatList = "2006-01-02"
+      # leave empty to disable, enter display text to enable
+      # lastModDisplay = ""
 
     [languages.es.params.logo]
       logoText = "Deimos Hall"
