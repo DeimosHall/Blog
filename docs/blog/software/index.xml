@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/blog/software/</link>
+    <description>Recent content in Software on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Jul 2023 09:07:29 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/blog/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino)</title>
+      <link>https://deimoshall.dev/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</link>
+      <pubDate>Sun, 16 Jul 2023 09:26:04 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/uc?id=1ZNP418VFB99iqKQsX6tdW-edU0IIxBWF&#34;/&gt;
+          
+        
+        
+        
+          Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for MicroPython. Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is here.
+Consider giving a star to the repository if you find it useful.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Copy to Clipboard using Jetpack Compose</title>
+      <link>https://deimoshall.dev/blog/software/android/copy-to-clipboard/</link>
+      <pubDate>Sat, 28 Jan 2023 08:56:07 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/software/android/copy-to-clipboard/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/uc?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&#34;/&gt;
+          
+        
+        
+        
+          In this article we&amp;rsquo;ll learn how to create a function for copying text to the clipboard. The method for managing context in the application is slightly different.
+The app I&amp;rsquo;m using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: https://github.com/DeimosHall/Glocker.git. However, you can follow the steps in your own app.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Cut video on a linux terminal</title>
+      <link>https://deimoshall.dev/blog/software/linux/utilities/cut-video-ffmpeg/</link>
+      <pubDate>Sat, 24 Dec 2022 20:20:49 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/software/linux/utilities/cut-video-ffmpeg/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/uc?id=12SDgsuD3uIvW_BMI9F269UXDmpnrrTjn&#34;/&gt;
+          
+        
+        
+        
+          If you want to cut a video but you don&amp;rsquo;t want to open a video editor, you can use a terminal utility called &amp;ldquo;ffmpeg&amp;rdquo;.
+On Debian/Ubuntu based systems we can install it with:
+sudo apt install ffmpeg Now we can use the following command to cut a video:
+ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4 Explanation # With &amp;ldquo;ffmpeg -i input.mp4&amp;rdquo; we say we want to use the video called &amp;ldquo;input.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Quartus II Installation</title>
+      <link>https://deimoshall.dev/blog/software/quartus-ii-installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/software/quartus-ii-installation/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/uc?id=1vgYXvEkofyHH8SQ9nCHVJZcm31mNPfAB&#34;/&gt;
+          
+        
+        
+        
+          Installing Quartus II # Quartus II is the embedded systems design software we need to work with the Cyclone II FPGA. We can download it from the Intel&amp;rsquo;s page by searching &amp;ldquo;Quartus II&amp;rdquo; or by clicking on this link.
+Search Quartus II Make sure to select the 13.Osp1 version. Go to the downloads section and select &amp;ldquo;Individual Files&amp;rdquo;.
+Select the version The files we need to download are the ModelSimSetup, the QuartusSetupWeb and the package according to your board, in my case is the Cyclone II.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

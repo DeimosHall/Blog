@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        Quartus II Installation ::
+        Deimos Hall
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Installing Quartus II # Quartus II is the embedded systems design software we need to work with the Cyclone II FPGA. We can download it from the Intel&amp;rsquo;s page by searching &amp;ldquo;Quartus II&amp;rdquo; or by clicking on this link.
+Search Quartus II Make sure to select the 13.Osp1 version. Go to the downloads section and select &amp;ldquo;Individual Files&amp;rdquo;.
+Select the version The files we need to download are the ModelSimSetup, the QuartusSetupWeb and the package according to your board, in my case is the Cyclone II."
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://deimoshall.dev/blog/software/quartus-ii-installation/" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+<link rel="stylesheet" href="https://deimoshall.dev/style.css" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://deimoshall.dev/img/apple-touch-icon-144-precomposed.png" />
+<link rel="shortcut icon" href="https://deimoshall.dev/img/favicon.png" />
+
+
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Quartus II Installation"/>
+<meta name="twitter:description" content="Installing Quartus II # Quartus II is the embedded systems design software we need to work with the Cyclone II FPGA. We can download it from the Intel&rsquo;s page by searching &ldquo;Quartus II&rdquo; or by clicking on this link.
+Search Quartus II Make sure to select the 13.Osp1 version. Go to the downloads section and select &ldquo;Individual Files&rdquo;.
+Select the version The files we need to download are the ModelSimSetup, the QuartusSetupWeb and the package according to your board, in my case is the Cyclone II."/>
+
+
+
+<meta property="og:title" content="Quartus II Installation" />
+<meta property="og:description" content="Installing Quartus II # Quartus II is the embedded systems design software we need to work with the Cyclone II FPGA. We can download it from the Intel&rsquo;s page by searching &ldquo;Quartus II&rdquo; or by clicking on this link.
+Search Quartus II Make sure to select the 13.Osp1 version. Go to the downloads section and select &ldquo;Individual Files&rdquo;.
+Select the version The files we need to download are the ModelSimSetup, the QuartusSetupWeb and the package according to your board, in my case is the Cyclone II." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://deimoshall.dev/blog/software/quartus-ii-installation/" /><meta property="article:section" content="blog" />
+
+
+
+
+
+
+
+
+  </head>
+  <body >
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Deimos Hall</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <div class="dropdown">
+    <button class="dropbtn">English ▼</button>
+    <div class="dropdown-content">
+        
+        <a href="https://deimoshall.dev/blog/software/quartus-ii-installation/">English</a>
+        
+        <a href="https://deimoshall.dev/es/blog/software/quartus-ii-installation/">Español</a>
+        
+    </div>
+</div>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/">Home</a></li>
+        
+      
+        
+          <li><a href="/blog">Blog</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+        <ul class="menu__sub-inner">
+          <li class="menu__sub-inner-more-trigger">
+            Show more
+            <span class="menu__sub-inner-more-trigger-icon"
+              ><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span
+            >
+          </li>
+          <ul class="menu__sub-inner-more hidden">
+            
+              
+                <li><a href="/">Terms and conditions</a></li>
+              
+            
+          </ul>
+        </ul>
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/">Home</a></li>
+      
+    
+      
+        <li><a href="/blog">Blog</a></li>
+      
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/">Terms and conditions</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <article class="post">
+    <h1 class="post-title">Quartus II Installation</h1>
+    <div class="post-meta">
+      
+
+      
+
+
+      
+    </div>
+
+    
+    
+    
+      <figure class="post-cover">
+  
+    <img src="https://drive.google.com/uc?id=1vgYXvEkofyHH8SQ9nCHVJZcm31mNPfAB" alt="Quartus II Installation"/>
+  
+
+  
+</figure>
+
+    
+
+    <div class="post-content">
+      
+        
+      
+
+      <h2 id="installing-quartus-ii">
+  Installing Quartus II
+  <a href="#installing-quartus-ii" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Quartus II is the embedded systems design software we need to work with the Cyclone II FPGA. We can download it from the Intel&rsquo;s page by searching &ldquo;Quartus II&rdquo; or by clicking on <a href="https://www.intel.com/content/www/us/en/software-kit/711791/intel-quartus-ii-web-edition-design-software-version-13-0sp1-for-windows.html">this link</a>.</p>
+
+  <figure class="center" >
+    <img src="https://drive.google.com/uc?id=1AZd6Uz13sRbPODCKTHSWfN93ikM9_CLX"  alt="Search Quartus II"  style="border-radius: 10px" />
+    
+      <figcaption class="center" >Search Quartus II</figcaption>
+    
+  </figure>
+
+
+<p>Make sure to select the 13.Osp1 version. Go to the downloads section and select &ldquo;Individual Files&rdquo;.</p>
+
+  <figure class="center" >
+    <img src="https://drive.google.com/uc?id=1ecm57AMpfaF18XHhBLqDQDRqZc6Nx7W7"  alt="Select the version"  style="border-radius: 10px" />
+    
+      <figcaption class="center" >Select the version</figcaption>
+    
+  </figure>
+
+
+<p>The files we need to download are the ModelSimSetup, the QuartusSetupWeb and the package according to your board, in my case is the Cyclone II.</p>
+
+  <figure class="center" >
+    <img src="https://drive.google.com/uc?id=11WvRZSTdn81TpPyoWiY664AN53WAXEUM"  alt="Downloads section"  style="border-radius: 10px" />
+    
+      <figcaption class="center" >Downloads section</figcaption>
+    
+  </figure>
+
+
+<p>Once we have the files downloaded, we need to run QuartusSetupWeb as administrator.</p>
+
+  <figure class="center" >
+    <img src="https://drive.google.com/uc?id=1xECGZtqBOZNsrmy4BvSYouLlFQKLTAGz"  alt="Run QuartusSetupWeb"  style="border-radius: 10px" />
+    
+      <figcaption class="center" >Run QuartusSetupWeb</figcaption>
+    
+  </figure>
+
+
+<p>We must click on next several times, accept the terms and conditions, select a directory to install the program, select all the components we want to install and continue clicking on next until the process is complete.</p>
+
+  <figure class="center" >
+    <img src="https://drive.google.com/uc?id=1d477YiZEzTLoK2YD6sMXuCTVaqzzIZwc"  alt="Setup - Quartus II Web Edition"  style="border-radius: 10px" />
+    
+      <figcaption class="center" >Setup - Quartus II Web Edition</figcaption>
+    
+  </figure>
+
+
+
+  <figure class="center" >
+    <img src="https://drive.google.com/uc?id=13b2KvROXeuO1JIu_sQ2RdByezIW5lMRq"  alt="Accept terms and conditions"  style="border-radius: 10px" />
+    
+      <figcaption class="center" >Accept terms and conditions</figcaption>
+    
+  </figure>
+
+
+
+  <figure class="center" >
+    <img src="https://drive.google.com/uc?id=1a--OE9bZp3sltZmqHcb0XmjTKaTy_dmu"  alt="Select a directory to install the program"  style="border-radius: 10px" />
+    
+      <figcaption class="center" >Select a directory to install the program</figcaption>
+    
+  </figure>
+
+
+
+  <figure class="center" >
+    <img src="https://drive.google.com/uc?id=10pBglmZn4LEI5w5DZEEmPi52bODwmyB3"  alt="Select the components"  style="border-radius: 10px" />
+    
+      <figcaption class="center" >Select the components</figcaption>
+    
+  </figure>
+
+
+
+  <figure class="center" >
+    <img src="https://drive.google.com/uc?id=1ccjdohdG8cwRudpLGb4DGSrYEk-EK1k9"  alt="Ready to install"  style="border-radius: 10px" />
+    
+      <figcaption class="center" >Ready to install</figcaption>
+    
+  </figure>
+
+
+
+  <figure class="center" >
+    <img src="https://drive.google.com/uc?id=14LUvr7x0EAm8jAGdoURkR_0J2gnZzSLO"  alt="Installing"  style="border-radius: 10px" />
+    
+      <figcaption class="center" >Installing</figcaption>
+    
+  </figure>
+
+
+
+  <figure class="center" >
+    <img src="https://drive.google.com/uc?id=14m7S8qmohlXziQCwgxXW8regG7Iuly66"  alt="Installation completed"  style="border-radius: 10px" />
+    
+      <figcaption class="center" >Installation completed</figcaption>
+    
+  </figure>
+
+
+<p>Once the installation has been completed, we can run the program and if a message asks you to get a subscription just click on Run the Quartus II Software.</p>
+
+  <figure class="center" >
+    <img src="https://drive.google.com/uc?id=1I0mjY0T20MRz8EL9IMj-XCNyNEzj6Z15"  alt="Message to upgrade to get a subscription"  style="border-radius: 10px" />
+    
+      <figcaption class="center" >Message to upgrade to get a subscription</figcaption>
+    
+  </figure>
+
+
+<p>And that&rsquo;s it! We have succesfully installed the Quartus II software.</p>
+
+  <figure class="center" >
+    <img src="https://drive.google.com/uc?id=1vgYXvEkofyHH8SQ9nCHVJZcm31mNPfAB"  alt="Quartus II"  style="border-radius: 10px" />
+    
+      <figcaption class="center" >Quartus II</figcaption>
+    
+  </figure>
+
+
+
+    </div>
+    
+
+    
+      
+    
+  </article>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">© 2023 By Francisco Torres | All rights reserved</div>
+    
+  </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

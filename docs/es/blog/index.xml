@@ -15,27 +15,6 @@
     
     
     <item>
-      <title>Cómo usar el sensor de temperatura de la Raspberry Pi Pico (Arduino)</title>
-      <link>https://deimoshall.dev/es/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</link>
-      <pubDate>Sun, 16 Jul 2023 09:26:04 -0600</pubDate>
-      
-      <guid>https://deimoshall.dev/es/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</guid>
-      <description>
-        
-          &lt;img src=&#34;https://drive.google.com/uc?id=1ZNP418VFB99iqKQsX6tdW-edU0IIxBWF&#34;/&gt;
-          
-        
-        
-        
-          Hace unos días, intenté usar el sensor de temperatura de la Raspberry Pi Pico usando Arduino, pero solo encontré tutoriales para MicroPython. Afortunadamente, encontré un issue de Github donde alguien respondió cómo hacerlo. Así que decidí crear una biblioteca basada en ese código y quiero compartirla contigo. El issue está aquí.
-Considera darle una estrella al repositorio si te resulta útil. Puedes encontrarlo aquí.
-Instala la biblioteca # Puedes usar el Administrador de bibliotecas de Arduino o arduino-cli para instalarla.
-          
-        
-        </description>
-    </item>
-    
-    <item>
       <title>¿Cómo conseguí mi primer trabajo en TI?</title>
       <link>https://deimoshall.dev/es/blog/deimos/experiences/how-did-i-get-my-first-it-job/</link>
       <pubDate>Sat, 15 Jul 2023 19:52:01 -0600</pubDate>
@@ -50,49 +29,6 @@ Instala la biblioteca # Puedes usar el Administrador de bibliotecas de Arduino o
         
           Hola, soy Francisco Torres, un desarrollador de software de México. Estudié ingeniería electrónica, no está muy relacionada con el desarrollo de software, pero aprendí por mi cuenta. Sí, vi algo de programación en C en la universidad, pero no fue de una manera profunda y no tuve demasiadas materias relacionadas con la programación.
 Ahora que sabes un poco sobre mí, hablemos de cómo conseguí mi primer trabajo como desarrollador de software.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Copiar al portapapeles usando Jetpack Compose</title>
-      <link>https://deimoshall.dev/es/blog/software/android/copy-to-clipboard/</link>
-      <pubDate>Sat, 28 Jan 2023 08:56:07 -0600</pubDate>
-      
-      <guid>https://deimoshall.dev/es/blog/software/android/copy-to-clipboard/</guid>
-      <description>
-        
-          &lt;img src=&#34;https://drive.google.com/uc?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&#34;/&gt;
-          
-        
-        
-        
-          En este artículo aprenderemos a crear una función para copiar texto al portapapeles. La manera de manejar el contexto en la aplicación es ligeramente diferente.
-La app que estoy usando para este ejemplo es un administrador de contraseñas donde necesito copiar al portapapeles desde el text field. Puedes encontrar el proyecto en mi Github en este link: https://github.com/DeimosHall/Glocker.git. Sin embargo, puedes seguir los pasos en tu propia app.
-Como puedes ver en la imagen, estoy usando una función llamada copyToClipboard que recibe dos parámetros, el contexto y un texto.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Cortar vídeo en una terminal de linux</title>
-      <link>https://deimoshall.dev/es/blog/linux/utilities/cut-video-ffmpeg/</link>
-      <pubDate>Sat, 24 Dec 2022 20:20:49 -0600</pubDate>
-      
-      <guid>https://deimoshall.dev/es/blog/linux/utilities/cut-video-ffmpeg/</guid>
-      <description>
-        
-          &lt;img src=&#34;https://drive.google.com/uc?id=12SDgsuD3uIvW_BMI9F269UXDmpnrrTjn&#34;/&gt;
-          
-        
-        
-        
-          Si quieres recortar un vídeo pero no quieres abrir un editor de vídeo, puedes usar una utilidad de terminal llamada &amp;ldquo;ffmpeg&amp;rdquo;.
-En sistemas basados en Debian/Ubuntu podemos instalarlo con:
-sudo apt install ffmpeg Ahora podemos usar el siguiente comando para cortar un vídeo:
-ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4 Explicación # Con &amp;ldquo;ffmpeg -i input.mp4&amp;rdquo; decimos que queremos usar el vídeo llamado &amp;ldquo;input.mp4&amp;rdquo;. Es importante usar la extensión de archivo mp4.
           
         
         </description>
