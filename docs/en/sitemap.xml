@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://deimoshall.dev/blog/software/</loc>
+    <lastmod>2023-07-25T09:07:29-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/software/"
+                />
+  </url><url>
     <loc>https://deimoshall.dev/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</loc>
     <lastmod>2023-07-16T09:26:04-06:00</lastmod>
     <xhtml:link
@@ -93,17 +106,17 @@
                 href="https://deimoshall.dev/blog/"
                 />
   </url><url>
-    <loc>https://deimoshall.dev/blog/linux/utilities/cut-video-ffmpeg/</loc>
+    <loc>https://deimoshall.dev/blog/software/linux/utilities/cut-video-ffmpeg/</loc>
     <lastmod>2022-12-24T20:20:49-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://deimoshall.dev/es/blog/linux/utilities/cut-video-ffmpeg/"
+                href="https://deimoshall.dev/es/blog/software/linux/utilities/cut-video-ffmpeg/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://deimoshall.dev/blog/linux/utilities/cut-video-ffmpeg/"
+                href="https://deimoshall.dev/blog/software/linux/utilities/cut-video-ffmpeg/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/</loc>
@@ -143,16 +156,16 @@
                 href="https://deimoshall.dev/categories/"
                 />
   </url><url>
-    <loc>https://deimoshall.dev/courses/vhdl/get-started/</loc>
+    <loc>https://deimoshall.dev/blog/software/quartus-ii-installation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://deimoshall.dev/es/courses/vhdl/get-started/"
+                href="https://deimoshall.dev/es/blog/software/quartus-ii-installation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://deimoshall.dev/courses/vhdl/get-started/"
+                href="https://deimoshall.dev/blog/software/quartus-ii-installation/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/tags/</loc>
@@ -165,18 +178,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://deimoshall.dev/tags/"
-                />
-  </url><url>
-    <loc>https://deimoshall.dev/courses/vhdl/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/courses/vhdl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/courses/vhdl/"
                 />
   </url>
 </urlset>
