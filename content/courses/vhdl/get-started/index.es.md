@@ -9,8 +9,6 @@ toc: false
 showReadingTime: false
 ---
 
-¡Hola amigos! Este es un curso practico sobre VHDL. No esperen teoria aburrida, vamos a aprender haciendo ejemplos. Voy a usar la FPGA Cyclone II porque es barata y fácil de conseguir, pero pueden usar la placa que quieran porque el lenguaje VHDL no cambia.
-
 ## Instalando Quartus II
 
 Quartus II es el software de diseño de sistemas embebidos que necesitamos para trabajar con la FPGA Cyclone II. Lo podemos descargar de la pagina de Intel buscando "Quartus II" o haciendo click [aquí](https://www.intel.com/content/www/us/en/software-kit/711791/intel-quartus-ii-web-edition-design-software-version-13-0sp1-for-windows.html).
