@@ -1,5 +1,8 @@
-<ul>
-{{ range $.AllTranslations }}
-<li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-{{ end }}
-</ul>
+<div class="dropdown">
+    <button class="dropbtn">{{ .Language.LanguageName }} ▼</button>
+    <div class="dropdown-content">
+        {{ range $.AllTranslations }}
+        <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+        {{ end }}
+    </div>
+</div>
