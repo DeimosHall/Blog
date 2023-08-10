@@ -15,6 +15,26 @@
     
     
     <item>
+      <title>Comprime Video Usando La Terminal</title>
+      <link>https://deimoshall.dev/es/blog/software/linux/utilities/compress-video-ffmpeg/</link>
+      <pubDate>Tue, 25 Jul 2023 21:59:06 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/software/linux/utilities/compress-video-ffmpeg/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/uc?id=1-eGRMAl4UHraRWhnyD1PqbFdD_8BR82a&#34;/&gt;
+          
+        
+        
+        
+          FFmpeg is a command line tool that offers a lot of options to manipulate video and audio files. In this post I will show you how to compress a video file using it.
+Normalmente usamos FFmpeg en la terminal, también hay interfaces gráficas que lo usan como backend. Por ejemplo, HandBrake es una interfaz gráfica que usa FFmpeg para comprimir archivos de video. Pero en este post usaremos FFmpeg directamente.
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Cómo usar el sensor de temperatura de la Raspberry Pi Pico (Arduino)</title>
       <link>https://deimoshall.dev/es/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</link>
       <pubDate>Sun, 16 Jul 2023 09:26:04 -0600</pubDate>
