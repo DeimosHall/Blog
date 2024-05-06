@@ -172,18 +172,6 @@
                 href="https://deimoshall.dev/es/categories/"
                 />
   </url><url>
-    <loc>https://deimoshall.dev/es/blog/software/quartus-ii-installation/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/software/quartus-ii-installation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/software/quartus-ii-installation/"
-                />
-  </url><url>
     <loc>https://deimoshall.dev/es/tags/</loc>
     <xhtml:link
                 rel="alternate"

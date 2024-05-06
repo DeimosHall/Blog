@@ -22,7 +22,7 @@
       <guid>https://deimoshall.dev/blog/software/linux/utilities/compress-video-ffmpeg/</guid>
       <description>
         
-          &lt;img src=&#34;https://drive.google.com/uc?id=1-eGRMAl4UHraRWhnyD1PqbFdD_8BR82a&#34;/&gt;
+          &lt;img src=&#34;https://lh3.googleusercontent.com/drive-viewer/AKGpihbv8cZi5uRW9p8DPN9hm9RwydR4IX61K4mGdz8EpEXQywabY2ii7Bk0156iITWuog3H_Cu7vnKqpAQVDIoWlmHN4IqIhl8i-Xw=s1600-rw-v1&#34;/&gt;
           
         
         
@@ -42,7 +42,7 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
       <guid>https://deimoshall.dev/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</guid>
       <description>
         
-          &lt;img src=&#34;https://drive.google.com/uc?id=1ZNP418VFB99iqKQsX6tdW-edU0IIxBWF&#34;/&gt;
+          &lt;img src=&#34;https://lh3.googleusercontent.com/drive-viewer/AKGpihZuorMOZ4H6ZGJ9tHN7Sm9LmwmeB-uWVwuPEDPgZzofy4zfF0U40yq8GE8TYxLdEQbXwPk8prCkcac2zxkDfQooxcd9PYzHGrw=s1600-rw-v1&#34;/&gt;
           
         
         
@@ -62,7 +62,7 @@ Consider giving a star to the repository if you find it useful.
       <guid>https://deimoshall.dev/blog/deimos/experiences/how-did-i-get-my-first-it-job/</guid>
       <description>
         
-          &lt;img src=&#34;https://drive.google.com/uc?id=1Hrp9_pAwFs9mEb4o6iCCNdod2BqTveYK&#34;/&gt;
+          &lt;img src=&#34;https://lh3.googleusercontent.com/drive-viewer/AKGpihbHevfIe3Z4qAbgUZCscsEi3F5kbjwgn4dZlzq_eiJrt5j5exjC7xHdceie8TA9QUV8FQXx4S_maiDKydZ8-Wvt-OWlZMGiPfo=s1600-rw-v1&#34;/&gt;
           
         
         
@@ -104,7 +104,7 @@ Select the installer to download
       <guid>https://deimoshall.dev/blog/software/android/copy-to-clipboard/</guid>
       <description>
         
-          &lt;img src=&#34;https://drive.google.com/uc?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&#34;/&gt;
+          &lt;img src=&#34;https://lh3.googleusercontent.com/drive-viewer/AKGpihaTJc5kRf3hzWSN4IdkYm58uwgihgBrlMDHho5tMnzckUroHyIqJ-I-AWIZMTYsesW_sNiJZkx2aKHdXRpL-sPPHIPnFiWwdQ=s1600-rw-v1&#34;/&gt;
           
         
         
@@ -124,7 +124,7 @@ The app I&amp;rsquo;m using for this example is a password manager where I need 
       <guid>https://deimoshall.dev/blog/software/linux/utilities/cut-video-ffmpeg/</guid>
       <description>
         
-          &lt;img src=&#34;https://drive.google.com/uc?id=12SDgsuD3uIvW_BMI9F269UXDmpnrrTjn&#34;/&gt;
+          &lt;img src=&#34;https://lh3.googleusercontent.com/drive-viewer/AKGpihZXpY1OovMl62GevxRdf0jX82KE7VCvanJSLfwn-VFKeK1gqBCKL8l4RwRhvdmNkTN-ZWCh5d0-VCBnIrlfHF-SalrNc_45q-E=s1600-rw-v1&#34;/&gt;
           
         
         
@@ -154,27 +154,6 @@ ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4 Explanation # W
         
            Hello, my name is Francisco Torres # I&amp;rsquo;m an electronic engineer and a software developer.
 My main languages are: HTML XML CSS Shell/bash scripting Javascript Python Kotlin Java My technology stack is: Git Android Windows GNU/Linux 
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Quartus II Installation</title>
-      <link>https://deimoshall.dev/blog/software/quartus-ii-installation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://deimoshall.dev/blog/software/quartus-ii-installation/</guid>
-      <description>
-        
-          &lt;img src=&#34;https://drive.google.com/uc?id=1vgYXvEkofyHH8SQ9nCHVJZcm31mNPfAB&#34;/&gt;
-          
-        
-        
-        
-          Installing Quartus II # Quartus II is the embedded systems design software we need to work with the Cyclone II FPGA. We can download it from the Intel&amp;rsquo;s page by searching &amp;ldquo;Quartus II&amp;rdquo; or by clicking on this link.
-Search Quartus II Make sure to select the 13.Osp1 version. Go to the downloads section and select &amp;ldquo;Individual Files&amp;rdquo;.
-Select the version The files we need to download are the ModelSimSetup, the QuartusSetupWeb and the package according to your board, in my case is the Cyclone II.
           
         
         </description>
