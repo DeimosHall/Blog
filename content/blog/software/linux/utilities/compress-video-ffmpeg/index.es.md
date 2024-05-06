@@ -12,7 +12,7 @@ toc: false
 showReadingTime: true
 ---
 
-[FFmpeg](https://ffmpeg.org/download.html) is a command line tool that offers a lot of options to manipulate video and audio files. In this post I will show you how to compress a video file using it.
+[FFmpeg](https://ffmpeg.org/download.html) es una herramienta de línea de comandos que ofrece muchas opciones para manipular archivos de video y audio. En este post te mostraré cómo comprimir un archivo de video usando FFmpeg.
 
 Normalmente usamos FFmpeg en la terminal, también hay interfaces gráficas que lo usan como backend. Por ejemplo, [HandBrake](https://handbrake.fr/) es una interfaz gráfica que usa FFmpeg para comprimir archivos de video. Pero en este post usaremos FFmpeg directamente.
 
