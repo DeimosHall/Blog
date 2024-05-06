@@ -1,1 +1,10 @@
 nohup.out
+
+# Visual Studio Code config files
+.vscode/
+
+# macOS folder attributes
+/**/.DS_Store
+
+public/
+resources/

@@ -5,7 +5,7 @@ author: Francisco Torres
 showAuthor: true
 draft: false
 section: "post"
-cover: "https://drive.google.com/uc?id=1-eGRMAl4UHraRWhnyD1PqbFdD_8BR82a"
+cover: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbv8cZi5uRW9p8DPN9hm9RwydR4IX61K4mGdz8EpEXQywabY2ii7Bk0156iITWuog3H_Cu7vnKqpAQVDIoWlmHN4IqIhl8i-Xw=s1600-rw-v1"
 useRelativeCover: false
 CoverCaption: "Photo by [Sanjeev Nagaraj](https://unsplash.com/@_sanjeev_ngrj_) on Unsplash"
 toc: false

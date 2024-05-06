@@ -9,12 +9,12 @@ draft: false
 
 ## [Blog](blog/)
 {{< image
-src="https://drive.google.com/uc?id=1pdtEv08XIFFEr-V3aOS3BEHu9PqRtsdT"
+src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbvYbafVRTLUL6uq_k5Yl2cJS9HFAuJlbBU3Vr6gZKziYkBy8_H0YscUKQYa089LV832wHwtzesi7BF_RiEqLM41zbpdGqJRw=s1600-rw-v1?source=screenshot.guru"
 alt="Imagen de portada para el blog"
 link="blog/" >}}
 
 ## [Cursos](courses/)
 {{< image
-src="https://drive.google.com/uc?id=1lmGDwU3Sn8TGH4bPrpVn1rUwnX6hSH3P"
+src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaCnMD0psoL8fn_bBGcQVfqvToSTJPOp40xQC5KK52KISbT9IzsvH0eVcq1HaLWTme0Bgu6jkANpZCeCHeqvLUeqMTkqFunvKU=s1600-rw-v1"
 alt="Imagen de portada para los cursos"
 link="courses/" >}}

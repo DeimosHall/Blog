@@ -5,7 +5,7 @@ author: Francisco Torres Guido
 showAuthor: false
 draft: false
 section: "post"
-cover: "https://drive.google.com/uc?id=1PcfX8d73K7lzA_DkOPrJr2gCt9ApuxuX"
+cover: "https://lh3.googleusercontent.com/drive-viewer/AKGpihYu1EBZ6oACm1mHw_0rd7b88Zr9RkL3DMvdR1ZjQlJ_trRjftk4rf_mZ-5hO1Tuv3JpRDQE4Eunb5OlEQgpEWiJcG51pabdeDA=s1600-rw-v1"
 useRelativeCover: false
 CoverCaption: "Created with [Unstable Diffusion](https://www.unstability.ai/)."
 toc: false
