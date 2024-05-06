@@ -4,7 +4,7 @@ date: 2023-07-16T09:26:04-06:00
 author: Francisco Torres
 draft: false
 section: "post"
-cover: "https://drive.google.com/uc?id=1ZNP418VFB99iqKQsX6tdW-edU0IIxBWF"
+cover: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZuorMOZ4H6ZGJ9tHN7Sm9LmwmeB-uWVwuPEDPgZzofy4zfF0U40yq8GE8TYxLdEQbXwPk8prCkcac2zxkDfQooxcd9PYzHGrw=s1600-rw-v1"
 useRelativeCover: false
 CoverCaption: "Imagen por [Vishnu Mohanan](https://unsplash.com/@vishnumaiea) en [Unsplash](https://unsplash.com/photos/yC_7U1g3Kvs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 toc: false
@@ -24,8 +24,8 @@ Puedes usar el `Administrador de bibliotecas de Arduino` o `arduino-cli` para in
 Abre el IDE de Arduino y ve a `Herramientas > Gestionar bibliotecas...`. Luego, busca `Raspberry Pi Pico CPU Temperature` e instálala.
 
 {{< image
-src="https://drive.google.com/uc?id=1ZG2t1zKKDULl7VR4oRaI1XLKpQ_ms2df"
-alt="General project"
+src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYRc-jurFI1n-hSCxArP9QwoJDDr0kj8cow2roUuZOKIRlF2f3sINDzN-NXj17FuMviQdxPb7KAIzmFfhtpII_sDcYewjUAvGg=s2560"
+alt="Library manager"
 style="width: auto; border-radius: 10px;" >}}
 
 ### Usando arduino-cli
@@ -41,8 +41,8 @@ arduino-cli lib install "Raspberry Pi Pico CPU Temperature"
 Puedes abrir el ejemplo desde `Archivo > Ejemplos > Raspberry Pi Pico CPU Temperature > Test`.
 
 {{< image
-src="https://drive.google.com/uc?id=1fm8urVMNbRJHwF8njf4NXfsY0xiSm10k"
-alt="General project"
+src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbDyWmMQcEetyAqu8-BXGx1gh0KQaYxXOPG4WNdLyghspIfDmvN_aIepm__rFi2AApwYd_smzWwu0a4XbrjaWGifQzxDoalIAw=s1600-rw-v1"
+alt="Open example"
 style="width: auto; border-radius: 10px;" >}}
 
 Si usas `arduino-cli` puedes ejecutar el siguiente comando para ver la ruta del ejemplo y abrirlo manualmente:
@@ -83,8 +83,8 @@ void loop() {
 Sube el código a tu Raspberry Pi Pico y abre el monitor serial. Deberías ver algo como esto:
 
 {{< image
-src="https://drive.google.com/uc?id=1O0ElexxW_0ptBGBBbSWEK80T8AqSY83-"
-alt="General project"
+src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaBnYBV1tT-coRAGN7D_3_2_hLiMmKyJ9quMA4bQ2VsBMXvRJhzdlI1R1LYJ_66gR-CrY19EVFWneSoeeTCpwqJ6zmibuiZIA=s2560"
+alt="Serial monitor"
 style="width: auto; border-radius: 10px;" >}}
 
 > Considera darle una estrella al repositorio si te resulta útil. Puedes encontrarlo [aquí](https://github.com/DeimosHall/RP2040_CPU_Temperature.git).

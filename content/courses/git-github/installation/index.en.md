@@ -18,5 +18,5 @@ Download the latest version of [Git for Windows](https://git-scm.com/download/wi
 Select the standalone installer according to your system architecture (32 or 64 bits).
 
 {{< figure
-src="https://drive.google.com/uc?id=1Y8gI1PkACNg2M6vPEFnBJJjmrVWnXZej"
+src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZqh7eRErFsERYF2mbLNzOaBvuAZDVcvAQxQo5JG85NJKCUfPcbIHLzaBeh-DQoj5krsmJcthiZDXPzta3eMipfyeCxehi-Oa0=s1600-rw-v1"
 alt="Select the installer to download" >}}

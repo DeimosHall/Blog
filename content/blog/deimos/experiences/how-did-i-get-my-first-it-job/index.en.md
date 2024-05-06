@@ -4,7 +4,7 @@ date: 2023-07-15T19:52:01-06:00
 author: Francisco Torres
 draft: false
 section: "post"
-cover: "https://drive.google.com/uc?id=1Hrp9_pAwFs9mEb4o6iCCNdod2BqTveYK"
+cover: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbHevfIe3Z4qAbgUZCscsEi3F5kbjwgn4dZlzq_eiJrt5j5exjC7xHdceie8TA9QUV8FQXx4S_maiDKydZ8-Wvt-OWlZMGiPfo=s1600-rw-v1"
 useRelativeCover: false
 CoverCaption: ""
 toc: false
