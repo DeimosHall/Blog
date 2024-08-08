@@ -4,7 +4,7 @@ date: 2023-01-28T08:56:07-06:00
 author: Francisco Torres
 draft: false
 section: "post"
-cover: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaTJc5kRf3hzWSN4IdkYm58uwgihgBrlMDHho5tMnzckUroHyIqJ-I-AWIZMTYsesW_sNiJZkx2aKHdXRpL-sPPHIPnFiWwdQ=s1600-rw-v1"
+cover: "https://drive.google.com/thumbnail?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&sz=w1920-h1080"
 useRelativeCover: false
 CoverCaption: ""
 toc: false
@@ -16,7 +16,7 @@ En este artículo aprenderemos a crear una función para copiar texto al portapa
 La app que estoy usando para este ejemplo es un administrador de contraseñas donde necesito copiar al portapapeles desde el text field. Puedes encontrar el proyecto en mi Github en este link: https://github.com/DeimosHall/Glocker.git. **Sin embargo, puedes seguir los pasos en tu propia app**.
 
 {{< image
-src="https://drive.google.com/uc?id=1r0nk98DrPZfWTxH2l_RfL9dSGkZ3C4JK"
+src="https://drive.google.com/thumbnail?id=1r0nk98DrPZfWTxH2l_RfL9dSGkZ3C4JK&sz=w1920-h1080"
 alt="General project"
 style="width: auto; border-radius: 10px;" >}}
 

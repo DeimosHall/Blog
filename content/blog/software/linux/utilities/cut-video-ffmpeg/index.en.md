@@ -4,7 +4,7 @@ date: 2022-12-24T20:20:49-06:00
 author: Francisco Torres
 draft: false
 section: "post"
-cover: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZXpY1OovMl62GevxRdf0jX82KE7VCvanJSLfwn-VFKeK1gqBCKL8l4RwRhvdmNkTN-ZWCh5d0-VCBnIrlfHF-SalrNc_45q-E=s1600-rw-v1"
+Cover: "https://drive.google.com/thumbnail?id=12SDgsuD3uIvW_BMI9F269UXDmpnrrTjn&sz=w9999"
 useRelativeCover: false
 CoverCaption: "Photo by Wahid Khene on Unsplash"
 toc: false
