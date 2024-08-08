@@ -4,7 +4,7 @@ date: 2023-01-28T08:56:07-06:00
 author: Francisco Torres
 draft: false
 section: "post"
-cover: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaTJc5kRf3hzWSN4IdkYm58uwgihgBrlMDHho5tMnzckUroHyIqJ-I-AWIZMTYsesW_sNiJZkx2aKHdXRpL-sPPHIPnFiWwdQ=s1600-rw-v1"
+cover: "https://drive.google.com/thumbnail?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&sz=w1920-h1080"
 useRelativeCover: false
 CoverCaption: ""
 toc: false
@@ -16,7 +16,7 @@ In this article we'll learn how to create a function for copying text to the cli
 The app I'm using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: https://github.com/DeimosHall/Glocker.git. **However, you can follow the steps in your own app**.
 
 {{< image
-src="https://drive.google.com/uc?id=1r0nk98DrPZfWTxH2l_RfL9dSGkZ3C4JK"
+src="https://drive.google.com/thumbnail?id=1r0nk98DrPZfWTxH2l_RfL9dSGkZ3C4JK&sz=w1920-h1080"
 alt="General project"
 style="width: auto; border-radius: 10px;" >}}
 

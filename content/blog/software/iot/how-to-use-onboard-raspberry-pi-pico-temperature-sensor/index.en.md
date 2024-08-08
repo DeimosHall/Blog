@@ -4,7 +4,7 @@ date: 2023-07-16T09:26:04-06:00
 author: Francisco Torres
 draft: false
 section: "post"
-cover: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZuorMOZ4H6ZGJ9tHN7Sm9LmwmeB-uWVwuPEDPgZzofy4zfF0U40yq8GE8TYxLdEQbXwPk8prCkcac2zxkDfQooxcd9PYzHGrw=s1600-rw-v1"
+cover: "https://drive.google.com/thumbnail?id=1ZNP418VFB99iqKQsX6tdW-edU0IIxBWF&sz=w1920"
 useRelativeCover: false
 CoverCaption: "Photo by [Vishnu Mohanan](https://unsplash.com/@vishnumaiea) on [Unsplash](https://unsplash.com/photos/yC_7U1g3Kvs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 toc: false
@@ -24,7 +24,7 @@ You can use the `Arduino Library Manager` or `arduino-cli` to install it.
 Open the Arduino IDE and go to `Tools > Manage Libraries...`. Then, search for `Raspberry Pi Pico CPU Temperature` and install it.
 
 {{< image
-src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYRc-jurFI1n-hSCxArP9QwoJDDr0kj8cow2roUuZOKIRlF2f3sINDzN-NXj17FuMviQdxPb7KAIzmFfhtpII_sDcYewjUAvGg=s2560"
+src="https://drive.google.com/thumbnail?id=1ZG2t1zKKDULl7VR4oRaI1XLKpQ_ms2df&sz=w366"
 alt="Library manager"
 style="width: auto; border-radius: 10px;" >}}
 
@@ -41,7 +41,7 @@ arduino-cli lib install "Raspberry Pi Pico CPU Temperature"
 You can open the example from `File > Examples > Raspberry Pi Pico CPU Temperature > Test`.
 
 {{< image
-src="https://lh3.googleusercontent.com/drive-viewer/AKGpihbDyWmMQcEetyAqu8-BXGx1gh0KQaYxXOPG4WNdLyghspIfDmvN_aIepm__rFi2AApwYd_smzWwu0a4XbrjaWGifQzxDoalIAw=s1600-rw-v1"
+src="https://drive.google.com/thumbnail?id=1fm8urVMNbRJHwF8njf4NXfsY0xiSm10k&sz=w9999"
 alt="Open example"
 style="width: auto; border-radius: 10px;" >}}
 
@@ -83,7 +83,7 @@ void loop() {
 Upload the code to your Raspberry Pi Pico and open the serial monitor. You should see something like this:
 
 {{< image
-src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaBnYBV1tT-coRAGN7D_3_2_hLiMmKyJ9quMA4bQ2VsBMXvRJhzdlI1R1LYJ_66gR-CrY19EVFWneSoeeTCpwqJ6zmibuiZIA=s2560"
+src="https://drive.google.com/thumbnail?id=1O0ElexxW_0ptBGBBbSWEK80T8AqSY83-&sz=w9999"
 alt="Serial monitor"
 style="width: auto; border-radius: 10px;" >}}
 
