@@ -1,7 +1,29 @@
 # My personal blog
 Hi, my name is Francisco Torres, this is my personal blog. If you want to contact me, please visit https://deimoshall.dev/contact.
 
-## How to deploy
+## Getting started
+
+Clone this repository.
+
+Using HTTPS:
+
+```bash
+git clone https://github.com/DeimosHall/Blog.git
+```
+
+Using SSH:
+
+```bash
+git clone git@github.com:DeimosHall/Blog.git
+```
+
+Get the theme by updating the git submodules
+
+```
+git submodule update --init --recursive
+```
+
+### How to deploy
 
 This is for myself, I sometimes left writting for a while and forget how to deploy the site. There a 8 steps.
 
