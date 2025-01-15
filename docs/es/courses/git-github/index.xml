@@ -28,9 +28,41 @@
         
         
         
-          Git necesita conocer tu nombre y tu correo para poder vincularlos a los commits que vayas creando. Para configurar tu nombre puedes usar el siguiente comando, reemplaza deimos por tu nombre de usuario, no tiene que ser tu nombre real.
-bash git config --global user.name &amp;#34;deimos&amp;#34; Para configurar tu correo puedes hacerlo de esta manera:
-bash git config --global user.email &amp;#34;deimoshall@gmail.com&amp;#34; Puedes elegir el editor de tu preferencia para el momento en que vayas a escribir los mensajes para los commits, yo te recomiendo nano ya que es fácil de utilizar, pero si gustas puedes utilizar vim, vscode o el editor de tu preferencia.
+          &lt;p&gt;Git necesita conocer tu nombre y tu correo para poder vincularlos a los commits que vayas creando. Para configurar tu nombre puedes usar el siguiente comando, reemplaza &lt;code&gt;deimos&lt;/code&gt; por tu nombre de usuario, no tiene que ser tu nombre real.&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;847536219&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;847536219&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
+      
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-bash&#34; &gt;&lt;code&gt;
+git config --global user.name &amp;#34;deimos&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Para configurar tu correo puedes hacerlo de esta manera:&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;582379416&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;582379416&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
+      
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-bash&#34; &gt;&lt;code&gt;
+git config --global user.email &amp;#34;deimoshall@gmail.com&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Puedes elegir el editor de tu preferencia para el momento en que vayas a escribir los mensajes para los commits, yo te recomiendo &lt;code&gt;nano&lt;/code&gt; ya que es fácil de utilizar, pero si gustas puedes utilizar &lt;code&gt;vim&lt;/code&gt;, &lt;code&gt;vscode&lt;/code&gt; o el editor de tu preferencia.&lt;/p&gt;
           
         
         </description>
@@ -50,9 +82,19 @@ bash git config --global user.email &amp;#34;deimoshall@gmail.com&amp;#34; Puede
         
         
         
-           Git para Windows # Descarga la última versión de Git para Windows.
-Selecciona el standalone installer de acuerdo con la arquitectura de tu sistema operativo (32 o 64 bits).
-Selecciona el instalador para descargar 
+          &lt;h2 id=&#34;git-para-windows&#34;&gt;
+  Git para Windows
+  &lt;a href=&#34;#git-para-windows&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Descarga la última versión de &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;Git para Windows&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Selecciona el &lt;code&gt;standalone installer&lt;/code&gt; de acuerdo con la arquitectura de tu sistema operativo (32 o 64 bits).&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;https://lh3.googleusercontent.com/drive-viewer/AKGpihZqh7eRErFsERYF2mbLNzOaBvuAZDVcvAQxQo5JG85NJKCUfPcbIHLzaBeh-DQoj5krsmJcthiZDXPzta3eMipfyeCxehi-Oa0=s1600-rw-v1&#34;  alt=&#34;Selecciona el instalador para descargar&#34;  style=&#34;border-radius: 10px&#34; /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Selecciona el instalador para descargar&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
           
         
         </description>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/blog/tutorials/</link>
+    <description>Recent content in Tutorials on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Jul 2023 09:07:29 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/blog/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Compress Video Using The Terminal</title>
+      <link>https://deimoshall.dev/blog/tutorials/linux/utilities/compress-video-ffmpeg/</link>
+      <pubDate>Tue, 25 Jul 2023 21:59:06 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/tutorials/linux/utilities/compress-video-ffmpeg/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1-eGRMAl4UHraRWhnyD1PqbFdD_8BR82a&amp;sz=w9999&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;&lt;a href=&#34;https://ffmpeg.org/download.html&#34;&gt;FFmpeg&lt;/a&gt; is a command line tool that offers a lot of options to manipulate video and audio files. In this post I will show you how to compress a video file using it.&lt;/p&gt;
+&lt;p&gt;We usually use FFmpeg in a terminal, there are also graphical interfaces that use it as a backend. For example, &lt;a href=&#34;https://handbrake.fr/&#34;&gt;HandBrake&lt;/a&gt; is a graphical interface that uses FFmpeg to compress video files. But in this post we will use FFmpeg directly.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino)</title>
+      <link>https://deimoshall.dev/blog/tutorials/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</link>
+      <pubDate>Sun, 16 Jul 2023 09:26:04 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/tutorials/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1ZNP418VFB99iqKQsX6tdW-edU0IIxBWF&amp;sz=w1920&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for &lt;a href=&#34;https://micropython.org/&#34;&gt;MicroPython&lt;/a&gt;. Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is &lt;a href=&#34;https://github.com/arduino/ArduinoCore-mbed/issues/220&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Consider giving a star to the repository if you find it useful. You can find it &lt;a href=&#34;https://github.com/DeimosHall/RP2040_CPU_Temperature.git&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Copy to Clipboard using Jetpack Compose</title>
+      <link>https://deimoshall.dev/blog/tutorials/android/copy-to-clipboard/</link>
+      <pubDate>Sat, 28 Jan 2023 08:56:07 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/tutorials/android/copy-to-clipboard/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;In this article we&amp;rsquo;ll learn how to create a function for copying text to the clipboard. The method for managing context in the application is slightly different.&lt;/p&gt;
+&lt;p&gt;The app I&amp;rsquo;m using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: &lt;a href=&#34;https://github.com/DeimosHall/Glocker.git&#34;&gt;https://github.com/DeimosHall/Glocker.git&lt;/a&gt;. &lt;strong&gt;However, you can follow the steps in your own app&lt;/strong&gt;.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Cut video on a linux terminal</title>
+      <link>https://deimoshall.dev/blog/tutorials/linux/utilities/cut-video-ffmpeg/</link>
+      <pubDate>Sat, 24 Dec 2022 20:20:49 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/tutorials/linux/utilities/cut-video-ffmpeg/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=12SDgsuD3uIvW_BMI9F269UXDmpnrrTjn&amp;sz=w9999&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;If you want to cut a video but you don&amp;rsquo;t want to open a video editor, you can
+use a terminal utility called &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;On Debian/Ubuntu based systems we can install it with:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install ffmpeg
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now we can use the following command to cut a video:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;explanation&#34;&gt;
+  Explanation
+  &lt;a href=&#34;#explanation&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;With &lt;em&gt;&amp;ldquo;ffmpeg -i input.mp4&amp;rdquo;&lt;/em&gt; we say we want to use the video called &lt;em&gt;&amp;ldquo;input.mp4&amp;rdquo;&lt;/em&gt;. It&amp;rsquo;s important to use the mp4 file extension.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -15,11 +15,31 @@
     
     
     <item>
+      <title>React and Spring Boot in less than three weeks</title>
+      <link>https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/</link>
+      <pubDate>Wed, 15 Jan 2025 13:31:50 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1W9Ey9-85_4ZfqIkqvFgl5kXnDNqk0XY1&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;I&amp;rsquo;ve been working as a firmware engineer for two years, but I don&amp;rsquo;t make enough money to get the life style I wish, so I&amp;rsquo;m here, in a big trouble where I have to learn web development for a project I have to deliver this month.&lt;/p&gt;
+&lt;p&gt;As I said I&amp;rsquo;m a firmware engineer, the main programming languages I use everyday are C/C++ and sometimes Python. I learned to code with Java tutorials on YouTube on 2018, it gived me the basic concepts of how to write code, but I haven&amp;rsquo;t used it since then. About the web side, well, I took some courses on YouTube and Udemy when I was in college because I thought it could be my entry point to the software industry, but I only learn some basic stuff again.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Compress Video Using The Terminal</title>
-      <link>https://deimoshall.dev/blog/software/linux/utilities/compress-video-ffmpeg/</link>
+      <link>https://deimoshall.dev/blog/tutorials/linux/utilities/compress-video-ffmpeg/</link>
       <pubDate>Tue, 25 Jul 2023 21:59:06 -0600</pubDate>
       
-      <guid>https://deimoshall.dev/blog/software/linux/utilities/compress-video-ffmpeg/</guid>
+      <guid>https://deimoshall.dev/blog/tutorials/linux/utilities/compress-video-ffmpeg/</guid>
       <description>
         
           &lt;img src=&#34;https://drive.google.com/thumbnail?id=1-eGRMAl4UHraRWhnyD1PqbFdD_8BR82a&amp;sz=w9999&#34;/&gt;
@@ -27,8 +47,8 @@
         
         
         
-          FFmpeg is a command line tool that offers a lot of options to manipulate video and audio files. In this post I will show you how to compress a video file using it.
-We usually use FFmpeg in a terminal, there are also graphical interfaces that use it as a backend. For example, HandBrake is a graphical interface that uses FFmpeg to compress video files. But in this post we will use FFmpeg directly.
+          &lt;p&gt;&lt;a href=&#34;https://ffmpeg.org/download.html&#34;&gt;FFmpeg&lt;/a&gt; is a command line tool that offers a lot of options to manipulate video and audio files. In this post I will show you how to compress a video file using it.&lt;/p&gt;
+&lt;p&gt;We usually use FFmpeg in a terminal, there are also graphical interfaces that use it as a backend. For example, &lt;a href=&#34;https://handbrake.fr/&#34;&gt;HandBrake&lt;/a&gt; is a graphical interface that uses FFmpeg to compress video files. But in this post we will use FFmpeg directly.&lt;/p&gt;
           
         
         </description>
@@ -36,10 +56,10 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
     
     <item>
       <title>How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino)</title>
-      <link>https://deimoshall.dev/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</link>
+      <link>https://deimoshall.dev/blog/tutorials/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</link>
       <pubDate>Sun, 16 Jul 2023 09:26:04 -0600</pubDate>
       
-      <guid>https://deimoshall.dev/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</guid>
+      <guid>https://deimoshall.dev/blog/tutorials/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</guid>
       <description>
         
           &lt;img src=&#34;https://drive.google.com/thumbnail?id=1ZNP418VFB99iqKQsX6tdW-edU0IIxBWF&amp;sz=w1920&#34;/&gt;
@@ -47,8 +67,9 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
         
         
         
-          Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for MicroPython. Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is here.
-Consider giving a star to the repository if you find it useful.
+          &lt;p&gt;Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for &lt;a href=&#34;https://micropython.org/&#34;&gt;MicroPython&lt;/a&gt;. Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is &lt;a href=&#34;https://github.com/arduino/ArduinoCore-mbed/issues/220&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Consider giving a star to the repository if you find it useful. You can find it &lt;a href=&#34;https://github.com/DeimosHall/RP2040_CPU_Temperature.git&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
           
         
         </description>
@@ -67,8 +88,8 @@ Consider giving a star to the repository if you find it useful.
         
         
         
-          Hello, I&amp;rsquo;m Francisco Torres, a software developer from Mexico. I studied electronics engineering, it is not too related to software development, but I learned programming by myself. Yes, I saw some of C progamming in college, but it was not in a deep way and I didn&amp;rsquo;t have too many programming related subjects.
-I was looking for an internship since 2022 winter. In that time I was almost in my last semester of the university, and I had the option to do an internship while I was studying the last semester.
+          &lt;p&gt;Hello, I&amp;rsquo;m Francisco Torres, a software developer from Mexico. I studied electronics engineering, it is not too related to software development, but I learned programming by myself. Yes, I saw some of C progamming in college, but it was not in a deep way and I didn&amp;rsquo;t have too many programming related subjects.&lt;/p&gt;
+&lt;p&gt;I was looking for an internship since 2022 winter. In that time I was almost in my last semester of the university, and I had the option to do an internship while I was studying the last semester. I sent my resume to some companies in Linkedin, but no one called me. It wasn&amp;rsquo;t something bad for me, because I was still studying and I had time to find a job.&lt;/p&gt;
           
         
         </description>
@@ -87,9 +108,19 @@ I was looking for an internship since 2022 winter. In that time I was almost in 
         
         
         
-           Git for Windows # Download the latest version of Git for Windows.
-Select the standalone installer according to your system architecture (32 or 64 bits).
-Select the installer to download 
+          &lt;h2 id=&#34;git-for-windows&#34;&gt;
+  Git for Windows
+  &lt;a href=&#34;#git-for-windows&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Download the latest version of &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;Git for Windows&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Select the standalone installer according to your system architecture (32 or 64 bits).&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;https://lh3.googleusercontent.com/drive-viewer/AKGpihZqh7eRErFsERYF2mbLNzOaBvuAZDVcvAQxQo5JG85NJKCUfPcbIHLzaBeh-DQoj5krsmJcthiZDXPzta3eMipfyeCxehi-Oa0=s1600-rw-v1&#34;  alt=&#34;Select the installer to download&#34;  style=&#34;border-radius: 10px&#34; /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Select the installer to download&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
           
         
         </description>
@@ -97,10 +128,10 @@ Select the installer to download
     
     <item>
       <title>Copy to Clipboard using Jetpack Compose</title>
-      <link>https://deimoshall.dev/blog/software/android/copy-to-clipboard/</link>
+      <link>https://deimoshall.dev/blog/tutorials/android/copy-to-clipboard/</link>
       <pubDate>Sat, 28 Jan 2023 08:56:07 -0600</pubDate>
       
-      <guid>https://deimoshall.dev/blog/software/android/copy-to-clipboard/</guid>
+      <guid>https://deimoshall.dev/blog/tutorials/android/copy-to-clipboard/</guid>
       <description>
         
           &lt;img src=&#34;https://drive.google.com/thumbnail?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&amp;sz=w1920-h1080&#34;/&gt;
@@ -108,8 +139,8 @@ Select the installer to download
         
         
         
-          In this article we&amp;rsquo;ll learn how to create a function for copying text to the clipboard. The method for managing context in the application is slightly different.
-The app I&amp;rsquo;m using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: https://github.com/DeimosHall/Glocker.git. However, you can follow the steps in your own app.
+          &lt;p&gt;In this article we&amp;rsquo;ll learn how to create a function for copying text to the clipboard. The method for managing context in the application is slightly different.&lt;/p&gt;
+&lt;p&gt;The app I&amp;rsquo;m using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: &lt;a href=&#34;https://github.com/DeimosHall/Glocker.git&#34;&gt;https://github.com/DeimosHall/Glocker.git&lt;/a&gt;. &lt;strong&gt;However, you can follow the steps in your own app&lt;/strong&gt;.&lt;/p&gt;
           
         
         </description>
@@ -117,10 +148,10 @@ The app I&amp;rsquo;m using for this example is a password manager where I need 
     
     <item>
       <title>Cut video on a linux terminal</title>
-      <link>https://deimoshall.dev/blog/software/linux/utilities/cut-video-ffmpeg/</link>
+      <link>https://deimoshall.dev/blog/tutorials/linux/utilities/cut-video-ffmpeg/</link>
       <pubDate>Sat, 24 Dec 2022 20:20:49 -0600</pubDate>
       
-      <guid>https://deimoshall.dev/blog/software/linux/utilities/cut-video-ffmpeg/</guid>
+      <guid>https://deimoshall.dev/blog/tutorials/linux/utilities/cut-video-ffmpeg/</guid>
       <description>
         
           &lt;img src=&#34;https://drive.google.com/thumbnail?id=12SDgsuD3uIvW_BMI9F269UXDmpnrrTjn&amp;sz=w9999&#34;/&gt;
@@ -128,10 +159,17 @@ The app I&amp;rsquo;m using for this example is a password manager where I need 
         
         
         
-          If you want to cut a video but you don&amp;rsquo;t want to open a video editor, you can use a terminal utility called &amp;ldquo;ffmpeg&amp;rdquo;.
-On Debian/Ubuntu based systems we can install it with:
-sudo apt install ffmpeg Now we can use the following command to cut a video:
-ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4 Explanation # With &amp;ldquo;ffmpeg -i input.mp4&amp;rdquo; we say we want to use the video called &amp;ldquo;input.
+          &lt;p&gt;If you want to cut a video but you don&amp;rsquo;t want to open a video editor, you can
+use a terminal utility called &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;On Debian/Ubuntu based systems we can install it with:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install ffmpeg
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now we can use the following command to cut a video:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;explanation&#34;&gt;
+  Explanation
+  &lt;a href=&#34;#explanation&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;With &lt;em&gt;&amp;ldquo;ffmpeg -i input.mp4&amp;rdquo;&lt;/em&gt; we say we want to use the video called &lt;em&gt;&amp;ldquo;input.mp4&amp;rdquo;&lt;/em&gt;. It&amp;rsquo;s important to use the mp4 file extension.&lt;/p&gt;
           
         
         </description>
@@ -151,8 +189,78 @@ ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4 Explanation # W
         
         
         
-           Hello, my name is Francisco Torres # I&amp;rsquo;m an electronic engineer and a software developer.
-My main languages are: HTML XML CSS Shell/bash scripting Javascript Python Kotlin Java My technology stack is: Git Android Windows GNU/Linux 
+          &lt;div style=&#34;padding: 15px&#34;&gt;
+    &lt;a &gt;
+      &lt;img src=&#34;discord_profile_rounded.png&#34;  alt=&#34;Hello Friend&#34;  class=&#34;center&#34; style=&#34;border-radius: 50%;&#34; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+&lt;h2 id=&#34;hello-my-name-is-francisco-torres&#34;&gt;
+  Hello, my name is Francisco Torres
+  &lt;a href=&#34;#hello-my-name-is-francisco-torres&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m an electronic engineer and a software developer.&lt;/p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://deimoshall.dev/css/two-columns.css&#34;&gt;
+
+&lt;div class=&#34;two-columns&#34;&gt;
+  
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://deimoshall.dev/css/two-columns.css&#34;&gt;
+
+&lt;div class=&#34;column&#34;&gt;
+        My main languages are:
+        &lt;ul&gt;
+    
+            &lt;li&gt;
+    HTML
+&lt;/li&gt;
+            &lt;li&gt;
+    XML
+&lt;/li&gt;
+            &lt;li&gt;
+    CSS
+&lt;/li&gt;
+            &lt;li&gt;
+    Shell/bash scripting
+&lt;/li&gt;
+            &lt;li&gt;
+    Javascript
+&lt;/li&gt;
+            &lt;li&gt;
+    Python
+&lt;/li&gt;
+            &lt;li&gt;
+    Kotlin
+&lt;/li&gt;
+            &lt;li&gt;
+    Java
+&lt;/li&gt;
+        
+&lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://deimoshall.dev/css/two-columns.css&#34;&gt;
+
+&lt;div class=&#34;column&#34;&gt;
+        My technology stack is:
+        &lt;ul&gt;
+    
+            &lt;li&gt;
+    Git
+&lt;/li&gt;
+            &lt;li&gt;
+    Android
+&lt;/li&gt;
+            &lt;li&gt;
+    Windows
+&lt;/li&gt;
+            &lt;li&gt;
+    GNU/Linux
+&lt;/li&gt;
+        
+&lt;/ul&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
           
         
         </description>

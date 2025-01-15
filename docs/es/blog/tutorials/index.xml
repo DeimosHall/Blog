@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutoriales on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/es/blog/tutorials/</link>
+    <description>Recent content in Tutoriales on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 25 Jul 2023 09:07:29 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/es/blog/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comprime Video Usando La Terminal</title>
+      <link>https://deimoshall.dev/es/blog/tutorials/linux/utilities/compress-video-ffmpeg/</link>
+      <pubDate>Tue, 25 Jul 2023 21:59:06 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/tutorials/linux/utilities/compress-video-ffmpeg/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1-eGRMAl4UHraRWhnyD1PqbFdD_8BR82a&amp;sz=w9999&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;&lt;a href=&#34;https://ffmpeg.org/download.html&#34;&gt;FFmpeg&lt;/a&gt; es una herramienta de línea de comandos que ofrece muchas opciones para manipular archivos de video y audio. En este post te mostraré cómo comprimir un archivo de video usando FFmpeg.&lt;/p&gt;
+&lt;p&gt;Normalmente usamos FFmpeg en la terminal, también hay interfaces gráficas que lo usan como backend. Por ejemplo, &lt;a href=&#34;https://handbrake.fr/&#34;&gt;HandBrake&lt;/a&gt; es una interfaz gráfica que usa FFmpeg para comprimir archivos de video. Pero en este post usaremos FFmpeg directamente.&lt;/p&gt;
+&lt;h2 id=&#34;instalar-ffmpeg&#34;&gt;
+  Instalar FFmpeg
+  &lt;a href=&#34;#instalar-ffmpeg&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Para instalar FFmpeg en Ubuntu, puedes usar el siguiente comando:&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Cómo usar el sensor de temperatura de la Raspberry Pi Pico (Arduino)</title>
+      <link>https://deimoshall.dev/es/blog/tutorials/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</link>
+      <pubDate>Sun, 16 Jul 2023 09:26:04 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/tutorials/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1ZNP418VFB99iqKQsX6tdW-edU0IIxBWF&amp;sz=w1920&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Hace unos días, intenté usar el sensor de temperatura de la Raspberry Pi Pico usando Arduino, pero solo encontré tutoriales para &lt;a href=&#34;https://micropython.org/&#34;&gt;MicroPython&lt;/a&gt;. Afortunadamente, encontré un issue de Github donde alguien respondió cómo hacerlo. Así que decidí crear una biblioteca basada en ese código y quiero compartirla contigo. El issue está &lt;a href=&#34;https://github.com/arduino/ArduinoCore-mbed/issues/220&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Considera darle una estrella al repositorio si te resulta útil. Puedes encontrarlo &lt;a href=&#34;https://github.com/DeimosHall/RP2040_CPU_Temperature.git&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;instala-la-biblioteca&#34;&gt;
+  Instala la biblioteca
+  &lt;a href=&#34;#instala-la-biblioteca&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Puedes usar el &lt;code&gt;Administrador de bibliotecas de Arduino&lt;/code&gt; o &lt;code&gt;arduino-cli&lt;/code&gt; para instalarla.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Copiar al portapapeles usando Jetpack Compose</title>
+      <link>https://deimoshall.dev/es/blog/tutorials/android/copy-to-clipboard/</link>
+      <pubDate>Sat, 28 Jan 2023 08:56:07 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/tutorials/android/copy-to-clipboard/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;En este artículo aprenderemos a crear una función para copiar texto al portapapeles. La manera de manejar el contexto en la aplicación es ligeramente diferente.&lt;/p&gt;
+&lt;p&gt;La app que estoy usando para este ejemplo es un administrador de contraseñas donde necesito copiar al portapapeles desde el text field. Puedes encontrar el proyecto en mi Github en este link: &lt;a href=&#34;https://github.com/DeimosHall/Glocker.git&#34;&gt;https://github.com/DeimosHall/Glocker.git&lt;/a&gt;. &lt;strong&gt;Sin embargo, puedes seguir los pasos en tu propia app&lt;/strong&gt;.&lt;/p&gt;
+
+  &lt;div style=&#34;padding: 15px&#34;&gt;
+    &lt;a &gt;
+      &lt;img src=&#34;https://drive.google.com/thumbnail?id=1r0nk98DrPZfWTxH2l_RfL9dSGkZ3C4JK&amp;amp;sz=w1920-h1080&#34;  alt=&#34;General project&#34;  class=&#34;center&#34; style=&#34;width: auto; border-radius: 10px;&#34; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Como puedes ver en la imagen, estoy usando una función llamada &lt;code&gt;copyToClipboard&lt;/code&gt; que recibe dos parámetros, el contexto y un texto. Obtener el texto a copiar depende de tu lógica y es muy fácil, así que veamos cómo obtener el contexto.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Cortar vídeo en una terminal de linux</title>
+      <link>https://deimoshall.dev/es/blog/tutorials/linux/utilities/cut-video-ffmpeg/</link>
+      <pubDate>Sat, 24 Dec 2022 20:20:49 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/tutorials/linux/utilities/cut-video-ffmpeg/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=12SDgsuD3uIvW_BMI9F269UXDmpnrrTjn&amp;sz=w9999&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Si quieres recortar un vídeo pero no quieres abrir un editor de vídeo, puedes usar
+una utilidad de terminal llamada &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;En sistemas basados en Debian/Ubuntu podemos instalarlo con:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install ffmpeg
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ahora podemos usar el siguiente comando para cortar un vídeo:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;explicación&#34;&gt;
+  Explicación
+  &lt;a href=&#34;#explicaci%c3%b3n&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Con &lt;em&gt;&amp;ldquo;ffmpeg -i input.mp4&amp;rdquo;&lt;/em&gt; decimos que queremos usar el vídeo llamado &lt;em&gt;&amp;ldquo;input.mp4&amp;rdquo;&lt;/em&gt;. Es importante usar la extensión de archivo mp4.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

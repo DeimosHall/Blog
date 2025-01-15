@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        Copy to Clipboard using Jetpack Compose ::
+        Deimos Hall
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="In this article we&rsquo;ll learn how to create a function for copying text to the clipboard. The method for managing context in the application is slightly different.
+The app I&rsquo;m using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: https://github.com/DeimosHall/Glocker.git. However, you can follow the steps in your own app.
+"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://deimoshall.dev/blog/tutorials/android/copy-to-clipboard/" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+<link rel="stylesheet" href="https://deimoshall.dev/style.css" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://deimoshall.dev/img/apple-touch-icon-144-precomposed.png" />
+<link rel="shortcut icon" href="https://deimoshall.dev/img/favicon.png" />
+
+
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Copy to Clipboard using Jetpack Compose">
+  <meta name="twitter:description" content="In this article we’ll learn how to create a function for copying text to the clipboard. The method for managing context in the application is slightly different.
+The app I’m using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: https://github.com/DeimosHall/Glocker.git. However, you can follow the steps in your own app.">
+
+
+
+<meta property="og:url" content="https://deimoshall.dev/blog/tutorials/android/copy-to-clipboard/">
+  <meta property="og:site_name" content="Deimos Hall">
+  <meta property="og:title" content="Copy to Clipboard using Jetpack Compose">
+  <meta property="og:description" content="In this article we’ll learn how to create a function for copying text to the clipboard. The method for managing context in the application is slightly different.
+The app I’m using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: https://github.com/DeimosHall/Glocker.git. However, you can follow the steps in your own app.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2023-01-28T08:56:07-06:00">
+    <meta property="article:modified_time" content="2023-01-28T08:56:07-06:00">
+
+
+
+
+
+
+  </head>
+  <body >
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Deimos Hall</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <div class="dropdown">
+    <button class="dropbtn">English ▼</button>
+    <div class="dropdown-content">
+        
+        <a href="https://deimoshall.dev/blog/tutorials/android/copy-to-clipboard/">English</a>
+        
+        <a href="https://deimoshall.dev/es/blog/tutorials/android/copy-to-clipboard/">Español</a>
+        
+    </div>
+</div>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/">Home</a></li>
+        
+      
+        
+          <li><a href="/blog">Blog</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+        <ul class="menu__sub-inner">
+          <li class="menu__sub-inner-more-trigger">
+            Show more
+            <span class="menu__sub-inner-more-trigger-icon"
+              ><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span
+            >
+          </li>
+          <ul class="menu__sub-inner-more hidden">
+            
+              
+                <li><a href="/">Terms and conditions</a></li>
+              
+            
+          </ul>
+        </ul>
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/">Home</a></li>
+      
+    
+      
+        <li><a href="/blog">Blog</a></li>
+      
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/">Terms and conditions</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <article class="post">
+    <h1 class="post-title">Copy to Clipboard using Jetpack Compose</h1>
+    <div class="post-meta">
+      
+        <time class="post-date">
+          2023-01-28
+        </time>
+
+        
+      
+
+      
+        <span class="post-author"
+          >— Written by Francisco Torres</span
+        >
+
+
+      
+        <span class="post-read-time"
+          >— 2 min read</span
+        >
+      
+    </div>
+
+    
+    
+    
+      <figure class="post-cover">
+  
+    <img src="https://drive.google.com/thumbnail?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&amp;sz=w1920-h1080" alt="Copy to Clipboard using Jetpack Compose"/>
+  
+
+  
+</figure>
+
+    
+
+    <div class="post-content">
+      
+        
+      
+
+      <p>In this article we&rsquo;ll learn how to create a function for copying text to the clipboard. The method for managing context in the application is slightly different.</p>
+<p>The app I&rsquo;m using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: <a href="https://github.com/DeimosHall/Glocker.git">https://github.com/DeimosHall/Glocker.git</a>. <strong>However, you can follow the steps in your own app</strong>.</p>
+
+  <div style="padding: 15px">
+    <a >
+      <img src="https://drive.google.com/thumbnail?id=1r0nk98DrPZfWTxH2l_RfL9dSGkZ3C4JK&amp;sz=w1920-h1080"  alt="General project"  class="center" style="width: auto; border-radius: 10px;" />
+    </a>
+  </div>
+
+
+<p>As you can see in the image, I&rsquo;m using a function called <code>copyToClipboard</code> that receives two parameters, the context and text. Getting the text for copying depends on your own logic and it&rsquo;s quit easy, so let&rsquo;s see how to get the context.</p>
+<h2 id="getting-the-context">
+  Getting the context
+  <a href="#getting-the-context" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>In the top of your app, you need to initialize the context using <code>LocalContext.current</code>. Once you have it, you can pass it as an argument to the views that need them. For example, my text field is within the <code>TopContent</code> module, so I pass the context as an argument.</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="265783419" type="checkbox"  />
+    <label for="265783419">
+      <span class="collapsable-code__language">kotlin</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-kotlin" ><code>
+@Composable
+fun MyApp() {
+    val myOptions = getOptions(titles = listOf(&#34;Capital letters&#34;, &#34;Numbers&#34;, &#34;Symbols&#34;))
+    val mySlider = getSliderInfo()
+    val myPassword = getPassword()
+    val context = LocalContext.current
+
+    Column {
+        MyTitle()
+        Box(modifier = Modifier.padding(25.dp)) {
+            Column(
+                modifier = Modifier.fillMaxSize(),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.SpaceBetween
+            ) {
+                TopContent(options = myOptions, slider = mySlider, myPassword, context)
+                GenerateButton(options = myOptions, slider = mySlider, myPassword)
+            }
+        }
+    }
+}
+</code></pre>
+  </div>
+
+
+<p>The password field receives the context from the <code>MyApp()</code> module, so we send that context to the <code>copyToClipboard</code> function.</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="275194863" type="checkbox"  />
+    <label for="275194863">
+      <span class="collapsable-code__language">kotlin</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-kotlin" ><code>
+@Composable
+fun PasswordField(
+    options: List&lt;CheckboxInfo&gt;,
+    slider: SliderInfo,
+    password: PasswordInfo,
+    context: Context
+) {
+    Box(modifier = Modifier.padding(15.dp)) {
+        OutlinedTextField(
+            modifier = Modifier.fillMaxWidth(),
+            value = password.value,
+            onValueChange = {},
+            placeholder = { Text(text = &#34;Password&#34;) },
+            shape = RoundedCornerShape(16.dp),
+            enabled = false,
+            trailingIcon = {
+                IconButton(onClick = {
+                    copyToClipboard(
+                        context = context,
+                        text = password.value
+                    )
+                }) {
+                    Icon(
+                        painter = painterResource(id = R.drawable.ic_content_copy_24),
+                        contentDescription = &#34;Copy icon&#34;
+                    )
+                }
+            }
+        )
+    }
+}
+</code></pre>
+  </div>
+
+
+<p>The copy function is as follows. Please note that the label &ldquo;password&rdquo; is because I&rsquo;m copying a password, you should replace it with a label that describes what you&rsquo;re copying.</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="873621945" type="checkbox"  />
+    <label for="873621945">
+      <span class="collapsable-code__language">kotlin</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-kotlin" ><code>
+fun copyToClipboard(context: Context, text: String) {
+    val clipboardManager =
+        context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+    val clip = ClipData.newPlainText(&#34;password&#34;, text)
+    clipboardManager.setPrimaryClip(clip)
+}
+</code></pre>
+  </div>
+
+
+<p>If you have problems, make sure you&rsquo;re importing these libraries:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="281596437" type="checkbox"  />
+    <label for="281596437">
+      <span class="collapsable-code__language">kotlin</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-kotlin" ><code>
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
+</code></pre>
+  </div>
+
+
+
+    </div>
+    
+
+    
+      
+    
+  </article>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">© 2025 By Francisco Torres | All rights reserved</div>
+    
+  </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

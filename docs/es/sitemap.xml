@@ -2,43 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://deimoshall.dev/es/blog/software/linux/utilities/compress-video-ffmpeg/</loc>
+    <loc>https://deimoshall.dev/es/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/</loc>
+    <lastmod>2025-01-15T13:31:50-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/"
+                />
+  </url><url>
+    <loc>https://deimoshall.dev/es/blog/who-cares/</loc>
+    <lastmod>2025-01-15T13:18:00-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/who-cares/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/who-cares/"
+                />
+  </url><url>
+    <loc>https://deimoshall.dev/es/blog/tutorials/linux/utilities/compress-video-ffmpeg/</loc>
     <lastmod>2023-07-25T21:59:06-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://deimoshall.dev/blog/software/linux/utilities/compress-video-ffmpeg/"
+                href="https://deimoshall.dev/blog/tutorials/linux/utilities/compress-video-ffmpeg/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://deimoshall.dev/es/blog/software/linux/utilities/compress-video-ffmpeg/"
+                href="https://deimoshall.dev/es/blog/tutorials/linux/utilities/compress-video-ffmpeg/"
                 />
   </url><url>
-    <loc>https://deimoshall.dev/es/blog/software/</loc>
+    <loc>https://deimoshall.dev/es/blog/tutorials/</loc>
     <lastmod>2023-07-25T09:07:29-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://deimoshall.dev/blog/software/"
+                href="https://deimoshall.dev/blog/tutorials/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://deimoshall.dev/es/blog/software/"
+                href="https://deimoshall.dev/es/blog/tutorials/"
                 />
   </url><url>
-    <loc>https://deimoshall.dev/es/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</loc>
+    <loc>https://deimoshall.dev/es/blog/tutorials/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</loc>
     <lastmod>2023-07-16T09:26:04-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://deimoshall.dev/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/"
+                href="https://deimoshall.dev/blog/tutorials/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://deimoshall.dev/es/blog/software/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/"
+                href="https://deimoshall.dev/es/blog/tutorials/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/deimos/experiences/how-did-i-get-my-first-it-job/</loc>
@@ -96,17 +122,17 @@
                 href="https://deimoshall.dev/es/courses/git-github/"
                 />
   </url><url>
-    <loc>https://deimoshall.dev/es/blog/software/android/copy-to-clipboard/</loc>
+    <loc>https://deimoshall.dev/es/blog/tutorials/android/copy-to-clipboard/</loc>
     <lastmod>2023-01-28T08:56:07-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://deimoshall.dev/blog/software/android/copy-to-clipboard/"
+                href="https://deimoshall.dev/blog/tutorials/android/copy-to-clipboard/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://deimoshall.dev/es/blog/software/android/copy-to-clipboard/"
+                href="https://deimoshall.dev/es/blog/tutorials/android/copy-to-clipboard/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/</loc>
@@ -122,17 +148,17 @@
                 href="https://deimoshall.dev/es/blog/"
                 />
   </url><url>
-    <loc>https://deimoshall.dev/es/blog/software/linux/utilities/cut-video-ffmpeg/</loc>
+    <loc>https://deimoshall.dev/es/blog/tutorials/linux/utilities/cut-video-ffmpeg/</loc>
     <lastmod>2022-12-24T20:20:49-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://deimoshall.dev/blog/software/linux/utilities/cut-video-ffmpeg/"
+                href="https://deimoshall.dev/blog/tutorials/linux/utilities/cut-video-ffmpeg/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://deimoshall.dev/es/blog/software/linux/utilities/cut-video-ffmpeg/"
+                href="https://deimoshall.dev/es/blog/tutorials/linux/utilities/cut-video-ffmpeg/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/</loc>

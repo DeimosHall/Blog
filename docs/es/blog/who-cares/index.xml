@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>¿Debería escribir esto? on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/es/blog/who-cares/</link>
+    <description>Recent content in ¿Debería escribir esto? on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 15 Jan 2025 13:18:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/es/blog/who-cares/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React y Spring Boot en menos de tres semanas</title>
+      <link>https://deimoshall.dev/es/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/</link>
+      <pubDate>Wed, 15 Jan 2025 13:31:50 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1W9Ey9-85_4ZfqIkqvFgl5kXnDNqk0XY1&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;He estado trabajando como ingeniero de firmware por dos años, pero no gano el suficiente dinero para tener el estilo de vida que me gustaría, así que aquí estoy, en un gran problema donde tengo que aprender desarrollo web para un proyecto que tengo que entregar este mes.&lt;/p&gt;
+&lt;p&gt;Como dije, soy ingeniero de firmware, los principales lenguajes de programación que uso todos los días son C y C++ y ocacionalmente Python. Aprendí a escribir código con tutoriales de Java en YouTube en 2018, me dió los conceptos básicos sobre cómo escribir código, pero no lo he usado desde entonces. Sobre el lado web, bueno, tomé algunos cursos en YouTube y Udemy cuando estaba en la universidad porque creí que ese podría ser mi punto de entrada a la industria del software, pero de nuevo sólo aprendí cosas básicas.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

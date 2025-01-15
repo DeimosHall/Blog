@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino) ::
+        Deimos Hall
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for MicroPython. Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is here.
+Consider giving a star to the repository if you find it useful. You can find it here.
+"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://deimoshall.dev/blog/tutorials/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+<link rel="stylesheet" href="https://deimoshall.dev/style.css" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://deimoshall.dev/img/apple-touch-icon-144-precomposed.png" />
+<link rel="shortcut icon" href="https://deimoshall.dev/img/favicon.png" />
+
+
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino)">
+  <meta name="twitter:description" content="Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for MicroPython. Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is here.
+Consider giving a star to the repository if you find it useful. You can find it here.">
+
+
+
+<meta property="og:url" content="https://deimoshall.dev/blog/tutorials/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/">
+  <meta property="og:site_name" content="Deimos Hall">
+  <meta property="og:title" content="How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino)">
+  <meta property="og:description" content="Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for MicroPython. Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is here.
+Consider giving a star to the repository if you find it useful. You can find it here.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2023-07-16T09:26:04-06:00">
+    <meta property="article:modified_time" content="2023-07-16T09:26:04-06:00">
+
+
+
+
+
+
+  </head>
+  <body >
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Deimos Hall</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <div class="dropdown">
+    <button class="dropbtn">English ▼</button>
+    <div class="dropdown-content">
+        
+        <a href="https://deimoshall.dev/blog/tutorials/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/">English</a>
+        
+        <a href="https://deimoshall.dev/es/blog/tutorials/iot/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/">Español</a>
+        
+    </div>
+</div>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/">Home</a></li>
+        
+      
+        
+          <li><a href="/blog">Blog</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+        <ul class="menu__sub-inner">
+          <li class="menu__sub-inner-more-trigger">
+            Show more
+            <span class="menu__sub-inner-more-trigger-icon"
+              ><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span
+            >
+          </li>
+          <ul class="menu__sub-inner-more hidden">
+            
+              
+                <li><a href="/">Terms and conditions</a></li>
+              
+            
+          </ul>
+        </ul>
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/">Home</a></li>
+      
+    
+      
+        <li><a href="/blog">Blog</a></li>
+      
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/">Terms and conditions</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <article class="post">
+    <h1 class="post-title">How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino)</h1>
+    <div class="post-meta">
+      
+        <time class="post-date">
+          2023-07-16
+        </time>
+
+        
+      
+
+      
+        <span class="post-author"
+          >— Written by Francisco Torres</span
+        >
+
+
+      
+        <span class="post-read-time"
+          >— 2 min read</span
+        >
+      
+    </div>
+
+    
+    
+    
+      <figure class="post-cover">
+  
+    <img src="https://drive.google.com/thumbnail?id=1ZNP418VFB99iqKQsX6tdW-edU0IIxBWF&amp;sz=w1920" alt="How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino)"/>
+  
+
+  
+    <figcaption class="center">Photo by <a href="https://unsplash.com/@vishnumaiea">Vishnu Mohanan</a> on <a href="https://unsplash.com/photos/yC_7U1g3Kvs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></figcaption>
+  
+</figure>
+
+    
+
+    <div class="post-content">
+      
+        
+      
+
+      <p>Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for <a href="https://micropython.org/">MicroPython</a>. Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is <a href="https://github.com/arduino/ArduinoCore-mbed/issues/220">here</a>.</p>
+<blockquote>
+<p>Consider giving a star to the repository if you find it useful. You can find it <a href="https://github.com/DeimosHall/RP2040_CPU_Temperature.git">here</a>.</p>
+</blockquote>
+<h2 id="install-the-library">
+  Install the library
+  <a href="#install-the-library" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>You can use the <code>Arduino Library Manager</code> or <code>arduino-cli</code> to install it.</p>
+<h3 id="using-arduino-library-manager">
+  Using Arduino Library Manager
+  <a href="#using-arduino-library-manager" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>Open the Arduino IDE and go to <code>Tools &gt; Manage Libraries...</code>. Then, search for <code>Raspberry Pi Pico CPU Temperature</code> and install it.</p>
+
+  <div style="padding: 15px">
+    <a >
+      <img src="https://drive.google.com/thumbnail?id=1ZG2t1zKKDULl7VR4oRaI1XLKpQ_ms2df&amp;sz=w366"  alt="Library manager"  class="center" style="width: auto; border-radius: 10px;" />
+    </a>
+  </div>
+
+
+<h3 id="using-arduino-cli">
+  Using arduino-cli
+  <a href="#using-arduino-cli" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>Open a terminal and run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>arduino-cli lib install <span style="color:#e6db74">&#34;Raspberry Pi Pico CPU Temperature&#34;</span>
+</span></span></code></pre></div><h2 id="usage">
+  Usage
+  <a href="#usage" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>You can open the example from <code>File &gt; Examples &gt; Raspberry Pi Pico CPU Temperature &gt; Test</code>.</p>
+
+  <div style="padding: 15px">
+    <a >
+      <img src="https://drive.google.com/thumbnail?id=1fm8urVMNbRJHwF8njf4NXfsY0xiSm10k&amp;sz=w9999"  alt="Open example"  class="center" style="width: auto; border-radius: 10px;" />
+    </a>
+  </div>
+
+
+<p>If you use <code>arduino-cli</code> you can run the following command to see the example path to open it manually:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>❯ arduino-cli lib examples <span style="color:#e6db74">&#39;Raspberry Pi Pico CPU Temperature&#39;</span>
+</span></span><span style="display:flex;"><span>Examples <span style="color:#66d9ef">for</span> library Raspberry Pi Pico CPU Temperature
+</span></span><span style="display:flex;"><span>  - /Users/deimos/Documents/Arduino/libraries/Raspberry_Pi_Pico_CPU_Temperature/examples/Test
+</span></span></code></pre></div><p>The example is the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Test sketch for the RP2040 CPU temperature sensor library
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Author: Francisco Torres (deimoshall.dev)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Date: July 2023
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * License: MIT
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Repository: https://github.com/DeimosHall/RP2040_CPU_Temperature.git
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">*/</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;CPU.h&gt;</span><span style="color:#75715e">  </span><span style="color:#75715e">// Include the library to use the CPU temperature sensor
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>CPU cpu;  <span style="color:#75715e">// Create an instance of the CPU temperature sensor
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
+</span></span><span style="display:flex;"><span>  Serial.begin(<span style="color:#ae81ff">9600</span>);
+</span></span><span style="display:flex;"><span>  cpu.begin();  <span style="color:#75715e">// Initialize the CPU temperature sensor
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">loop</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Print the CPU temperature in Celsius
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  Serial.println(<span style="color:#e6db74">&#34;CPU temperature: &#34;</span> <span style="color:#f92672">+</span> String(cpu.getTemperature()) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; °C&#34;</span>);
+</span></span><span style="display:flex;"><span>  delay(<span style="color:#ae81ff">1000</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Upload the code to your Raspberry Pi Pico and open the serial monitor. You should see something like this:</p>
+
+  <div style="padding: 15px">
+    <a >
+      <img src="https://drive.google.com/thumbnail?id=1O0ElexxW_0ptBGBBbSWEK80T8AqSY83-&amp;sz=w9999"  alt="Serial monitor"  class="center" style="width: auto; border-radius: 10px;" />
+    </a>
+  </div>
+
+
+<blockquote>
+<p>Consider giving a star to the repository if you find it useful. You can find it <a href="https://github.com/DeimosHall/RP2040_CPU_Temperature.git">here</a>.</p>
+</blockquote>
+
+    </div>
+    
+
+    
+      
+    
+  </article>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">© 2025 By Francisco Torres | All rights reserved</div>
+    
+  </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

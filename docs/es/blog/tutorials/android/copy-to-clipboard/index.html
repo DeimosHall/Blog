@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    
+      <title>
+        Copiar al portapapeles usando Jetpack Compose ::
+        Deimos Hall
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="En este artículo aprenderemos a crear una función para copiar texto al portapapeles. La manera de manejar el contexto en la aplicación es ligeramente diferente.
+La app que estoy usando para este ejemplo es un administrador de contraseñas donde necesito copiar al portapapeles desde el text field. Puedes encontrar el proyecto en mi Github en este link: https://github.com/DeimosHall/Glocker.git. Sin embargo, puedes seguir los pasos en tu propia app.
+Como puedes ver en la imagen, estoy usando una función llamada copyToClipboard que recibe dos parámetros, el contexto y un texto. Obtener el texto a copiar depende de tu lógica y es muy fácil, así que veamos cómo obtener el contexto.
+"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://deimoshall.dev/es/blog/tutorials/android/copy-to-clipboard/" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+<link rel="stylesheet" href="https://deimoshall.dev/style.css" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://deimoshall.dev/img/apple-touch-icon-144-precomposed.png" />
+<link rel="shortcut icon" href="https://deimoshall.dev/img/favicon.png" />
+
+
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Copiar al portapapeles usando Jetpack Compose">
+  <meta name="twitter:description" content="En este artículo aprenderemos a crear una función para copiar texto al portapapeles. La manera de manejar el contexto en la aplicación es ligeramente diferente.
+La app que estoy usando para este ejemplo es un administrador de contraseñas donde necesito copiar al portapapeles desde el text field. Puedes encontrar el proyecto en mi Github en este link: https://github.com/DeimosHall/Glocker.git. Sin embargo, puedes seguir los pasos en tu propia app.
+Como puedes ver en la imagen, estoy usando una función llamada copyToClipboard que recibe dos parámetros, el contexto y un texto. Obtener el texto a copiar depende de tu lógica y es muy fácil, así que veamos cómo obtener el contexto.">
+
+
+
+<meta property="og:url" content="https://deimoshall.dev/es/blog/tutorials/android/copy-to-clipboard/">
+  <meta property="og:site_name" content="Deimos Hall">
+  <meta property="og:title" content="Copiar al portapapeles usando Jetpack Compose">
+  <meta property="og:description" content="En este artículo aprenderemos a crear una función para copiar texto al portapapeles. La manera de manejar el contexto en la aplicación es ligeramente diferente.
+La app que estoy usando para este ejemplo es un administrador de contraseñas donde necesito copiar al portapapeles desde el text field. Puedes encontrar el proyecto en mi Github en este link: https://github.com/DeimosHall/Glocker.git. Sin embargo, puedes seguir los pasos en tu propia app.
+Como puedes ver en la imagen, estoy usando una función llamada copyToClipboard que recibe dos parámetros, el contexto y un texto. Obtener el texto a copiar depende de tu lógica y es muy fácil, así que veamos cómo obtener el contexto.">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2023-01-28T08:56:07-06:00">
+    <meta property="article:modified_time" content="2023-01-28T08:56:07-06:00">
+
+
+
+
+
+
+  </head>
+  <body >
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/es"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Deimos Hall</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <div class="dropdown">
+    <button class="dropbtn">Español ▼</button>
+    <div class="dropdown-content">
+        
+        <a href="https://deimoshall.dev/blog/tutorials/android/copy-to-clipboard/">English</a>
+        
+        <a href="https://deimoshall.dev/es/blog/tutorials/android/copy-to-clipboard/">Español</a>
+        
+    </div>
+</div>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/es">Inicio</a></li>
+        
+      
+        
+          <li><a href="/es/blog">Blog</a></li>
+        
+      
+        
+          <li><a href="/es/about">Acerca de mí</a></li>
+        
+      
+      
+        <ul class="menu__sub-inner">
+          <li class="menu__sub-inner-more-trigger">
+            Mostrar mas
+            <span class="menu__sub-inner-more-trigger-icon"
+              ><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span
+            >
+          </li>
+          <ul class="menu__sub-inner-more hidden">
+            
+              
+                <li><a href="/es">Terminos y condiciones</a></li>
+              
+            
+          </ul>
+        </ul>
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/es">Inicio</a></li>
+      
+    
+      
+        <li><a href="/es/blog">Blog</a></li>
+      
+    
+      
+        <li><a href="/es/about">Acerca de mí</a></li>
+      
+    
+      
+        <li><a href="/es">Terminos y condiciones</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <article class="post">
+    <h1 class="post-title">Copiar al portapapeles usando Jetpack Compose</h1>
+    <div class="post-meta">
+      
+        <time class="post-date">
+          2023-01-28
+        </time>
+
+        
+      
+
+      
+        <span class="post-author"
+          >— Escrito por Francisco Torres</span
+        >
+
+
+      
+        <span class="post-read-time"
+          >— 2 minutos de lectura</span
+        >
+      
+    </div>
+
+    
+    
+    
+      <figure class="post-cover">
+  
+    <img src="https://drive.google.com/thumbnail?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&amp;sz=w1920-h1080" alt="Copiar al portapapeles usando Jetpack Compose"/>
+  
+
+  
+</figure>
+
+    
+
+    <div class="post-content">
+      
+        
+      
+
+      <p>En este artículo aprenderemos a crear una función para copiar texto al portapapeles. La manera de manejar el contexto en la aplicación es ligeramente diferente.</p>
+<p>La app que estoy usando para este ejemplo es un administrador de contraseñas donde necesito copiar al portapapeles desde el text field. Puedes encontrar el proyecto en mi Github en este link: <a href="https://github.com/DeimosHall/Glocker.git">https://github.com/DeimosHall/Glocker.git</a>. <strong>Sin embargo, puedes seguir los pasos en tu propia app</strong>.</p>
+
+  <div style="padding: 15px">
+    <a >
+      <img src="https://drive.google.com/thumbnail?id=1r0nk98DrPZfWTxH2l_RfL9dSGkZ3C4JK&amp;sz=w1920-h1080"  alt="General project"  class="center" style="width: auto; border-radius: 10px;" />
+    </a>
+  </div>
+
+
+<p>Como puedes ver en la imagen, estoy usando una función llamada <code>copyToClipboard</code> que recibe dos parámetros, el contexto y un texto. Obtener el texto a copiar depende de tu lógica y es muy fácil, así que veamos cómo obtener el contexto.</p>
+<h2 id="obtener-el-contexto">
+  Obtener el contexto
+  <a href="#obtener-el-contexto" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>En el modulo principal de tu app necesitas inicializar el contexto usando <code>LocalContext.current</code>. Una vez que lo tengas, puedes pasarlo como argumento a las vistas que lo necesiten. Por ejemplo, mi text field esta dentro del modulo <code>TopContent</code>, así que le paso el contexto como argumento.</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="927638451" type="checkbox"  />
+    <label for="927638451">
+      <span class="collapsable-code__language">kotlin</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-kotlin" ><code>
+@Composable
+fun MyApp() {
+    val myOptions = getOptions(titles = listOf(&#34;Capital letters&#34;, &#34;Numbers&#34;, &#34;Symbols&#34;))
+    val mySlider = getSliderInfo()
+    val myPassword = getPassword()
+    val context = LocalContext.current
+
+    Column {
+        MyTitle()
+        Box(modifier = Modifier.padding(25.dp)) {
+            Column(
+                modifier = Modifier.fillMaxSize(),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.SpaceBetween
+            ) {
+                TopContent(options = myOptions, slider = mySlider, myPassword, context)
+                GenerateButton(options = myOptions, slider = mySlider, myPassword)
+            }
+        }
+    }
+}
+</code></pre>
+  </div>
+
+
+<p>El text field de la contraseña recibe el contexto del modulo <code>MyApp()</code>, por lo que enviamos ese contexto a la función <code>copyToClipboard</code>.</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="658342917" type="checkbox"  />
+    <label for="658342917">
+      <span class="collapsable-code__language">kotlin</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-kotlin" ><code>
+@Composable
+fun PasswordField(
+    options: List&lt;CheckboxInfo&gt;,
+    slider: SliderInfo,
+    password: PasswordInfo,
+    context: Context
+) {
+    Box(modifier = Modifier.padding(15.dp)) {
+        OutlinedTextField(
+            modifier = Modifier.fillMaxWidth(),
+            value = password.value,
+            onValueChange = {},
+            placeholder = { Text(text = &#34;Password&#34;) },
+            shape = RoundedCornerShape(16.dp),
+            enabled = false,
+            trailingIcon = {
+                IconButton(onClick = {
+                    copyToClipboard(
+                        context = context,
+                        text = password.value
+                    )
+                }) {
+                    Icon(
+                        painter = painterResource(id = R.drawable.ic_content_copy_24),
+                        contentDescription = &#34;Copy icon&#34;
+                    )
+                }
+            }
+        )
+    }
+}
+</code></pre>
+  </div>
+
+
+<p>La función de copiar es la siguiente. Ten en cuenta que la etiqueta &ldquo;password&rdquo; es porque estoy copiando una contraseña, deberías reemplazarla con un etiqueta que describa lo que estás copiando.</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="195783642" type="checkbox"  />
+    <label for="195783642">
+      <span class="collapsable-code__language">kotlin</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-kotlin" ><code>
+fun copyToClipboard(context: Context, text: String) {
+    val clipboardManager =
+        context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+    val clip = ClipData.newPlainText(&#34;password&#34;, text)
+    clipboardManager.setPrimaryClip(clip)
+}
+</code></pre>
+  </div>
+
+
+<p>Si tienes problemas, asegúrate de que estás importando estas bibliotecas:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="835164927" type="checkbox"  />
+    <label for="835164927">
+      <span class="collapsable-code__language">kotlin</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-kotlin" ><code>
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
+</code></pre>
+  </div>
+
+
+
+    </div>
+    
+
+    
+      
+    
+  </article>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">© 2025 Por Francisco Torres | Todos los derechos reservados</div>
+    
+  </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

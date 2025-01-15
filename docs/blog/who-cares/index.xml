@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Should I write this? on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/blog/who-cares/</link>
+    <description>Recent content in Should I write this? on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Jan 2025 13:18:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/blog/who-cares/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React and Spring Boot in less than three weeks</title>
+      <link>https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/</link>
+      <pubDate>Wed, 15 Jan 2025 13:31:50 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1W9Ey9-85_4ZfqIkqvFgl5kXnDNqk0XY1&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;I&amp;rsquo;ve been working as a firmware engineer for two years, but I don&amp;rsquo;t make enough money to get the life style I wish, so I&amp;rsquo;m here, in a big trouble where I have to learn web development for a project I have to deliver this month.&lt;/p&gt;
+&lt;p&gt;As I said I&amp;rsquo;m a firmware engineer, the main programming languages I use everyday are C/C++ and sometimes Python. I learned to code with Java tutorials on YouTube on 2018, it gived me the basic concepts of how to write code, but I haven&amp;rsquo;t used it since then. About the web side, well, I took some courses on YouTube and Udemy when I was in college because I thought it could be my entry point to the software industry, but I only learn some basic stuff again.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
