@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    
+      <title>
+        React y Spring Boot and menos de tres semanas - Parte 2 ::
+        Deimos Hall
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Bueno, estoy escribiendo esto mucho después de tres semanas, pero ciertamente entregé el proyecto que mencioné en la parte 1 a tiempo.
+Para ser honesto, creí que sería algo fácil, pero en la segunda semana me dí cuenta de que tenía que dedicarle más horas porque subestime la complejidad del frontend. No sé cómo explicarlo, el frontend esta lleno de tecnlogías que hacen lo mismo, una herramienta tiene una alternativa y la alternativa tiene múltiples alternativas, fue un problema para mí ya que no estoy en el mundo del frontend. También me sorprendió lo díficil que es crear una simple variable global en React, tenemos que usar algo llamado Redux or React Context para solucionar este problema, leí que tienen diferencias y probablemente hay más alternativas allá afuera. Como sea, fui capaz de encontrar una solución para cada problema que tuve y el frontend se ve bien en mi opinión.
+"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://deimoshall.dev/es/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks_part2/" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+<link rel="stylesheet" href="https://deimoshall.dev/style.css" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://deimoshall.dev/img/apple-touch-icon-144-precomposed.png" />
+<link rel="shortcut icon" href="https://deimoshall.dev/img/favicon.png" />
+
+
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="React y Spring Boot and menos de tres semanas - Parte 2">
+  <meta name="twitter:description" content="Bueno, estoy escribiendo esto mucho después de tres semanas, pero ciertamente entregé el proyecto que mencioné en la parte 1 a tiempo.
+Para ser honesto, creí que sería algo fácil, pero en la segunda semana me dí cuenta de que tenía que dedicarle más horas porque subestime la complejidad del frontend. No sé cómo explicarlo, el frontend esta lleno de tecnlogías que hacen lo mismo, una herramienta tiene una alternativa y la alternativa tiene múltiples alternativas, fue un problema para mí ya que no estoy en el mundo del frontend. También me sorprendió lo díficil que es crear una simple variable global en React, tenemos que usar algo llamado Redux or React Context para solucionar este problema, leí que tienen diferencias y probablemente hay más alternativas allá afuera. Como sea, fui capaz de encontrar una solución para cada problema que tuve y el frontend se ve bien en mi opinión.">
+
+
+
+<meta property="og:url" content="https://deimoshall.dev/es/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks_part2/">
+  <meta property="og:site_name" content="Deimos Hall">
+  <meta property="og:title" content="React y Spring Boot and menos de tres semanas - Parte 2">
+  <meta property="og:description" content="Bueno, estoy escribiendo esto mucho después de tres semanas, pero ciertamente entregé el proyecto que mencioné en la parte 1 a tiempo.
+Para ser honesto, creí que sería algo fácil, pero en la segunda semana me dí cuenta de que tenía que dedicarle más horas porque subestime la complejidad del frontend. No sé cómo explicarlo, el frontend esta lleno de tecnlogías que hacen lo mismo, una herramienta tiene una alternativa y la alternativa tiene múltiples alternativas, fue un problema para mí ya que no estoy en el mundo del frontend. También me sorprendió lo díficil que es crear una simple variable global en React, tenemos que usar algo llamado Redux or React Context para solucionar este problema, leí que tienen diferencias y probablemente hay más alternativas allá afuera. Como sea, fui capaz de encontrar una solución para cada problema que tuve y el frontend se ve bien en mi opinión.">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-03-02T11:56:01-06:00">
+    <meta property="article:modified_time" content="2025-03-02T11:56:01-06:00">
+
+
+
+
+
+
+  </head>
+  <body >
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/es"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Deimos Hall</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <div class="dropdown">
+    <button class="dropbtn">Español ▼</button>
+    <div class="dropdown-content">
+        
+        <a href="https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks_part2/">English</a>
+        
+        <a href="https://deimoshall.dev/es/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks_part2/">Español</a>
+        
+    </div>
+</div>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/es">Inicio</a></li>
+        
+      
+        
+          <li><a href="/es/blog">Blog</a></li>
+        
+      
+        
+          <li><a href="/es/about">Acerca de mí</a></li>
+        
+      
+      
+        <ul class="menu__sub-inner">
+          <li class="menu__sub-inner-more-trigger">
+            Mostrar mas
+            <span class="menu__sub-inner-more-trigger-icon"
+              ><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span
+            >
+          </li>
+          <ul class="menu__sub-inner-more hidden">
+            
+              
+                <li><a href="/es">Terminos y condiciones</a></li>
+              
+            
+          </ul>
+        </ul>
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/es">Inicio</a></li>
+      
+    
+      
+        <li><a href="/es/blog">Blog</a></li>
+      
+    
+      
+        <li><a href="/es/about">Acerca de mí</a></li>
+      
+    
+      
+        <li><a href="/es">Terminos y condiciones</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <article class="post">
+    <h1 class="post-title">React y Spring Boot and menos de tres semanas - Parte 2</h1>
+    <div class="post-meta">
+      
+        <time class="post-date">
+          2025-03-02
+        </time>
+
+        
+      
+
+      
+        <span class="post-author"
+          >— Escrito por Francisco Torres</span
+        >
+
+
+      
+        <span class="post-read-time"
+          >— 2 minutos de lectura</span
+        >
+      
+    </div>
+
+    
+    
+    
+      <figure class="post-cover">
+  
+    <img src="https://drive.google.com/thumbnail?id=1W9Ey9-85_4ZfqIkqvFgl5kXnDNqk0XY1&amp;sz=w1920-h1080" alt="React y Spring Boot and menos de tres semanas - Parte 2"/>
+  
+
+  
+</figure>
+
+    
+
+    <div class="post-content">
+      
+        
+      
+
+      <p>Bueno, estoy escribiendo esto mucho después de tres semanas, pero ciertamente entregé el proyecto que mencioné <a href="/es/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/">en la parte 1</a> a tiempo.</p>
+<p>Para ser honesto, creí que sería algo fácil, pero en la segunda semana me dí cuenta de que tenía que dedicarle más horas porque subestime la complejidad del frontend. No sé cómo explicarlo, el frontend esta lleno de tecnlogías que hacen lo mismo, una herramienta tiene una alternativa y la alternativa tiene múltiples alternativas, fue un problema para mí ya que no estoy en el mundo del frontend. También me sorprendió lo díficil que es crear una simple variable global en React, tenemos que usar algo llamado Redux or React Context para solucionar este problema, leí que tienen diferencias y probablemente hay más alternativas allá afuera. Como sea, fui capaz de encontrar una solución para cada problema que tuve y el frontend se ve bien en mi opinión.</p>
+<p>Sobre el backend, es algo completamente diferente. Es más fáicl de programar, las arquitecturas son más fáciles de entender, los tests son más fáciles de implementar, definitivamente disfruté más programar el backend que el frontend. Por ejemplo, una vez que entendí cómo trabajar con modelos, controladores y servicios, fui capaz de agregar toda la lógica necesaria por mí mismo, tuve que googlear o preguntar a llms menos que en el frontend. Algún día en el futuro me gustaría ser un desarrollador backend.</p>
+<p>Y eso fue todo, fui capaz de crear una aplicación full stack en menos de un mes sin experiencia en desarrollo web, bueno, casi sin experiencia porque ya sabía los conceptos básicos de HTML, CSS y JavaScript. Creo que la frase que dicen muchos devs es cierta, &ldquo;las tecnologías son fáciles de aprender si ya sabes programar&rdquo;.</p>
+
+    </div>
+    
+
+    
+      
+    
+  </article>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">© 2025 Por Francisco Torres | Todos los derechos reservados</div>
+    
+  </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

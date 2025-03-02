@@ -15,7 +15,27 @@
     
     
     <item>
-      <title>React and Spring Boot in less than three weeks</title>
+      <title>React and Spring Boot in less than three weeks - Part 2</title>
+      <link>https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks_part2/</link>
+      <pubDate>Sun, 02 Mar 2025 11:56:01 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks_part2/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1W9Ey9-85_4ZfqIkqvFgl5kXnDNqk0XY1&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Oh well, I&amp;rsquo;m writing this after more than three weeks, but I certainly delivered the project I mentioned &lt;a href=&#34;https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/&#34;&gt;in the part 1&lt;/a&gt; on time.&lt;/p&gt;
+&lt;p&gt;To be honest, I believed it would be something easy, but in the second week I realized I needed to spend more hours on it because I underestimate the complexity of the frontend. I don&amp;rsquo;t know how to explain it, the frontend is full of technologies that does the same, one tool has an alternative and the alternative has multiple alternatives, it was a problem for me who is not in the frontend world. I also surprised how difficult is to create a simple global variable in React, we have to use something called Redux or React Conext to deal with this problem, I read they have some differences and there are probably more alternative out there. Anyway, I was able to find a solution for every issue I had and the frontend looks good in my opinion.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>React and Spring Boot in less than three weeks - Part 1</title>
       <link>https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/</link>
       <pubDate>Wed, 15 Jan 2025 13:31:50 -0600</pubDate>
       
@@ -28,7 +48,7 @@
         
         
           &lt;p&gt;I&amp;rsquo;ve been working as a firmware engineer for two years, but I don&amp;rsquo;t make enough money to get the life style I wish, so I&amp;rsquo;m here, in a big trouble where I have to learn web development for a project I have to deliver this month.&lt;/p&gt;
-&lt;p&gt;As I said I&amp;rsquo;m a firmware engineer, the main programming languages I use everyday are C/C++ and sometimes Python. I learned to code with Java tutorials on YouTube on 2018, it gived me the basic concepts of how to write code, but I haven&amp;rsquo;t used it since then. About the web side, well, I took some courses on YouTube and Udemy when I was in college because I thought it could be my entry point to the software industry, but I only learn some basic stuff again.&lt;/p&gt;
+&lt;p&gt;As I said I&amp;rsquo;m a firmware engineer, the main programming languages I use everyday are C/C++ and sometimes Python. I learned to code with Java tutorials on YouTube on 2018, it gived me the basic concepts of how to write code, but I haven&amp;rsquo;t used it since then. About the web side, well, I took some courses on YouTube and Udemy when I was in college because I thought it could be my entry point to the software industry, but I only learned some basic stuff again.&lt;/p&gt;
           
         
         </description>

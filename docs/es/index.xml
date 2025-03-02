@@ -15,7 +15,27 @@
     
     
     <item>
-      <title>React y Spring Boot en menos de tres semanas</title>
+      <title>React y Spring Boot and menos de tres semanas - Parte 2</title>
+      <link>https://deimoshall.dev/es/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks_part2/</link>
+      <pubDate>Sun, 02 Mar 2025 11:56:01 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks_part2/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1W9Ey9-85_4ZfqIkqvFgl5kXnDNqk0XY1&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Bueno, estoy escribiendo esto mucho después de tres semanas, pero ciertamente entregé el proyecto que mencioné &lt;a href=&#34;https://deimoshall.dev/es/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/&#34;&gt;en la parte 1&lt;/a&gt; a tiempo.&lt;/p&gt;
+&lt;p&gt;Para ser honesto, creí que sería algo fácil, pero en la segunda semana me dí cuenta de que tenía que dedicarle más horas porque subestime la complejidad del frontend. No sé cómo explicarlo, el frontend esta lleno de tecnlogías que hacen lo mismo, una herramienta tiene una alternativa y la alternativa tiene múltiples alternativas, fue un problema para mí ya que no estoy en el mundo del frontend. También me sorprendió lo díficil que es crear una simple variable global en React, tenemos que usar algo llamado Redux or React Context para solucionar este problema, leí que tienen diferencias y probablemente hay más alternativas allá afuera. Como sea, fui capaz de encontrar una solución para cada problema que tuve y el frontend se ve bien en mi opinión.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>React y Spring Boot en menos de tres semanas - Parte 1</title>
       <link>https://deimoshall.dev/es/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/</link>
       <pubDate>Wed, 15 Jan 2025 13:31:50 -0600</pubDate>
       
@@ -125,8 +145,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;847536219&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;847536219&#34;&gt;
+    &lt;input id=&#34;198432675&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;198432675&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -142,8 +162,8 @@ git config --global user.name &amp;#34;deimos&amp;#34;
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;582379416&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;582379416&#34;&gt;
+    &lt;input id=&#34;714859623&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;714859623&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
