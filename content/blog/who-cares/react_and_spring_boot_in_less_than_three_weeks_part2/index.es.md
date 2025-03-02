@@ -12,7 +12,7 @@ toc: false
 showReadingTime: true
 ---
 
-Bueno, estoy escribiendo esto mucho después de tres semanas, pero ciertamente entregé el proyecto que mencioné [en la parte 1](/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/) a tiempo.
+Bueno, estoy escribiendo esto mucho después de tres semanas, pero ciertamente entregué el proyecto que mencioné [en la parte 1](/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/) a tiempo.
 
 Para ser honesto, creí que sería algo fácil, pero en la segunda semana me dí cuenta de que tenía que dedicarle más horas porque subestime la complejidad del frontend. No sé cómo explicarlo, el frontend esta lleno de tecnlogías que hacen lo mismo, una herramienta tiene una alternativa y la alternativa tiene múltiples alternativas, fue un problema para mí ya que no estoy en el mundo del frontend. También me sorprendió lo díficil que es crear una simple variable global en React, tenemos que usar algo llamado Redux or React Context para solucionar este problema, leí que tienen diferencias y probablemente hay más alternativas allá afuera. Como sea, fui capaz de encontrar una solución para cada problema que tuve y el frontend se ve bien en mi opinión.
 
