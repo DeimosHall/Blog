@@ -1,5 +1,5 @@
 ---
-title: "React y Spring Boot en menos de tres semanas"
+title: "React y Spring Boot en menos de tres semanas - Parte 1"
 date: 2025-01-15T13:31:50-06:00
 author: Francisco Torres
 showAuthor: true
