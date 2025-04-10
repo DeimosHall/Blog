@@ -15,6 +15,33 @@
     
     
     <item>
+      <title>Agregar submódulos de Git</title>
+      <link>https://deimoshall.dev/es/blog/tutorials/linux/utilities/git-submodules/</link>
+      <pubDate>Thu, 10 Apr 2025 13:49:32 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/tutorials/linux/utilities/git-submodules/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1LFMfvG5XnwbviXFCeyXmrxqZoz1frSqM&amp;sz=w1920&#34;/&gt;
+          
+        
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;Este post no fue escrito por ningún modelo de inteligencia artificial&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Agregar un submódulo dentro de un directorio en específico es tan fácil como navegar a ese directorio y correr el siguiente comando:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/hextreeio/faultier.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;Si quisiéramos ese submódulo en la raíz del proyecto simplemente tendríamos que hacerlo en la raíz&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Si quisiera que el nombre del directorio generado fuera diferente a &lt;code&gt;faultier&lt;/code&gt; que es el que se generaría por el propio nombre del repositorio, tendría que hacerlo agregando como opción al final&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Comprime Video Usando La Terminal</title>
       <link>https://deimoshall.dev/es/blog/tutorials/linux/utilities/compress-video-ffmpeg/</link>
       <pubDate>Tue, 25 Jul 2023 21:59:06 -0600</pubDate>
