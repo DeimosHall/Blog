@@ -14,7 +14,23 @@ showReadingTime: true
 
 > Este post no fue escrito por ningún modelo de inteligencia artificial
 
-Agregar un submódulo dentro de un directorio en específico es tan fácil como navegar a ese directorio y correr el siguiente comando:
+Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto para usarlo como dependencia, tenemos una estructura de directorios que necesita tenerlo dentro de un directorio en específico. Por ejemplo, digamos que tenemos algo como esto:
+
+```bash
+.
+├── lib
+│  └── our_submodule_should_be_here
+└── src
+   └── main.c
+```
+
+Así que sólo tenemos que ir a ese directorio, por ejemplo:
+
+```bash
+cd project/lib/
+```
+
+Y luego ejecutar el siguiente comando, reemplazando el repositorio que queremos por supuesto.
 
 ```bash
 git submodule add https://github.com/hextreeio/faultier.git
@@ -22,7 +38,7 @@ git submodule add https://github.com/hextreeio/faultier.git
 
 > Si quisiéramos ese submódulo en la raíz del proyecto simplemente tendríamos que hacerlo en la raíz
 
-Si quisiera que el nombre del directorio generado fuera diferente a `faultier` que es el que se generaría por el propio nombre del repositorio, tendría que hacerlo agregando como opción al final
+Si quisieras que el nombre del directorio generado fuera diferente a `faultier` que es el que se generaría por el propio nombre del repositorio, tendrías que hacerlo agregando como opción al final
 
 ```bash
 git submodule add https://github.com/hextreeio/faultier.git other_dir_name
