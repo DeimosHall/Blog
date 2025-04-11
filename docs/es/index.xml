@@ -30,12 +30,13 @@
           &lt;blockquote&gt;
 &lt;p&gt;Este post no fue escrito por ningún modelo de inteligencia artificial&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Agregar un submódulo dentro de un directorio en específico es tan fácil como navegar a ese directorio y correr el siguiente comando:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/hextreeio/faultier.git
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;Si quisiéramos ese submódulo en la raíz del proyecto simplemente tendríamos que hacerlo en la raíz&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Si quisiera que el nombre del directorio generado fuera diferente a &lt;code&gt;faultier&lt;/code&gt; que es el que se generaría por el propio nombre del repositorio, tendría que hacerlo agregando como opción al final&lt;/p&gt;
+&lt;p&gt;Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto para usarlo como dependencia, tenemos una estructura de directorios que necesita tenerlo dentro de un directorio en específico. Por ejemplo, digamos que tenemos algo como esto:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── lib
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│  └── our_submodule_should_be_here
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└── src
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   └── main.c
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Así que sólo tenemos que ir a ese directorio, por ejemplo:&lt;/p&gt;
           
         
         </description>
@@ -172,8 +173,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;654291783&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;654291783&#34;&gt;
+    &lt;input id=&#34;186325947&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;186325947&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -189,8 +190,8 @@ git config --global user.name &amp;#34;deimos&amp;#34;
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;657294831&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;657294831&#34;&gt;
+    &lt;input id=&#34;245891736&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;245891736&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
