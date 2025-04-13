@@ -48,7 +48,7 @@ git submodule add https://github.com/hextreeio/faultier.git other_dir_name
 
 Si el submódulo que agregamos tiene submódulos como dependencias, lo que tenemos que hacer es lo siguiente:
 
-1. Navegar dentro dentro del submodulo, para el ejemplo:
+1. Navegar dentro del submodulo, para el ejemplo:
 
 ```bash
 cd faultier/
