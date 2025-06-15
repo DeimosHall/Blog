@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vida de un programador on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/es/blog/life-of-a-programmer/</link>
+    <description>Recent content in Vida de un programador on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 15 Jan 2025 13:18:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/es/blog/life-of-a-programmer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React y Spring Boot and menos de tres semanas - Parte 2</title>
+      <link>https://deimoshall.dev/es/blog/life-of-a-programmer/react_and_spring_boot_in_less_than_three_weeks_part2/</link>
+      <pubDate>Sun, 02 Mar 2025 11:56:01 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/life-of-a-programmer/react_and_spring_boot_in_less_than_three_weeks_part2/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1x-sNdNoxrbOyXvl2rub5UQNV-FgFIKaI&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Bueno, estoy escribiendo esto mucho después de tres semanas, pero ciertamente entregué el proyecto que mencioné &lt;a href=&#34;https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/&#34;&gt;en la parte 1&lt;/a&gt; a tiempo.&lt;/p&gt;
+&lt;p&gt;Para ser honesto, creí que sería algo fácil, pero en la segunda semana me dí cuenta de que tenía que dedicarle más horas porque subestime la complejidad del frontend. No sé cómo explicarlo, el frontend esta lleno de tecnlogías que hacen lo mismo, una herramienta tiene una alternativa y la alternativa tiene múltiples alternativas, fue un problema para mí ya que no estoy en el mundo del frontend. También me sorprendió lo díficil que es crear una simple variable global en React, tenemos que usar algo llamado Redux or React Context para solucionar este problema, leí que tienen diferencias y probablemente hay más alternativas allá afuera. Como sea, fui capaz de encontrar una solución para cada problema que tuve y el frontend se ve bien en mi opinión.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>React y Spring Boot en menos de tres semanas - Parte 1</title>
+      <link>https://deimoshall.dev/es/blog/life-of-a-programmer/react_and_spring_boot_in_less_than_three_weeks/index/</link>
+      <pubDate>Wed, 15 Jan 2025 13:31:50 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/life-of-a-programmer/react_and_spring_boot_in_less_than_three_weeks/index/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1x-sNdNoxrbOyXvl2rub5UQNV-FgFIKaI&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;He estado trabajando como ingeniero de firmware por dos años, pero no gano el suficiente dinero para tener el estilo de vida que me gustaría, así que aquí estoy, en un gran problema donde tengo que aprender desarrollo web para un proyecto que tengo que entregar este mes.&lt;/p&gt;
+&lt;p&gt;Como dije, soy ingeniero de firmware, los principales lenguajes de programación que uso todos los días son C y C++ y ocacionalmente Python. Aprendí a escribir código con tutoriales de Java en YouTube en 2018, me dió los conceptos básicos sobre cómo escribir código, pero no lo he usado desde entonces. Sobre el lado web, bueno, tomé algunos cursos en YouTube y Udemy cuando estaba en la universidad porque creí que ese podría ser mi punto de entrada a la industria del software, pero de nuevo sólo aprendí cosas básicas.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>¿Cómo conseguí mi primer trabajo en TI?</title>
+      <link>https://deimoshall.dev/es/blog/life-of-a-programmer/how-did-i-get-my-first-it-job/</link>
+      <pubDate>Sat, 15 Jul 2023 19:52:01 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/life-of-a-programmer/how-did-i-get-my-first-it-job/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=17z2lE8imwYcL1dSD30-ookxJttv92y9l&amp;sz=w1152-h768&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Hola, soy Francisco Torres, un desarrollador de software de México. Estudié ingeniería electrónica, no está muy relacionada con el desarrollo de software, pero aprendí por mi cuenta a programar. Sí, vi algo de programación en C en la universidad, pero no fue de una manera profunda y no tuve demasiadas materias relacionadas con la programación.&lt;/p&gt;
+&lt;p&gt;Estaba buscando una pasantía desde el invierno de 2022. En ese momento estaba casi en mi último semestre de la universidad y tenía la opción de hacer una pasantía mientras estudiaba el último semestre. Envié mi currículum a algunas empresas en Linkedin, pero nadie me llamó. No fue algo malo para mí, porque todavía estaba estudiando y tenía tiempo para encontrar un trabajo.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

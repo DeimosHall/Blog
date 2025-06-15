@@ -33,8 +33,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;435678129&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;435678129&#34;&gt;
+    &lt;input id=&#34;178254639&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;178254639&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -50,8 +50,8 @@ git config --global user.name &amp;#34;deimos&amp;#34;
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;437896125&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;437896125&#34;&gt;
+    &lt;input id=&#34;871342596&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;871342596&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
