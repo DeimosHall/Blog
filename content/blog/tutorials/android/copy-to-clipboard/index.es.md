@@ -1,10 +1,10 @@
 ---
-title: "Copiar al portapapeles usando Jetpack Compose"
+title: Copiar al portapapeles usando Jetpack Compose
 date: 2023-01-28T08:56:07-06:00
 author: Francisco Torres
 draft: false
-section: "post"
-cover: "https://drive.google.com/thumbnail?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&sz=w1920-h1080"
+section: post
+cover: https://drive.google.com/thumbnail?id=1HkYtjhzwO4Vq4fsqbsuVOzBzx4nAmiDJ&sz=w1024-h576
 useRelativeCover: false
 CoverCaption: ""
 toc: false
@@ -16,7 +16,7 @@ En este artículo aprenderemos a crear una función para copiar texto al portapa
 La app que estoy usando para este ejemplo es un administrador de contraseñas donde necesito copiar al portapapeles desde el text field. Puedes encontrar el proyecto en mi Github en este link: https://github.com/DeimosHall/Glocker.git. **Sin embargo, puedes seguir los pasos en tu propia app**.
 
 {{< image
-src="https://drive.google.com/thumbnail?id=1r0nk98DrPZfWTxH2l_RfL9dSGkZ3C4JK&sz=w1920-h1080"
+src="https://drive.google.com/thumbnail?id=1ZGvW_YuWtK2nbneBE68SaE0j9mx2-8Np&sz=w1366-h768"
 alt="General project"
 style="width: auto; border-radius: 10px;" >}}
 

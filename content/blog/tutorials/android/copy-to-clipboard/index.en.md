@@ -1,10 +1,10 @@
 ---
-title: "Copy to Clipboard using Jetpack Compose"
+title: Copy to Clipboard using Jetpack Compose
 date: 2023-01-28T08:56:07-06:00
 author: Francisco Torres
 draft: false
-section: "post"
-cover: "https://drive.google.com/thumbnail?id=1--a6Ttiy6JisvBbJ_83UMQM-9UwAQbNa&sz=w1920-h1080"
+section: post
+cover: https://drive.google.com/thumbnail?id=1HkYtjhzwO4Vq4fsqbsuVOzBzx4nAmiDJ&sz=w1024-h576
 useRelativeCover: false
 CoverCaption: ""
 toc: false
@@ -16,7 +16,7 @@ In this article we'll learn how to create a function for copying text to the cli
 The app I'm using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: https://github.com/DeimosHall/Glocker.git. **However, you can follow the steps in your own app**.
 
 {{< image
-src="https://drive.google.com/thumbnail?id=1r0nk98DrPZfWTxH2l_RfL9dSGkZ3C4JK&sz=w1920-h1080"
+src="https://drive.google.com/thumbnail?id=1ZGvW_YuWtK2nbneBE68SaE0j9mx2-8Np&sz=w1366-h768"
 alt="General project"
 style="width: auto; border-radius: 10px;" >}}
 

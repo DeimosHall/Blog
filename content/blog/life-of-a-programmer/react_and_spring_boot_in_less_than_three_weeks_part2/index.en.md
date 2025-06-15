@@ -1,11 +1,11 @@
 ---
-title: "React and Spring Boot in less than three weeks - Part 2"
+title: React and Spring Boot in less than three weeks - Part 2
 date: 2025-03-02T11:56:01-06:00
 author: Francisco Torres
 showAuthor: true
 draft: false
-section: "post"
-cover: "https://drive.google.com/thumbnail?id=1W9Ey9-85_4ZfqIkqvFgl5kXnDNqk0XY1&sz=w1920-h1080"
+section: post
+cover: https://drive.google.com/thumbnail?id=1x-sNdNoxrbOyXvl2rub5UQNV-FgFIKaI&sz=w1920-h1080
 useRelativeCover: false
 CoverCaption: ""
 toc: false

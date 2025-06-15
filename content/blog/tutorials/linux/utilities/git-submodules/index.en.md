@@ -1,11 +1,11 @@
 ---
-title: "Add Git submodules"
+title: Add Git submodules
 date: 2025-04-10T13:49:32-06:00
 author: Francisco Torres
 showAuthor: true
 draft: false
-section: "post"
-cover: "https://drive.google.com/thumbnail?id=1LFMfvG5XnwbviXFCeyXmrxqZoz1frSqM&sz=w1920"
+section: post
+cover: https://drive.google.com/thumbnail?id=1mFZn7XJsOpZGizXCmeVBQ5RCt5pbDGvj&sz=w1920-h1080
 useRelativeCover: false
 CoverCaption: ""
 toc: false

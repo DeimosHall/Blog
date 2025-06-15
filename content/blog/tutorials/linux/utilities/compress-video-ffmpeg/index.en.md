@@ -1,13 +1,13 @@
 ---
-title: "Compress Video Using The Terminal"
+title: Compress Video Using The Terminal
 date: 2023-07-25T21:59:06-06:00
 author: Francisco Torres
 showAuthor: true
 draft: false
-section: "post"
-cover: "https://drive.google.com/thumbnail?id=1-eGRMAl4UHraRWhnyD1PqbFdD_8BR82a&sz=w9999"
+section: post
+cover: https://drive.google.com/thumbnail?id=1EWxo425Vl7Imj94LxVaYmlhibk1c7LFs&sz=w1920-h1080
 useRelativeCover: false
-CoverCaption: "Photo by [Sanjeev Nagaraj](https://unsplash.com/@_sanjeev_ngrj_) on Unsplash"
+CoverCaption: Photo by [Sanjeev Nagaraj](https://unsplash.com/@_sanjeev_ngrj_) on Unsplash
 toc: false
 showReadingTime: true
 ---

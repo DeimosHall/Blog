@@ -1,10 +1,10 @@
 ---
-title: "How Did I Get My First IT Job"
+title: How Did I Get My First IT Job
 date: 2023-07-15T19:52:01-06:00
 author: Francisco Torres
 draft: false
-section: "post"
-cover: "https://drive.google.com/thumbnail?id=1Hrp9_pAwFs9mEb4o6iCCNdod2BqTveYK&sz=w1920-h1080"
+section: post
+cover: https://drive.google.com/thumbnail?id=17z2lE8imwYcL1dSD30-ookxJttv92y9l&sz=w1152-h768
 useRelativeCover: false
 CoverCaption: ""
 toc: false

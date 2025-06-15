@@ -1,12 +1,12 @@
 ---
-title: "Cut video on a linux terminal"
+title: Cut video on a linux terminal
 date: 2022-12-24T20:20:49-06:00
 author: Francisco Torres
 draft: false
-section: "post"
-Cover: "https://drive.google.com/thumbnail?id=12SDgsuD3uIvW_BMI9F269UXDmpnrrTjn&sz=w9999"
+section: post
+Cover: https://drive.google.com/thumbnail?id=1I3uFNSvTNh_ABWialp3HaP9E2aJ3ofid&sz=w5736-h3328
 useRelativeCover: false
-CoverCaption: "Photo by Wahid Khene on Unsplash"
+CoverCaption: Photo by Wahid Khene on Unsplash
 toc: false
 showReadingTime: true
 ---

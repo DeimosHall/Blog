@@ -1,12 +1,12 @@
 ---
-title: "How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino)"
+title: How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino)
 date: 2023-07-16T09:26:04-06:00
 author: Francisco Torres
 draft: false
-section: "post"
-cover: "https://drive.google.com/thumbnail?id=1ZNP418VFB99iqKQsX6tdW-edU0IIxBWF&sz=w1920"
+section: post
+cover: https://drive.google.com/thumbnail?id=1ND-zzDajLqE2C5KgI2w9YjaS2vZOtJDE&sz=w1920-h1080
 useRelativeCover: false
-CoverCaption: "Photo by [Vishnu Mohanan](https://unsplash.com/@vishnumaiea) on [Unsplash](https://unsplash.com/photos/yC_7U1g3Kvs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+CoverCaption: Photo by [Vishnu Mohanan](https://unsplash.com/@vishnumaiea) on [Unsplash](https://unsplash.com/photos/yC_7U1g3Kvs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 toc: false
 showReadingTime: true
 ---
@@ -24,7 +24,7 @@ You can use the `Arduino Library Manager` or `arduino-cli` to install it.
 Open the Arduino IDE and go to `Tools > Manage Libraries...`. Then, search for `Raspberry Pi Pico CPU Temperature` and install it.
 
 {{< image
-src="https://drive.google.com/thumbnail?id=1ZG2t1zKKDULl7VR4oRaI1XLKpQ_ms2df&sz=w366"
+src="https://drive.google.com/thumbnail?id=1H_NdqWupL5Agr6qBTxb4vLkS4YhO8Ee9&sz=w366-h288"
 alt="Library manager"
 style="width: auto; border-radius: 10px;" >}}
 
@@ -41,7 +41,7 @@ arduino-cli lib install "Raspberry Pi Pico CPU Temperature"
 You can open the example from `File > Examples > Raspberry Pi Pico CPU Temperature > Test`.
 
 {{< image
-src="https://drive.google.com/thumbnail?id=1fm8urVMNbRJHwF8njf4NXfsY0xiSm10k&sz=w9999"
+src="https://drive.google.com/thumbnail?id=1JWSXMZxERewZmidVlQ_zgKYE9l6AS0Mc&sz=w1017-h1057"
 alt="Open example"
 style="width: auto; border-radius: 10px;" >}}
 
@@ -83,7 +83,7 @@ void loop() {
 Upload the code to your Raspberry Pi Pico and open the serial monitor. You should see something like this:
 
 {{< image
-src="https://drive.google.com/thumbnail?id=1O0ElexxW_0ptBGBBbSWEK80T8AqSY83-&sz=w9999"
+src="https://drive.google.com/thumbnail?id=10YQnFr3fifY-PWX48gXFbAsz5uYVMciG&sz=w576-h368"
 alt="Serial monitor"
 style="width: auto; border-radius: 10px;" >}}
 

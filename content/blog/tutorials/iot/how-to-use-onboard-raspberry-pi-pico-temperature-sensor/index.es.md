@@ -1,12 +1,12 @@
 ---
-title: "Cómo usar el sensor de temperatura de la Raspberry Pi Pico (Arduino)"
+title: Cómo usar el sensor de temperatura de la Raspberry Pi Pico (Arduino)
 date: 2023-07-16T09:26:04-06:00
 author: Francisco Torres
 draft: false
-section: "post"
-cover: "https://drive.google.com/thumbnail?id=1ZNP418VFB99iqKQsX6tdW-edU0IIxBWF&sz=w1920"
+section: post
+cover: https://drive.google.com/thumbnail?id=1ND-zzDajLqE2C5KgI2w9YjaS2vZOtJDE&sz=w1920-h1080
 useRelativeCover: false
-CoverCaption: "Imagen por [Vishnu Mohanan](https://unsplash.com/@vishnumaiea) en [Unsplash](https://unsplash.com/photos/yC_7U1g3Kvs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+CoverCaption: Imagen por [Vishnu Mohanan](https://unsplash.com/@vishnumaiea) en [Unsplash](https://unsplash.com/photos/yC_7U1g3Kvs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 toc: false
 showReadingTime: true
 ---
@@ -24,7 +24,7 @@ Puedes usar el `Administrador de bibliotecas de Arduino` o `arduino-cli` para in
 Abre el IDE de Arduino y ve a `Herramientas > Gestionar bibliotecas...`. Luego, busca `Raspberry Pi Pico CPU Temperature` e instálala.
 
 {{< image
-src="https://drive.google.com/thumbnail?id=1ZG2t1zKKDULl7VR4oRaI1XLKpQ_ms2df&sz=w366"
+src="https://drive.google.com/thumbnail?id=1H_NdqWupL5Agr6qBTxb4vLkS4YhO8Ee9&sz=w366-h288"
 alt="Library manager"
 style="width: auto; border-radius: 10px;" >}}
 
@@ -41,7 +41,7 @@ arduino-cli lib install "Raspberry Pi Pico CPU Temperature"
 Puedes abrir el ejemplo desde `Archivo > Ejemplos > Raspberry Pi Pico CPU Temperature > Test`.
 
 {{< image
-src="https://drive.google.com/thumbnail?id=1fm8urVMNbRJHwF8njf4NXfsY0xiSm10k&sz=w9999"
+src="https://drive.google.com/thumbnail?id=1JWSXMZxERewZmidVlQ_zgKYE9l6AS0Mc&sz=w1017-h1057"
 alt="Open example"
 style="width: auto; border-radius: 10px;" >}}
 
@@ -83,7 +83,7 @@ void loop() {
 Sube el código a tu Raspberry Pi Pico y abre el monitor serial. Deberías ver algo como esto:
 
 {{< image
-src="https://drive.google.com/thumbnail?id=1O0ElexxW_0ptBGBBbSWEK80T8AqSY83-&sz=w9999"
+src="https://drive.google.com/thumbnail?id=10YQnFr3fifY-PWX48gXFbAsz5uYVMciG&sz=w576-h368"
 alt="Serial monitor"
 style="width: auto; border-radius: 10px;" >}}
 
