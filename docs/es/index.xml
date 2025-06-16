@@ -15,6 +15,30 @@
     
     
     <item>
+      <title>Regreso a Linux</title>
+      <link>https://deimoshall.dev/es/blog/diario-linuxero/back-to-linux/</link>
+      <pubDate>Mon, 16 Jun 2025 06:57:30 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/diario-linuxero/back-to-linux/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=126pQ1x9X-yguGsCBue87O8NsMLa991K9&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;La noche del día 16 del mes pasado instalé Fedora 42 en mi PC de escritorio y estoy muy satisfecho con mi decisión aunque los problemas no han faltado.&lt;/p&gt;
+&lt;h2 id=&#34;mis-comienzos&#34;&gt;
+  Mis comienzos
+  &lt;a href=&#34;#mis-comienzos&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;No soy nuevo en Linux, mi historia con estos sistemas operativos se remonta a hace ya varios años cuando instalé Ubuntu 18.04 en una vieja laptop que usaba para la universidad. Ha pasado bastante tiempo desde entonces y no puedo recordar cuánto tiempo duró esa aventura, pero sí sé que regresé a Windows por el mismo motivo que muchos, no me terminé de adaptar a Linux y la falta de cierta suite ofimática propietaria además de otro software que requería instalar durante mi carrera universitaria solo estaba para Windows.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Agregar submódulos de Git</title>
       <link>https://deimoshall.dev/es/blog/tutorials/linux/utilities/git-submodules/</link>
       <pubDate>Thu, 10 Apr 2025 13:49:32 -0600</pubDate>
@@ -173,8 +197,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;178254639&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;178254639&#34;&gt;
+    &lt;input id=&#34;983715246&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;983715246&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -190,8 +214,8 @@ git config --global user.name &amp;#34;deimos&amp;#34;
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;871342596&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;871342596&#34;&gt;
+    &lt;input id=&#34;519362847&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;519362847&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -260,6 +284,7 @@ git config --global user.email &amp;#34;deimoshall@gmail.com&amp;#34;
     &lt;a &gt;
       &lt;img src=&#34;https://drive.google.com/thumbnail?id=1ZGvW_YuWtK2nbneBE68SaE0j9mx2-8Np&amp;amp;sz=w1366-h768&#34;  alt=&#34;General project&#34;  class=&#34;center&#34; style=&#34;width: auto; border-radius: 10px;&#34; /&gt;
     &lt;/a&gt;
+    
   &lt;/div&gt;
 
 
@@ -316,6 +341,7 @@ una utilidad de terminal llamada &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/
     &lt;a &gt;
       &lt;img src=&#34;discord_profile_rounded.png&#34;  alt=&#34;Hello Friend&#34;  class=&#34;center&#34; style=&#34;border-radius: 50%;&#34; /&gt;
     &lt;/a&gt;
+    
   &lt;/div&gt;
 
 

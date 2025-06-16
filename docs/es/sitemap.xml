@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://deimoshall.dev/es/blog/diario-linuxero/</loc>
+    <lastmod>2025-06-16T16:45:28-06:00</lastmod>
+  </url><url>
+    <loc>https://deimoshall.dev/es/blog/diario-linuxero/back-to-linux/</loc>
+    <lastmod>2025-06-16T06:57:30-06:00</lastmod>
+  </url><url>
     <loc>https://deimoshall.dev/es/blog/tutorials/linux/utilities/git-submodules/</loc>
     <lastmod>2025-04-10T13:49:32-06:00</lastmod>
     <xhtml:link

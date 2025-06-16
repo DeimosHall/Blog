@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diario Linuxero on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/es/blog/diario-linuxero/</link>
+    <description>Recent content in Diario Linuxero on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 16 Jun 2025 16:45:28 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/es/blog/diario-linuxero/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Regreso a Linux</title>
+      <link>https://deimoshall.dev/es/blog/diario-linuxero/back-to-linux/</link>
+      <pubDate>Mon, 16 Jun 2025 06:57:30 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/diario-linuxero/back-to-linux/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=126pQ1x9X-yguGsCBue87O8NsMLa991K9&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;La noche del día 16 del mes pasado instalé Fedora 42 en mi PC de escritorio y estoy muy satisfecho con mi decisión aunque los problemas no han faltado.&lt;/p&gt;
+&lt;h2 id=&#34;mis-comienzos&#34;&gt;
+  Mis comienzos
+  &lt;a href=&#34;#mis-comienzos&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;No soy nuevo en Linux, mi historia con estos sistemas operativos se remonta a hace ya varios años cuando instalé Ubuntu 18.04 en una vieja laptop que usaba para la universidad. Ha pasado bastante tiempo desde entonces y no puedo recordar cuánto tiempo duró esa aventura, pero sí sé que regresé a Windows por el mismo motivo que muchos, no me terminé de adaptar a Linux y la falta de cierta suite ofimática propietaria además de otro software que requería instalar durante mi carrera universitaria solo estaba para Windows.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
