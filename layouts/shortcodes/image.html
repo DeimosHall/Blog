@@ -3,5 +3,10 @@
     <a {{ with .Get "link" }} href="{{ . | plainify }}" {{ end }}>
       <img src="{{ .Get "src" | safeURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} class="{{ with .Get "position"}}{{ . }}{{ else -}} center {{- end }}" style="{{ with .Get "style" }}{{ . | safeCSS }}{{ else }} width: 500px; border-radius: 10px; {{ end }}" />
     </a>
+    {{ with .Get "caption" }}
+      <div style="text-align: center; font-size: 0.9em; opacity: 0.8; margin-top: 5px;">
+        {{ . | markdownify }}
+      </div>
+    {{ end }}
   </div>
 {{ end }}
