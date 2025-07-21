@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    
+      <title>
+        Mejorar renderizado de fuentes en Linux ::
+        Deimos Hall
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Una de las cosas que más echo de menos desde que me cambie de macOS a Linux es como de bien se ven las fuentes en macOS. Si has tenido la oportunidad de ver este detalle en una mac sabras a lo que me refiero, tienen un estilo muy particular que resulta muy agradable al momento de leer.
+El script # Hay un usuario en GitHub que ha creado un script para realizar ciertos ajustes en configuraciones del sistema que mejoran la visibilidad de las fuentes, especialmente las de tamaño pequeño y mediano. Esto no es para cambiar la fuente del sistema, si tú tienes alguna personalizada no la va a reemplazar por ninguna otra, así que no te preocupes por eso.
+"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://deimoshall.dev/es/blog/diario-linuxero/2025/improve-fonts/" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+<link rel="stylesheet" href="https://deimoshall.dev/style.css" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://deimoshall.dev/img/apple-touch-icon-144-precomposed.png" />
+<link rel="shortcut icon" href="https://deimoshall.dev/img/favicon.png" />
+
+
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Mejorar renderizado de fuentes en Linux">
+  <meta name="twitter:description" content="Una de las cosas que más echo de menos desde que me cambie de macOS a Linux es como de bien se ven las fuentes en macOS. Si has tenido la oportunidad de ver este detalle en una mac sabras a lo que me refiero, tienen un estilo muy particular que resulta muy agradable al momento de leer.
+El script # Hay un usuario en GitHub que ha creado un script para realizar ciertos ajustes en configuraciones del sistema que mejoran la visibilidad de las fuentes, especialmente las de tamaño pequeño y mediano. Esto no es para cambiar la fuente del sistema, si tú tienes alguna personalizada no la va a reemplazar por ninguna otra, así que no te preocupes por eso.">
+
+
+
+<meta property="og:url" content="https://deimoshall.dev/es/blog/diario-linuxero/2025/improve-fonts/">
+  <meta property="og:site_name" content="Deimos Hall">
+  <meta property="og:title" content="Mejorar renderizado de fuentes en Linux">
+  <meta property="og:description" content="Una de las cosas que más echo de menos desde que me cambie de macOS a Linux es como de bien se ven las fuentes en macOS. Si has tenido la oportunidad de ver este detalle en una mac sabras a lo que me refiero, tienen un estilo muy particular que resulta muy agradable al momento de leer.
+El script # Hay un usuario en GitHub que ha creado un script para realizar ciertos ajustes en configuraciones del sistema que mejoran la visibilidad de las fuentes, especialmente las de tamaño pequeño y mediano. Esto no es para cambiar la fuente del sistema, si tú tienes alguna personalizada no la va a reemplazar por ninguna otra, así que no te preocupes por eso.">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-07-20T13:07:34-06:00">
+    <meta property="article:modified_time" content="2025-07-20T13:07:34-06:00">
+
+
+
+
+
+
+  </head>
+  <body >
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/es"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Deimos Hall</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <div class="dropdown">
+    <button class="dropbtn">Español ▼</button>
+    <div class="dropdown-content">
+        
+        <a href="https://deimoshall.dev/es/blog/diario-linuxero/2025/improve-fonts/">Español</a>
+        
+    </div>
+</div>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/es">Inicio</a></li>
+        
+      
+        
+          <li><a href="/es/blog">Blog</a></li>
+        
+      
+        
+          <li><a href="/es/about">Acerca de mí</a></li>
+        
+      
+      
+        <ul class="menu__sub-inner">
+          <li class="menu__sub-inner-more-trigger">
+            Mostrar mas
+            <span class="menu__sub-inner-more-trigger-icon"
+              ><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span
+            >
+          </li>
+          <ul class="menu__sub-inner-more hidden">
+            
+              
+                <li><a href="/es">Terminos y condiciones</a></li>
+              
+            
+          </ul>
+        </ul>
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/es">Inicio</a></li>
+      
+    
+      
+        <li><a href="/es/blog">Blog</a></li>
+      
+    
+      
+        <li><a href="/es/about">Acerca de mí</a></li>
+      
+    
+      
+        <li><a href="/es">Terminos y condiciones</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <article class="post">
+    <h1 class="post-title">Mejorar renderizado de fuentes en Linux</h1>
+    <div class="post-meta">
+      
+        <time class="post-date">
+          2025-07-20
+        </time>
+
+        
+      
+
+      
+        <span class="post-author"
+          >— Escrito por Francisco Torres</span
+        >
+
+
+      
+        <span class="post-read-time"
+          >— 2 minutos de lectura</span
+        >
+      
+    </div>
+
+    
+    
+    
+      <figure class="post-cover">
+  
+    <img src="https://drive.google.com/thumbnail?id=1a8OFLR1Btg4uSVTwJow69ffQcyBZcvgQ&amp;sz=w1920-h1080" alt="Mejorar renderizado de fuentes en Linux"/>
+  
+
+  
+</figure>
+
+    
+
+    <div class="post-content">
+      
+        
+      
+
+      <p>Una de las cosas que más echo de menos desde que me cambie de macOS a Linux es como de bien se ven las fuentes en macOS. Si has tenido la oportunidad de ver este detalle en una mac sabras a lo que me refiero, tienen un estilo muy particular que resulta muy agradable al momento de leer.</p>
+<h2 id="el-script">
+  El script
+  <a href="#el-script" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Hay un usuario en GitHub que ha creado un script para realizar ciertos ajustes en configuraciones del sistema que mejoran la visibilidad de las fuentes, especialmente las de tamaño pequeño y mediano. Esto no es para cambiar la fuente del sistema, si tú tienes alguna personalizada no la va a reemplazar por ninguna otra, así que no te preocupes por eso.</p>
+<p>Lo que tenemos que hacer es ir a la <a href="https://github.com/maximilionus/lucidglyph/releases">sección de releases del repositorio</a> y descargar el código fuente, el zip o el tar gz como más te guste.</p>
+
+  <div style="padding: 15px">
+    <a >
+      <img src="https://drive.google.com/thumbnail?id=1Ywch0u98AiuH72W26myeKIeJLgB5GtBM&amp;sz=w1158-h404"  alt="Download assets"  class="center" style="width: auto; border-radius: 10px;" />
+    </a>
+    
+  </div>
+
+
+<p>Si estás en Ubuntu, Fedora Workstation o cualquier otra distro que use Gnome como entorno de escritorio basta con hacer doble clic sobre el archivo que descargamos para descomprimirlo.</p>
+<p>Ahora entramos a la carpeta del proyecto y hacemos click derecho y luego en abrir en consola.</p>
+
+  <div style="padding: 15px">
+    <a >
+      <img src="https://drive.google.com/thumbnail?id=1d1eYc-3VCOjQfsqyGY1RjBe30WUrkmq5&amp;sz=w863-h589"  alt="Open terminal"  class="center" style="width: auto; border-radius: 10px;" />
+    </a>
+    
+  </div>
+
+
+<p>Una vez aquí solo tenemos que ejecutar el siguiente comando:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo ./lucidglyph.sh install
+</span></span></code></pre></div><p>Y deberíamos de ver un mensaje de success indicando que todo salió bien, ahora solo queda reiniciar el equipo para ver ese cambio en las fuentes. Pero antes te recomiendo que tomes un par de capturas de pantalla donde aparezca texto para que puedas ver la diferencia de forma más clara, aunque estoy seguro de que lo notarás.</p>
+
+  <div style="padding: 15px">
+    <a >
+      <img src="https://drive.google.com/thumbnail?id=1yC1UM31T0MKutqdtAOMvqudPJXHo21Eb&amp;sz=w1106-h799"  alt="Install fonts config"  class="center" style="width: auto; border-radius: 10px;" />
+    </a>
+    
+  </div>
+
+
+<p>Por mi parte te puedo decir que el resultado me ha dejado bastante satisfecho, te dejo una captura de pantalla para que observes las diferencias, a la izquierda es después del script y a la derecha es previo al script.</p>
+
+  <div style="padding: 15px">
+    <a >
+      <img src="https://drive.google.com/thumbnail?id=1lj9Wo-QUyvCyNw8V2Gsb9YXQYt8gCfwp&amp;sz=w1920-h1080"  alt="Rendering comparision"  class="center" style="width: auto; border-radius: 10px;" />
+    </a>
+    
+  </div>
+
+
+<p>Y ya por último, si no te convence el resultado, puedes ejecutar el siguiente comando para revertir los cambios y de nuevo, solo sería cuestión de reiniciar tu equipo para tener todo como antes.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo ./lucidglyph.sh remove
+</span></span></code></pre></div>
+    </div>
+    
+
+    
+      
+    
+  </article>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">© 2025 Por Francisco Torres | Todos los derechos reservados</div>
+    
+  </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

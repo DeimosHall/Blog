@@ -15,6 +15,70 @@
     
     
     <item>
+      <title>Mejorar renderizado de fuentes en Linux</title>
+      <link>https://deimoshall.dev/es/blog/diario-linuxero/2025/improve-fonts/</link>
+      <pubDate>Sun, 20 Jul 2025 13:07:34 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/diario-linuxero/2025/improve-fonts/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1a8OFLR1Btg4uSVTwJow69ffQcyBZcvgQ&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Una de las cosas que más echo de menos desde que me cambie de macOS a Linux es como de bien se ven las fuentes en macOS. Si has tenido la oportunidad de ver este detalle en una mac sabras a lo que me refiero, tienen un estilo muy particular que resulta muy agradable al momento de leer.&lt;/p&gt;
+&lt;h2 id=&#34;el-script&#34;&gt;
+  El script
+  &lt;a href=&#34;#el-script&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Hay un usuario en GitHub que ha creado un script para realizar ciertos ajustes en configuraciones del sistema que mejoran la visibilidad de las fuentes, especialmente las de tamaño pequeño y mediano. Esto no es para cambiar la fuente del sistema, si tú tienes alguna personalizada no la va a reemplazar por ninguna otra, así que no te preocupes por eso.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://deimoshall.dev/es/blog/diario-linuxero/2025/update-fedora-grub/</link>
+      <pubDate>Mon, 07 Jul 2025 10:55:30 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/diario-linuxero/2025/update-fedora-grub/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          &lt;p&gt;Escribir aquí&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo cat /boot/grub2/grub.cfg
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;### BEGIN /etc/grub.d/30_os-prober ###&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	menuentry &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Ubuntu (on /dev/sdb2)&amp;#39;&lt;/span&gt; --class gnu-linux --class gnu --class os $menuentry_id_option &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;osprober-gnulinux-/boot/vmlinuz-6.11.0-25-generic--83d7b3d4-4bcb-480b-af27-d7d99da4de20&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		insmod part_gpt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		insmod ext2
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		set root&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;hd1,gpt2&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt; x$feature_platform_search_hint &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; xy &lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		  search --no-floppy --fs-uuid --set&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;root --hint-bios&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;hd1,gpt2 --hint-efi&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;hd1,gpt2 --hint-baremetal&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;ahci1,gpt2  83d7b3d4-4bcb-480b-af27-d7d99da4de20
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		  search --no-floppy --fs-uuid --set&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;root 83d7b3d4-4bcb-480b-af27-d7d99da4de20
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		linux /boot/vmlinuz-6.11.0-25-generic root&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;UUID&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;83d7b3d4-4bcb-480b-af27-d7d99da4de20 ro quiet splash $vt_handoff
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		initrd /boot/initrd.img-6.11.0-25-generic
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Generating grub configuration file ...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Found Windows Boot Manager on /dev/sda1@/EFI/Microsoft/Boot/bootmgfw.efi
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Adding boot menu entry &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; UEFI Firmware Settings ...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Regreso a Linux</title>
       <link>https://deimoshall.dev/es/blog/diario-linuxero/2025/back-to-linux/</link>
       <pubDate>Mon, 16 Jun 2025 06:57:30 -0600</pubDate>
@@ -197,8 +261,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;193264587&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;193264587&#34;&gt;
+    &lt;input id=&#34;653781942&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;653781942&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -214,8 +278,8 @@ git config --global user.name &amp;#34;deimos&amp;#34;
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;457631982&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;457631982&#34;&gt;
+    &lt;input id=&#34;865732491&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;865732491&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
