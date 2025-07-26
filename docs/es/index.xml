@@ -15,6 +15,25 @@
     
     
     <item>
+      <title>30 días para aprender Kotlin</title>
+      <link>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/30-days-to-learn-kotlin/</link>
+      <pubDate>Sat, 26 Jul 2025 10:07:59 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/30-days-to-learn-kotlin/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1Gz2XdGuP5JQilF_M9uafys7T4FE9uJ93&amp;sz=w1280-h720&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Durante los últimos 2 años y 8 meses he estado trabajando como desarrollador de firmware, lo que se traduce a programar con C y C++ la mayor parte del tiempo. No puedo decir que me disgustan estos lenguajes, pero ciertamente ya no lo disfruto como al comienzo. De hecho, ahora que recuerdo, en mis primeros meses prefería trabajar con C++ por sobre C y hoy en día es todo lo contrario. Pero todo tiene un comienzo y un fin y mi último día como desarrollador de firmware se acerca a su fin.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Mejorar renderizado de fuentes en Linux</title>
       <link>https://deimoshall.dev/es/blog/diario-linuxero/2025/improve-fonts/</link>
       <pubDate>Sun, 20 Jul 2025 13:07:34 -0600</pubDate>
@@ -261,8 +280,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;653781942&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;653781942&#34;&gt;
+    &lt;input id=&#34;963584217&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;963584217&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -278,8 +297,8 @@ git config --global user.name &amp;#34;deimos&amp;#34;
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;865732491&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;865732491&#34;&gt;
+    &lt;input id=&#34;872134659&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;872134659&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    
+      <title>
+        30 días para aprender Kotlin ::
+        Deimos Hall
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Durante los últimos 2 años y 8 meses he estado trabajando como desarrollador de firmware, lo que se traduce a programar con C y C&#43;&#43; la mayor parte del tiempo. No puedo decir que me disgustan estos lenguajes, pero ciertamente ya no lo disfruto como al comienzo. De hecho, ahora que recuerdo, en mis primeros meses prefería trabajar con C&#43;&#43; por sobre C y hoy en día es todo lo contrario. Pero todo tiene un comienzo y un fin y mi último día como desarrollador de firmware se acerca a su fin.
+"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://deimoshall.dev/es/blog/life-of-a-programmer/2025/30-days-to-learn-kotlin/" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+<link rel="stylesheet" href="https://deimoshall.dev/style.css" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://deimoshall.dev/img/apple-touch-icon-144-precomposed.png" />
+<link rel="shortcut icon" href="https://deimoshall.dev/img/favicon.png" />
+
+
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="30 días para aprender Kotlin">
+  <meta name="twitter:description" content="Durante los últimos 2 años y 8 meses he estado trabajando como desarrollador de firmware, lo que se traduce a programar con C y C&#43;&#43; la mayor parte del tiempo. No puedo decir que me disgustan estos lenguajes, pero ciertamente ya no lo disfruto como al comienzo. De hecho, ahora que recuerdo, en mis primeros meses prefería trabajar con C&#43;&#43; por sobre C y hoy en día es todo lo contrario. Pero todo tiene un comienzo y un fin y mi último día como desarrollador de firmware se acerca a su fin.">
+
+
+
+<meta property="og:url" content="https://deimoshall.dev/es/blog/life-of-a-programmer/2025/30-days-to-learn-kotlin/">
+  <meta property="og:site_name" content="Deimos Hall">
+  <meta property="og:title" content="30 días para aprender Kotlin">
+  <meta property="og:description" content="Durante los últimos 2 años y 8 meses he estado trabajando como desarrollador de firmware, lo que se traduce a programar con C y C&#43;&#43; la mayor parte del tiempo. No puedo decir que me disgustan estos lenguajes, pero ciertamente ya no lo disfruto como al comienzo. De hecho, ahora que recuerdo, en mis primeros meses prefería trabajar con C&#43;&#43; por sobre C y hoy en día es todo lo contrario. Pero todo tiene un comienzo y un fin y mi último día como desarrollador de firmware se acerca a su fin.">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-07-26T10:07:59-06:00">
+    <meta property="article:modified_time" content="2025-07-26T10:07:59-06:00">
+
+
+
+
+
+
+  </head>
+  <body >
+
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/es"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Deimos Hall</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <div class="dropdown">
+    <button class="dropbtn">Español ▼</button>
+    <div class="dropdown-content">
+        
+        <a href="https://deimoshall.dev/es/blog/life-of-a-programmer/2025/30-days-to-learn-kotlin/">Español</a>
+        
+    </div>
+</div>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/es">Inicio</a></li>
+        
+      
+        
+          <li><a href="/es/blog">Blog</a></li>
+        
+      
+        
+          <li><a href="/es/about">Acerca de mí</a></li>
+        
+      
+      
+        <ul class="menu__sub-inner">
+          <li class="menu__sub-inner-more-trigger">
+            Mostrar mas
+            <span class="menu__sub-inner-more-trigger-icon"
+              ><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span
+            >
+          </li>
+          <ul class="menu__sub-inner-more hidden">
+            
+              
+                <li><a href="/es">Terminos y condiciones</a></li>
+              
+            
+          </ul>
+        </ul>
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/es">Inicio</a></li>
+      
+    
+      
+        <li><a href="/es/blog">Blog</a></li>
+      
+    
+      
+        <li><a href="/es/about">Acerca de mí</a></li>
+      
+    
+      
+        <li><a href="/es">Terminos y condiciones</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <article class="post">
+    <h1 class="post-title">30 días para aprender Kotlin</h1>
+    <div class="post-meta">
+      
+        <time class="post-date">
+          2025-07-26
+        </time>
+
+        
+      
+
+      
+        <span class="post-author"
+          >— Escrito por Francisco Torres</span
+        >
+
+
+      
+        <span class="post-read-time"
+          >— 5 minutos de lectura</span
+        >
+      
+    </div>
+
+    
+    
+    
+      <figure class="post-cover">
+  
+    <img src="https://drive.google.com/thumbnail?id=1Gz2XdGuP5JQilF_M9uafys7T4FE9uJ93&amp;sz=w1280-h720" alt="30 días para aprender Kotlin"/>
+  
+
+  
+</figure>
+
+    
+
+    <div class="post-content">
+      
+        
+      
+
+      <p>Durante los últimos 2 años y 8 meses he estado trabajando como desarrollador de firmware, lo que se traduce a programar con C y C++ la mayor parte del tiempo. No puedo decir que me disgustan estos lenguajes, pero ciertamente ya no lo disfruto como al comienzo. De hecho, ahora que recuerdo, en mis primeros meses prefería trabajar con C++ por sobre C y hoy en día es todo lo contrario. Pero todo tiene un comienzo y un fin y mi último día como desarrollador de firmware se acerca a su fin.</p>
+<h2 id="por-qué-kotlin">
+  ¿Por qué Kotlin?
+  <a href="#por-qu%c3%a9-kotlin" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>No diría que yo elegí Kotlin, por el contrario, Kotlin me eligió a mí. Hay un transfondo del por qué digo esto, pero por el momento no puedo explicarlo, solo puedo decir que probablemente para septiembre de este año 2025 tenga la oportunidad de unirme a un proyecto y para ello necesito saber programar en Kotlin.</p>
+<p>No lo hago por presión, Kotlin me gusta. Lo tengo en mi CV y me parece que también en mi desactualizada sección de acerca de en mi blog. Solo espero que la persona que me hablo para esta oportunidad no se enteré que no he tocado una sola línea de Kotlin en años.</p>
+<h2 id="volver-a-aprender">
+  Volver a aprender
+  <a href="#volver-a-aprender" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>En el título puse aprender, pero en realidad sería practicar y familiarizarme con lo nuevo que hay a día de hoy. He desarrollado un par de apps móviles por gusto personal, aunque ninguna de ellas están vivas a día de hoy, ya sea porque su único propósito era aprender algo en concreto o porque la idea detrás del proyecto me dejo de llamar la atención.</p>
+<p>Profesionalmente no tengo experiencia ni con Kotlin ni con nada de móvil, pero sí tengo la experiencia de trabajar en equipo y todo lo que ello conlleva. Sé cómo comenzar un proyecto desde cero y también como integrarme a uno ya existente. No tengo miedo de romper algo en un proyecto, esta Git para salvarme de esos problemas. Lo único en lo que tengo que concentrarme es en ser lo suficientemente competente en Kotlin y demás tecnologías móviles relacionadas.</p>
+<p>Mi enfoque en el siguiente mes será crear proyectos que lleve a producción, en este caso eso significará publicar en la Play Store, aunque puede que también a otras tiendas como F-Droid. Si bien sé que no podré crear proyectos muy complejos y quizá sean poco interesantes para el público general, no es algo que me desmotive. En todo caso por lo menos construiré cosas que me serán de utilidad a mí y posiblemente a alguna persona más.</p>
+<h2 id="mis-proyectos">
+  Mis proyectos
+  <a href="#mis-proyectos" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<h3 id="memento-mori">
+  Memento Mori
+  <a href="#memento-mori" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>Desde hace como un año me surgió la idea de crear una app que muestre información como en la imagen de abajo.</p>
+
+  <div style="padding: 15px">
+    <a >
+      <img src="https://drive.google.com/thumbnail?id=1TwOOV9NhsYQzCbJMS-mqONtF2XyHPyi1&amp;sz=w727-h495"  alt="Memento Mori"  class="center" style="width: auto; border-radius: 10px;" />
+    </a>
+    
+  </div>
+
+
+<p>La idea me surgió de una ocasión en la que di una pequeña charla en mi actual trabajo sobre cómo desperdiciamos nuestra vida, fue como resultado de un evento de convivencia. El punto es que por esos días me surgió la idea de crear una app móvil que le muestre este tipo de información al usuario y le de la posibilidad de crear widgets.</p>
+<p>De momento se me ocurre que los cálculos los haga la aplicación en base a un cuestionario inicial que se le haga al usuario acerca de aspectos importantes de su vida como el tiempo de sueño y trabajo.</p>
+<h3 id="historial-de-precios-italika">
+  Historial de precios Italika
+  <a href="#historial-de-precios-italika" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>Otro proyecto que tengo en mente es una aplicación que muestre el historio de precios de motocicletas de Elektra. Como contexto, Elektra es una empresa mexicana que tiene tiendas alrededor de todo el país. Venden mucha variedad de productos, desde electrodomésticos, ropa, calzado, electrónica de consumo como smartphones y laptops y sí, también motocicletas.</p>
+<p>Si como yo perteneces a la clase baja de este país muy seguramente haya pasado por tu mente adquirir una motocicleta como medio de transporte. Yo estimo que la gran mayoría de personas que compran en Elektra lo hacen a crédito, aunque por supuesto que también hay quienes tienen la posibilidad de ahorrar y comprar al contado. Sea cual sea el caso, mi intención es crear una app que muestre un historial de precios para que así puedan decidir si es buen momento para comprar o por el contrario esperar a un período en el que tipicamente bajen de precio.</p>
+<p>Para ello ya cuento con un script en Python que hace web scrapping y me guarda la información que necesito en una base de datos, por lo que solo tendría que refinar esa parte y desarrollar una app móvil para mostrar esa info al usuario.</p>
+<p>Por su naturaleza creo que podría monetizar este proyecto, así que muy probablemente este no lo haga open source.</p>
+<h3 id="obtener-link-a-imágenes-en-google-drive">
+  Obtener link a imágenes en Google Drive
+  <a href="#obtener-link-a-im%c3%a1genes-en-google-drive" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>Las imágenes que uso en mi blog están en una cuenta de Google, pero para poder usarlas es necesario convertir el link que te da Drive cuando haces clic en compartir a uno con el siguiente formato:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="368721549" type="checkbox"  />
+    <label for="368721549">
+      <span class="collapsable-code__language">bash</span>
+      
+      <span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽"></span>
+    </label>
+    <pre class="language-bash" ><code>  
+https://drive.google.com/thumbnail?id=1Ywch0u98AiuH72W26myeKIeJLgB5GtBM&amp;sz=w1158-h404
+</code></pre>
+  </div>
+
+
+<p>Donde lo importante a considerar es el uso de la palabra <code>thumbnail</code>, el <code>id</code> y el tamaño de la imagen al final como <code>w1158-h404</code>.</p>
+<p>Mi idea es que la app reciba un link a una imagen tal cual como Drive la genera y le regrese al usuario el link adaptado para poder ser embebida en código.</p>
+<h3 id="contador-de-palabras">
+  Contador de palabras
+  <a href="#contador-de-palabras" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>Ya por último, un contador de palabras es algo en principio super básico y muy poco útil. Yo particularmente sí me he visto en la necesidad de una herramienta como esta, no muy frecuentemente he de admitirlo. Pero sí que la he necesitado y siempre termino en páginas web para ello.</p>
+<p>Este será mi punto de partida ya que no quiero complicarme la vida con los dos primeros proyectos que mencione previamente porque que considero tienen un grado de dificultad bastante más grande que este proyecto. Mi intención es comenzar lo antes posible y mientras menos fricción tenga mejor, no quiero algo super complejo de desarrollar que me tome mucho tiempo, porque como ya mencione, quiero subir mis proyectos a la Play Store y un comienzo rápido alimentará mis ganas de continuar.</p>
+
+    </div>
+    
+
+    
+      
+    
+  </article>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">© 2025 Por Francisco Torres | Todos los derechos reservados</div>
+    
+  </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
