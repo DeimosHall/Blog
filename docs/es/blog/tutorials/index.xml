@@ -15,6 +15,26 @@
     
     
     <item>
+      <title>GRUB no detecta Windows</title>
+      <link>https://deimoshall.dev/es/blog/tutorials/linux/update-fedora-grub/</link>
+      <pubDate>Mon, 07 Jul 2025 10:55:30 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/tutorials/linux/update-fedora-grub/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=10cmLuW2fvrO9ahI-VSElxfw23QPhj6Gv&amp;sz=w4096-h2304&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Si hemos instalado Linux lo primero que veremos al encender nuestra PC es el GRUB, ese programita que nos permite elegir el sistema operativo en el que queremos iniciar. En mi caso en particular fui acumulando inconsistencias en el grub, me aparecía una instalación de Ubuntu que ya no existía, varias versiones del kernel para Fedora y para mi sorpresa cuando volví a instalar Windows este no aparecía.&lt;/p&gt;
+&lt;p&gt;En un principio no le dí mucha importancia a ese problema, ya que casi no uso Windows, pero aún así era un poco molesto tener que cambiar la opción de boot en la BIOS cada vez que lo necesitaba. Así que si estás en un problema similar al mío, donde por ejemplo hayas instalado Windows después de Linux, déjame mostrarte la solución.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Agregar submódulos de Git</title>
       <link>https://deimoshall.dev/es/blog/tutorials/linux/utilities/2025/git-submodules/</link>
       <pubDate>Thu, 10 Apr 2025 13:49:32 -0600</pubDate>
