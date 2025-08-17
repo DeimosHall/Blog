@@ -1,6 +1,7 @@
 baseURL = 'https://deimoshall.dev/'
-languageCode = 'en-us'
+languageCode = 'es'
 title = 'Deimos Hall'
+defaultContentLanguage = "es"
 
 theme = "hello-friend"
 [pagination]
@@ -30,19 +31,18 @@ theme = "hello-friend"
   # rssFullText = true
   
   # Added by me
-  defaultAuthor = 'Francisco Torres'
-  defaultContentLanguage = "en"
+  defaultAuthor = 'Deimos Hall'
 
 [languages]
   [languages.en]
     title = "Deimos Hall"
     languageName = "English"
-    weight = 1
+    weight = 2
 
     [languages.en.params]
       keywords = ""
       subtitle = ""
-      copyright = "By Francisco Torres | All rights reserved"
+      copyright = "By Deimos Hall | All rights reserved"
       menuMore = "Show more"
       writtenBy = "Written by"
       readMore = "Read more"
@@ -57,7 +57,7 @@ theme = "hello-friend"
 
     [languages.en.params.logo]
       logoText = "Deimos Hall"
-      logoHomeLink = "/"
+      logoHomeLink = "/en"
     # or
     #
     # path = "/img/your-example-logo.svg"
@@ -67,22 +67,22 @@ theme = "hello-friend"
       [[languages.en.menu.main]]
         identifier = "home"
         name = "Home"
-        url = "/"
+        url = "/en"
         weight = 1
       [[languages.en.menu.main]]
         identifier = "blog"
         name = "Blog"
-        url = "/blog"  
+        url = "/blog"
         weight = 2
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
-        url = "/about<"
+        url = "/en/about"
         weight = 3
       [[languages.en.menu.main]]
         identifier = "terms"
         name = "Terms and conditions"
-        url = "/"
+        url = "/en"
         weight = 4
 
 
@@ -90,11 +90,11 @@ theme = "hello-friend"
   [languages.es]
     title = "Deimos Hall"
     languageName = "Español"
-    weight = 2
+    weight = 1
     [languages.es.params]
       keywords = ""
       subtitle = ""
-      copyright = "Por Francisco Torres | Todos los derechos reservados"
+      copyright = "Por Deimos Hall | Todos los derechos reservados"
       menuMore = "Mostrar mas"
       writtenBy = "Escrito por"
       readMore = "Leer más"
@@ -109,7 +109,7 @@ theme = "hello-friend"
 
     [languages.es.params.logo]
       logoText = "Deimos Hall"
-      logoHomeLink = "/es"
+      logoHomeLink = "/"
     # or
     #
     # path = "/img/your-example-logo.svg"
@@ -119,20 +119,20 @@ theme = "hello-friend"
       [[languages.es.menu.main]]
         identifier = "home"
         name = "Inicio"
-        url = "/es"
+        url = "/"
         weight = 1
       [[languages.es.menu.main]]
         identifier = "blog"
         name = "Blog"
-        url = "/es/blog"
+        url = "/blog"
         weight = 2
       [[languages.es.menu.main]]
         identifier = "about"
         name = "Acerca de mí"
-        url = "/es/about<"
+        url = "/about"
         weight = 3
       [[languages.es.menu.main]]
         identifier = "terms"
         name = "Terminos y condiciones"
-        url = "/es"
+        url = "/"
         weight = 4
