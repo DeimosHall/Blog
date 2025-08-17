@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/en/courses/</link>
+    <description>Recent content in Courses on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Apr 2023 20:46:37 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/en/courses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

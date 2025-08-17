@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git and Github on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/en/courses/git-github/</link>
+    <description>Recent content in Git and Github on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Apr 2023 20:24:38 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/en/courses/git-github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git Installation</title>
+      <link>https://deimoshall.dev/en/courses/git-github/installation/</link>
+      <pubDate>Mon, 17 Apr 2023 20:46:37 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/en/courses/git-github/installation/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1HrKvmMYB88lM9nBie7mViLQpjvllEbTB&#34;/&gt;
+          
+        
+        
+        
+          &lt;h2 id=&#34;git-for-windows&#34;&gt;
+  Git for Windows
+  &lt;a href=&#34;#git-for-windows&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Download the latest version of &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;Git for Windows&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Select the standalone installer according to your system architecture (32 or 64 bits).&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;https://lh3.googleusercontent.com/drive-viewer/AKGpihZqh7eRErFsERYF2mbLNzOaBvuAZDVcvAQxQo5JG85NJKCUfPcbIHLzaBeh-DQoj5krsmJcthiZDXPzta3eMipfyeCxehi-Oa0=s1600-rw-v1&#34;  alt=&#34;Select the installer to download&#34;  style=&#34;border-radius: 10px&#34; /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Select the installer to download&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

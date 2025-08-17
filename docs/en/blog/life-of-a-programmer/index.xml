@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life of a programmer on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/en/blog/life-of-a-programmer/</link>
+    <description>Recent content in Life of a programmer on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Jan 2025 13:18:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/en/blog/life-of-a-programmer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React and Spring Boot in less than three weeks - Part 2</title>
+      <link>https://deimoshall.dev/en/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks_part2/</link>
+      <pubDate>Sun, 02 Mar 2025 11:56:01 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/en/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks_part2/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1x-sNdNoxrbOyXvl2rub5UQNV-FgFIKaI&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Oh well, I&amp;rsquo;m writing this after more than three weeks, but I certainly delivered the project I mentioned &lt;a href=&#34;https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/&#34;&gt;in the part 1&lt;/a&gt; on time.&lt;/p&gt;
+&lt;p&gt;To be honest, I believed it would be something easy, but in the second week I realized I needed to spend more hours on it because I underestimate the complexity of the frontend. I don&amp;rsquo;t know how to explain it, the frontend is full of technologies that does the same, one tool has an alternative and the alternative has multiple alternatives, it was a problem for me who is not in the frontend world. I also surprised how difficult is to create a simple global variable in React, we have to use something called Redux or React Conext to deal with this problem, I read they have some differences and there are probably more alternative out there. Anyway, I was able to find a solution for every issue I had and the frontend looks good in my opinion.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>React and Spring Boot in less than three weeks - Part 1</title>
+      <link>https://deimoshall.dev/en/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks/</link>
+      <pubDate>Wed, 15 Jan 2025 13:31:50 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/en/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1x-sNdNoxrbOyXvl2rub5UQNV-FgFIKaI&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;I&amp;rsquo;ve been working as a firmware engineer for two years, but I don&amp;rsquo;t make enough money to get the life style I wish, so I&amp;rsquo;m here, in a big trouble where I have to learn web development for a project I have to deliver this month.&lt;/p&gt;
+&lt;p&gt;As I said I&amp;rsquo;m a firmware engineer, the main programming languages I use everyday are C/C++ and sometimes Python. I learned to code with Java tutorials on YouTube on 2018, it gived me the basic concepts of how to write code, but I haven&amp;rsquo;t used it since then. About the web side, well, I took some courses on YouTube and Udemy when I was in college because I thought it could be my entry point to the software industry, but I only learned some basic stuff again.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>How Did I Get My First IT Job</title>
+      <link>https://deimoshall.dev/en/blog/life-of-a-programmer/2023/how-did-i-get-my-first-it-job/</link>
+      <pubDate>Sat, 15 Jul 2023 19:52:01 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/en/blog/life-of-a-programmer/2023/how-did-i-get-my-first-it-job/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=17z2lE8imwYcL1dSD30-ookxJttv92y9l&amp;sz=w1152-h768&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Hello, I&amp;rsquo;m Francisco Torres, a software developer from Mexico. I studied electronics engineering, it is not too related to software development, but I learned programming by myself. Yes, I saw some of C progamming in college, but it was not in a deep way and I didn&amp;rsquo;t have too many programming related subjects.&lt;/p&gt;
+&lt;p&gt;I was looking for an internship since 2022 winter. In that time I was almost in my last semester of the university, and I had the option to do an internship while I was studying the last semester. I sent my resume to some companies in Linkedin, but no one called me. It wasn&amp;rsquo;t something bad for me, because I was still studying and I had time to find a job.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

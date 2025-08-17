@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/en/blog/tutorials/</link>
+    <description>Recent content in Tutorials on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Jul 2023 09:07:29 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/en/blog/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add Git submodules</title>
+      <link>https://deimoshall.dev/en/blog/tutorials/linux/utilities/2025/git-submodules/</link>
+      <pubDate>Thu, 10 Apr 2025 13:49:32 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/en/blog/tutorials/linux/utilities/2025/git-submodules/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1mFZn7XJsOpZGizXCmeVBQ5RCt5pbDGvj&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;This post was not written by any artificial intelligence model.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sometimes when we want to add another git repository to our project to use it as a dependency, we have a directories structure that needs to have it inside a specific directory. For exmaple, let&amp;rsquo;s say we have something like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── lib
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│  └── our_submodule_should_be_here
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└── src
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   └── main.c
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So, you just have to go to that directoy, for example:&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Compress Video Using The Terminal</title>
+      <link>https://deimoshall.dev/en/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/</link>
+      <pubDate>Tue, 25 Jul 2023 21:59:06 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/en/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1EWxo425Vl7Imj94LxVaYmlhibk1c7LFs&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;&lt;a href=&#34;https://ffmpeg.org/download.html&#34;&gt;FFmpeg&lt;/a&gt; is a command line tool that offers a lot of options to manipulate video and audio files. In this post I will show you how to compress a video file using it.&lt;/p&gt;
+&lt;p&gt;We usually use FFmpeg in a terminal, there are also graphical interfaces that use it as a backend. For example, &lt;a href=&#34;https://handbrake.fr/&#34;&gt;HandBrake&lt;/a&gt; is a graphical interface that uses FFmpeg to compress video files. But in this post we will use FFmpeg directly.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino)</title>
+      <link>https://deimoshall.dev/en/blog/tutorials/iot/2023/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</link>
+      <pubDate>Sun, 16 Jul 2023 09:26:04 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/en/blog/tutorials/iot/2023/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1ND-zzDajLqE2C5KgI2w9YjaS2vZOtJDE&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for &lt;a href=&#34;https://micropython.org/&#34;&gt;MicroPython&lt;/a&gt;. Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is &lt;a href=&#34;https://github.com/arduino/ArduinoCore-mbed/issues/220&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Consider giving a star to the repository if you find it useful. You can find it &lt;a href=&#34;https://github.com/DeimosHall/RP2040_CPU_Temperature.git&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Copy to Clipboard using Jetpack Compose</title>
+      <link>https://deimoshall.dev/en/blog/tutorials/android/2023/copy-to-clipboard/</link>
+      <pubDate>Sat, 28 Jan 2023 08:56:07 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/en/blog/tutorials/android/2023/copy-to-clipboard/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1HkYtjhzwO4Vq4fsqbsuVOzBzx4nAmiDJ&amp;sz=w1024-h576&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;In this article we&amp;rsquo;ll learn how to create a function for copying text to the clipboard. The method for managing context in the application is slightly different.&lt;/p&gt;
+&lt;p&gt;The app I&amp;rsquo;m using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: &lt;a href=&#34;https://github.com/DeimosHall/Glocker.git&#34;&gt;https://github.com/DeimosHall/Glocker.git&lt;/a&gt;. &lt;strong&gt;However, you can follow the steps in your own app&lt;/strong&gt;.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Cut video on a linux terminal</title>
+      <link>https://deimoshall.dev/en/blog/tutorials/linux/utilities/2022/cut-video-ffmpeg/</link>
+      <pubDate>Sat, 24 Dec 2022 20:20:49 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/en/blog/tutorials/linux/utilities/2022/cut-video-ffmpeg/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1I3uFNSvTNh_ABWialp3HaP9E2aJ3ofid&amp;sz=w5736-h3328&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;If you want to cut a video but you don&amp;rsquo;t want to open a video editor, you can
+use a terminal utility called &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;On Debian/Ubuntu based systems we can install it with:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install ffmpeg
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now we can use the following command to cut a video:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;explanation&#34;&gt;
+  Explanation
+  &lt;a href=&#34;#explanation&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;With &lt;em&gt;&amp;ldquo;ffmpeg -i input.mp4&amp;rdquo;&lt;/em&gt; we say we want to use the video called &lt;em&gt;&amp;ldquo;input.mp4&amp;rdquo;&lt;/em&gt;. It&amp;rsquo;s important to use the mp4 file extension.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

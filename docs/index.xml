@@ -8,14 +8,127 @@
     <link>https://deimoshall.dev/</link>
     <description>Recent content on Deimos Hall</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>es</language>
     <lastBuildDate>Sat, 24 Dec 2022 19:48:58 -0600</lastBuildDate>
     
 	<atom:link href="https://deimoshall.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Add Git submodules</title>
+      <title>El desarrollo de firmware no es para mí</title>
+      <link>https://deimoshall.dev/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/</link>
+      <pubDate>Sat, 16 Aug 2025 17:08:06 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;Inicio&lt;/li&gt;
+&lt;li&gt;Desarrollo&lt;/li&gt;
+&lt;li&gt;Conclusión&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ayer fue mi último día como ingeniero de firmware. Estuve en ese puesto por poco más de dos años y casi tres si cuento mi tiempo como practicante, pero a pesar de que lo disfrutaba ya fue momento para mí de decirle adiós.&lt;/p&gt;
+&lt;p&gt;Yo estudié ingeniería Electrónica, así que de cierta forma se podría decir que sí que estuve ejerciendo mi profesión durante este tiempo, aunque sinceramente me gusta más la programación que el diseño de circuitos o cualquier otra cosa que se supone que tenga que hacer un ingeniero electrónico.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>30 días para aprender Kotlin</title>
+      <link>https://deimoshall.dev/blog/life-of-a-programmer/2025/30-days-to-learn-kotlin/</link>
+      <pubDate>Sat, 26 Jul 2025 10:07:59 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/life-of-a-programmer/2025/30-days-to-learn-kotlin/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1Gz2XdGuP5JQilF_M9uafys7T4FE9uJ93&amp;sz=w1280-h720&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Durante los últimos 2 años y 8 meses he estado trabajando como desarrollador de firmware, lo que se traduce a programar con C y C++ la mayor parte del tiempo. No puedo decir que me disgustan estos lenguajes, pero ciertamente ya no lo disfruto como al comienzo. De hecho, ahora que recuerdo, en mis primeros meses prefería trabajar con C++ por sobre C y hoy en día es todo lo contrario. Pero todo tiene un comienzo y un fin y mi último día como desarrollador de firmware se acerca a su fin.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Mejorar renderizado de fuentes en Linux</title>
+      <link>https://deimoshall.dev/blog/diario-linuxero/2025/improve-fonts/</link>
+      <pubDate>Sun, 20 Jul 2025 13:07:34 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/diario-linuxero/2025/improve-fonts/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1a8OFLR1Btg4uSVTwJow69ffQcyBZcvgQ&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Una de las cosas que más echo de menos desde que me cambie de macOS a Linux es como de bien se ven las fuentes en macOS. Si has tenido la oportunidad de ver este detalle en una mac sabras a lo que me refiero, tienen un estilo muy particular que resulta muy agradable al momento de leer.&lt;/p&gt;
+&lt;h2 id=&#34;el-script&#34;&gt;
+  El script
+  &lt;a href=&#34;#el-script&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Hay un usuario en GitHub que ha creado un script para realizar ciertos ajustes en configuraciones del sistema que mejoran la visibilidad de las fuentes, especialmente las de tamaño pequeño y mediano. Esto no es para cambiar la fuente del sistema, si tú tienes alguna personalizada no la va a reemplazar por ninguna otra, así que no te preocupes por eso.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>GRUB no detecta Windows</title>
+      <link>https://deimoshall.dev/blog/tutorials/linux/update-fedora-grub/</link>
+      <pubDate>Mon, 07 Jul 2025 10:55:30 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/tutorials/linux/update-fedora-grub/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=10cmLuW2fvrO9ahI-VSElxfw23QPhj6Gv&amp;sz=w4096-h2304&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Si hemos instalado Linux lo primero que veremos al encender nuestra PC es el GRUB, ese programita que nos permite elegir el sistema operativo en el que queremos iniciar. En mi caso en particular fui acumulando inconsistencias en el grub, me aparecía una instalación de Ubuntu que ya no existía, varias versiones del kernel para Fedora y para mi sorpresa cuando volví a instalar Windows este no aparecía.&lt;/p&gt;
+&lt;p&gt;En un principio no le dí mucha importancia a ese problema, ya que casi no uso Windows, pero aún así era un poco molesto tener que cambiar la opción de boot en la BIOS cada vez que lo necesitaba. Así que si estás en un problema similar al mío, donde por ejemplo hayas instalado Windows después de Linux, déjame mostrarte la solución.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Regreso a Linux</title>
+      <link>https://deimoshall.dev/blog/diario-linuxero/2025/back-to-linux/</link>
+      <pubDate>Mon, 16 Jun 2025 06:57:30 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/diario-linuxero/2025/back-to-linux/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=126pQ1x9X-yguGsCBue87O8NsMLa991K9&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;La noche del día 16 del mes pasado instalé Fedora 42 en mi PC de escritorio y estoy muy satisfecho con mi decisión aunque los problemas no han faltado.&lt;/p&gt;
+&lt;h2 id=&#34;mis-comienzos&#34;&gt;
+  Mis comienzos
+  &lt;a href=&#34;#mis-comienzos&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;No soy nuevo en Linux, mi historia con estos sistemas operativos se remonta a hace ya varios años cuando instalé Ubuntu 18.04 en una vieja laptop que usaba para la universidad. Ha pasado bastante tiempo desde entonces y no puedo recordar cuánto tiempo duró esa aventura, pero sí sé que regresé a Windows por el mismo motivo que muchos, no me terminé de adaptar a Linux y la falta de cierta suite ofimática propietaria además de otro software que requería instalar durante mi carrera universitaria solo estaba para Windows.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Agregar submódulos de Git</title>
       <link>https://deimoshall.dev/blog/tutorials/linux/utilities/2025/git-submodules/</link>
       <pubDate>Thu, 10 Apr 2025 13:49:32 -0600</pubDate>
       
@@ -28,22 +141,22 @@
         
         
           &lt;blockquote&gt;
-&lt;p&gt;This post was not written by any artificial intelligence model.&lt;/p&gt;
+&lt;p&gt;Este post no fue escrito por ningún modelo de inteligencia artificial&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Sometimes when we want to add another git repository to our project to use it as a dependency, we have a directories structure that needs to have it inside a specific directory. For exmaple, let&amp;rsquo;s say we have something like this:&lt;/p&gt;
+&lt;p&gt;Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto para usarlo como dependencia, tenemos una estructura de directorios que necesita tenerlo dentro de un directorio en específico. Por ejemplo, digamos que tenemos algo como esto:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── lib
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│  └── our_submodule_should_be_here
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└── src
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   └── main.c
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So, you just have to go to that directoy, for example:&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Así que sólo tenemos que ir a ese directorio, por ejemplo:&lt;/p&gt;
           
         
         </description>
     </item>
     
     <item>
-      <title>React and Spring Boot in less than three weeks - Part 2</title>
+      <title>React y Spring Boot and menos de tres semanas - Parte 2</title>
       <link>https://deimoshall.dev/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks_part2/</link>
       <pubDate>Sun, 02 Mar 2025 11:56:01 -0600</pubDate>
       
@@ -55,15 +168,15 @@
         
         
         
-          &lt;p&gt;Oh well, I&amp;rsquo;m writing this after more than three weeks, but I certainly delivered the project I mentioned &lt;a href=&#34;https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/&#34;&gt;in the part 1&lt;/a&gt; on time.&lt;/p&gt;
-&lt;p&gt;To be honest, I believed it would be something easy, but in the second week I realized I needed to spend more hours on it because I underestimate the complexity of the frontend. I don&amp;rsquo;t know how to explain it, the frontend is full of technologies that does the same, one tool has an alternative and the alternative has multiple alternatives, it was a problem for me who is not in the frontend world. I also surprised how difficult is to create a simple global variable in React, we have to use something called Redux or React Conext to deal with this problem, I read they have some differences and there are probably more alternative out there. Anyway, I was able to find a solution for every issue I had and the frontend looks good in my opinion.&lt;/p&gt;
+          &lt;p&gt;Bueno, estoy escribiendo esto mucho después de tres semanas, pero ciertamente entregué el proyecto que mencioné &lt;a href=&#34;https://deimoshall.dev/blog/who-cares/react_and_spring_boot_in_less_than_three_weeks/index/&#34;&gt;en la parte 1&lt;/a&gt; a tiempo.&lt;/p&gt;
+&lt;p&gt;Para ser honesto, creí que sería algo fácil, pero en la segunda semana me dí cuenta de que tenía que dedicarle más horas porque subestime la complejidad del frontend. No sé cómo explicarlo, el frontend esta lleno de tecnlogías que hacen lo mismo, una herramienta tiene una alternativa y la alternativa tiene múltiples alternativas, fue un problema para mí ya que no estoy en el mundo del frontend. También me sorprendió lo díficil que es crear una simple variable global en React, tenemos que usar algo llamado Redux or React Context para solucionar este problema, leí que tienen diferencias y probablemente hay más alternativas allá afuera. Como sea, fui capaz de encontrar una solución para cada problema que tuve y el frontend se ve bien en mi opinión.&lt;/p&gt;
           
         
         </description>
     </item>
     
     <item>
-      <title>React and Spring Boot in less than three weeks - Part 1</title>
+      <title>React y Spring Boot en menos de tres semanas - Parte 1</title>
       <link>https://deimoshall.dev/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks/</link>
       <pubDate>Wed, 15 Jan 2025 13:31:50 -0600</pubDate>
       
@@ -75,15 +188,15 @@
         
         
         
-          &lt;p&gt;I&amp;rsquo;ve been working as a firmware engineer for two years, but I don&amp;rsquo;t make enough money to get the life style I wish, so I&amp;rsquo;m here, in a big trouble where I have to learn web development for a project I have to deliver this month.&lt;/p&gt;
-&lt;p&gt;As I said I&amp;rsquo;m a firmware engineer, the main programming languages I use everyday are C/C++ and sometimes Python. I learned to code with Java tutorials on YouTube on 2018, it gived me the basic concepts of how to write code, but I haven&amp;rsquo;t used it since then. About the web side, well, I took some courses on YouTube and Udemy when I was in college because I thought it could be my entry point to the software industry, but I only learned some basic stuff again.&lt;/p&gt;
+          &lt;p&gt;He estado trabajando como ingeniero de firmware por dos años, pero no gano el suficiente dinero para tener el estilo de vida que me gustaría, así que aquí estoy, en un gran problema donde tengo que aprender desarrollo web para un proyecto que tengo que entregar este mes.&lt;/p&gt;
+&lt;p&gt;Como dije, soy ingeniero de firmware, los principales lenguajes de programación que uso todos los días son C y C++ y ocacionalmente Python. Aprendí a escribir código con tutoriales de Java en YouTube en 2018, me dió los conceptos básicos sobre cómo escribir código, pero no lo he usado desde entonces. Sobre el lado web, bueno, tomé algunos cursos en YouTube y Udemy cuando estaba en la universidad porque creí que ese podría ser mi punto de entrada a la industria del software, pero de nuevo sólo aprendí cosas básicas.&lt;/p&gt;
           
         
         </description>
     </item>
     
     <item>
-      <title>Compress Video Using The Terminal</title>
+      <title>Comprime Video Usando La Terminal</title>
       <link>https://deimoshall.dev/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/</link>
       <pubDate>Tue, 25 Jul 2023 21:59:06 -0600</pubDate>
       
@@ -95,15 +208,20 @@
         
         
         
-          &lt;p&gt;&lt;a href=&#34;https://ffmpeg.org/download.html&#34;&gt;FFmpeg&lt;/a&gt; is a command line tool that offers a lot of options to manipulate video and audio files. In this post I will show you how to compress a video file using it.&lt;/p&gt;
-&lt;p&gt;We usually use FFmpeg in a terminal, there are also graphical interfaces that use it as a backend. For example, &lt;a href=&#34;https://handbrake.fr/&#34;&gt;HandBrake&lt;/a&gt; is a graphical interface that uses FFmpeg to compress video files. But in this post we will use FFmpeg directly.&lt;/p&gt;
+          &lt;p&gt;&lt;a href=&#34;https://ffmpeg.org/download.html&#34;&gt;FFmpeg&lt;/a&gt; es una herramienta de línea de comandos que ofrece muchas opciones para manipular archivos de video y audio. En este post te mostraré cómo comprimir un archivo de video usando FFmpeg.&lt;/p&gt;
+&lt;p&gt;Normalmente usamos FFmpeg en la terminal, también hay interfaces gráficas que lo usan como backend. Por ejemplo, &lt;a href=&#34;https://handbrake.fr/&#34;&gt;HandBrake&lt;/a&gt; es una interfaz gráfica que usa FFmpeg para comprimir archivos de video. Pero en este post usaremos FFmpeg directamente.&lt;/p&gt;
+&lt;h2 id=&#34;instalar-ffmpeg&#34;&gt;
+  Instalar FFmpeg
+  &lt;a href=&#34;#instalar-ffmpeg&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Para instalar FFmpeg en Ubuntu, puedes usar el siguiente comando:&lt;/p&gt;
           
         
         </description>
     </item>
     
     <item>
-      <title>How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino)</title>
+      <title>Cómo usar el sensor de temperatura de la Raspberry Pi Pico (Arduino)</title>
       <link>https://deimoshall.dev/blog/tutorials/iot/2023/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</link>
       <pubDate>Sun, 16 Jul 2023 09:26:04 -0600</pubDate>
       
@@ -115,16 +233,22 @@
         
         
         
-          &lt;p&gt;Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for &lt;a href=&#34;https://micropython.org/&#34;&gt;MicroPython&lt;/a&gt;. Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is &lt;a href=&#34;https://github.com/arduino/ArduinoCore-mbed/issues/220&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+          &lt;p&gt;Hace unos días, intenté usar el sensor de temperatura de la Raspberry Pi Pico usando Arduino, pero solo encontré tutoriales para &lt;a href=&#34;https://micropython.org/&#34;&gt;MicroPython&lt;/a&gt;. Afortunadamente, encontré un issue de Github donde alguien respondió cómo hacerlo. Así que decidí crear una biblioteca basada en ese código y quiero compartirla contigo. El issue está &lt;a href=&#34;https://github.com/arduino/ArduinoCore-mbed/issues/220&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Consider giving a star to the repository if you find it useful. You can find it &lt;a href=&#34;https://github.com/DeimosHall/RP2040_CPU_Temperature.git&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Considera darle una estrella al repositorio si te resulta útil. Puedes encontrarlo &lt;a href=&#34;https://github.com/DeimosHall/RP2040_CPU_Temperature.git&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;instala-la-biblioteca&#34;&gt;
+  Instala la biblioteca
+  &lt;a href=&#34;#instala-la-biblioteca&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Puedes usar el &lt;code&gt;Administrador de bibliotecas de Arduino&lt;/code&gt; o &lt;code&gt;arduino-cli&lt;/code&gt; para instalarla.&lt;/p&gt;
           
         
         </description>
     </item>
     
     <item>
-      <title>How Did I Get My First IT Job</title>
+      <title>¿Cómo conseguí mi primer trabajo en TI?</title>
       <link>https://deimoshall.dev/blog/life-of-a-programmer/2023/how-did-i-get-my-first-it-job/</link>
       <pubDate>Sat, 15 Jul 2023 19:52:01 -0600</pubDate>
       
@@ -136,37 +260,92 @@
         
         
         
-          &lt;p&gt;Hello, I&amp;rsquo;m Francisco Torres, a software developer from Mexico. I studied electronics engineering, it is not too related to software development, but I learned programming by myself. Yes, I saw some of C progamming in college, but it was not in a deep way and I didn&amp;rsquo;t have too many programming related subjects.&lt;/p&gt;
-&lt;p&gt;I was looking for an internship since 2022 winter. In that time I was almost in my last semester of the university, and I had the option to do an internship while I was studying the last semester. I sent my resume to some companies in Linkedin, but no one called me. It wasn&amp;rsquo;t something bad for me, because I was still studying and I had time to find a job.&lt;/p&gt;
+          &lt;p&gt;Hola, soy Francisco Torres, un desarrollador de software de México. Estudié ingeniería electrónica, no está muy relacionada con el desarrollo de software, pero aprendí por mi cuenta a programar. Sí, vi algo de programación en C en la universidad, pero no fue de una manera profunda y no tuve demasiadas materias relacionadas con la programación.&lt;/p&gt;
+&lt;p&gt;Estaba buscando una pasantía desde el invierno de 2022. En ese momento estaba casi en mi último semestre de la universidad y tenía la opción de hacer una pasantía mientras estudiaba el último semestre. Envié mi currículum a algunas empresas en Linkedin, pero nadie me llamó. No fue algo malo para mí, porque todavía estaba estudiando y tenía tiempo para encontrar un trabajo.&lt;/p&gt;
           
         
         </description>
     </item>
     
     <item>
-      <title>Git Installation</title>
+      <title>Configuración de Git</title>
+      <link>https://deimoshall.dev/courses/git-github/quickstart/</link>
+      <pubDate>Wed, 19 Apr 2023 09:20:38 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/courses/git-github/quickstart/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          &lt;p&gt;Git necesita conocer tu nombre y tu correo para poder vincularlos a los commits que vayas creando. Para configurar tu nombre puedes usar el siguiente comando, reemplaza &lt;code&gt;deimos&lt;/code&gt; por tu nombre de usuario, no tiene que ser tu nombre real.&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;691427358&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;691427358&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
+      
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-bash&#34; &gt;&lt;code&gt;
+git config --global user.name &amp;#34;deimos&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Para configurar tu correo puedes hacerlo de esta manera:&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;743561892&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;743561892&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
+      
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-bash&#34; &gt;&lt;code&gt;
+git config --global user.email &amp;#34;deimoshall@gmail.com&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Puedes elegir el editor de tu preferencia para el momento en que vayas a escribir los mensajes para los commits, yo te recomiendo &lt;code&gt;nano&lt;/code&gt; ya que es fácil de utilizar, pero si gustas puedes utilizar &lt;code&gt;vim&lt;/code&gt;, &lt;code&gt;vscode&lt;/code&gt; o el editor de tu preferencia.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Instalación de Git</title>
       <link>https://deimoshall.dev/courses/git-github/installation/</link>
       <pubDate>Mon, 17 Apr 2023 20:46:37 -0600</pubDate>
       
       <guid>https://deimoshall.dev/courses/git-github/installation/</guid>
       <description>
         
-          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1HrKvmMYB88lM9nBie7mViLQpjvllEbTB&#34;/&gt;
+          
+          
           
         
         
         
-          &lt;h2 id=&#34;git-for-windows&#34;&gt;
-  Git for Windows
-  &lt;a href=&#34;#git-for-windows&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+          &lt;h2 id=&#34;git-para-windows&#34;&gt;
+  Git para Windows
+  &lt;a href=&#34;#git-para-windows&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Download the latest version of &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;Git for Windows&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Select the standalone installer according to your system architecture (32 or 64 bits).&lt;/p&gt;
+&lt;p&gt;Descarga la última versión de &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;Git para Windows&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Selecciona el &lt;code&gt;standalone installer&lt;/code&gt; de acuerdo con la arquitectura de tu sistema operativo (32 o 64 bits).&lt;/p&gt;
 
   &lt;figure class=&#34;center&#34; &gt;
-    &lt;img src=&#34;https://lh3.googleusercontent.com/drive-viewer/AKGpihZqh7eRErFsERYF2mbLNzOaBvuAZDVcvAQxQo5JG85NJKCUfPcbIHLzaBeh-DQoj5krsmJcthiZDXPzta3eMipfyeCxehi-Oa0=s1600-rw-v1&#34;  alt=&#34;Select the installer to download&#34;  style=&#34;border-radius: 10px&#34; /&gt;
+    &lt;img src=&#34;https://lh3.googleusercontent.com/drive-viewer/AKGpihZqh7eRErFsERYF2mbLNzOaBvuAZDVcvAQxQo5JG85NJKCUfPcbIHLzaBeh-DQoj5krsmJcthiZDXPzta3eMipfyeCxehi-Oa0=s1600-rw-v1&#34;  alt=&#34;Selecciona el instalador para descargar&#34;  style=&#34;border-radius: 10px&#34; /&gt;
     
-      &lt;figcaption class=&#34;center&#34; &gt;Select the installer to download&lt;/figcaption&gt;
+      &lt;figcaption class=&#34;center&#34; &gt;Selecciona el instalador para descargar&lt;/figcaption&gt;
     
   &lt;/figure&gt;
           
@@ -175,7 +354,7 @@
     </item>
     
     <item>
-      <title>Copy to Clipboard using Jetpack Compose</title>
+      <title>Copiar al portapapeles usando Jetpack Compose</title>
       <link>https://deimoshall.dev/blog/tutorials/android/2023/copy-to-clipboard/</link>
       <pubDate>Sat, 28 Jan 2023 08:56:07 -0600</pubDate>
       
@@ -187,15 +366,25 @@
         
         
         
-          &lt;p&gt;In this article we&amp;rsquo;ll learn how to create a function for copying text to the clipboard. The method for managing context in the application is slightly different.&lt;/p&gt;
-&lt;p&gt;The app I&amp;rsquo;m using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: &lt;a href=&#34;https://github.com/DeimosHall/Glocker.git&#34;&gt;https://github.com/DeimosHall/Glocker.git&lt;/a&gt;. &lt;strong&gt;However, you can follow the steps in your own app&lt;/strong&gt;.&lt;/p&gt;
+          &lt;p&gt;En este artículo aprenderemos a crear una función para copiar texto al portapapeles. La manera de manejar el contexto en la aplicación es ligeramente diferente.&lt;/p&gt;
+&lt;p&gt;La app que estoy usando para este ejemplo es un administrador de contraseñas donde necesito copiar al portapapeles desde el text field. Puedes encontrar el proyecto en mi Github en este link: &lt;a href=&#34;https://github.com/DeimosHall/Glocker.git&#34;&gt;https://github.com/DeimosHall/Glocker.git&lt;/a&gt;. &lt;strong&gt;Sin embargo, puedes seguir los pasos en tu propia app&lt;/strong&gt;.&lt;/p&gt;
+
+  &lt;div style=&#34;padding: 15px&#34;&gt;
+    &lt;a &gt;
+      &lt;img src=&#34;https://drive.google.com/thumbnail?id=1ZGvW_YuWtK2nbneBE68SaE0j9mx2-8Np&amp;amp;sz=w1366-h768&#34;  alt=&#34;General project&#34;  class=&#34;center&#34; style=&#34;width: auto; border-radius: 10px;&#34; /&gt;
+    &lt;/a&gt;
+    
+  &lt;/div&gt;
+
+
+&lt;p&gt;Como puedes ver en la imagen, estoy usando una función llamada &lt;code&gt;copyToClipboard&lt;/code&gt; que recibe dos parámetros, el contexto y un texto. Obtener el texto a copiar depende de tu lógica y es muy fácil, así que veamos cómo obtener el contexto.&lt;/p&gt;
           
         
         </description>
     </item>
     
     <item>
-      <title>Cut video on a linux terminal</title>
+      <title>Cortar vídeo en una terminal de linux</title>
       <link>https://deimoshall.dev/blog/tutorials/linux/utilities/2022/cut-video-ffmpeg/</link>
       <pubDate>Sat, 24 Dec 2022 20:20:49 -0600</pubDate>
       
@@ -207,17 +396,17 @@
         
         
         
-          &lt;p&gt;If you want to cut a video but you don&amp;rsquo;t want to open a video editor, you can
-use a terminal utility called &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;On Debian/Ubuntu based systems we can install it with:&lt;/p&gt;
+          &lt;p&gt;Si quieres recortar un vídeo pero no quieres abrir un editor de vídeo, puedes usar
+una utilidad de terminal llamada &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;En sistemas basados en Debian/Ubuntu podemos instalarlo con:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install ffmpeg
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now we can use the following command to cut a video:&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ahora podemos usar el siguiente comando para cortar un vídeo:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;explanation&#34;&gt;
-  Explanation
-  &lt;a href=&#34;#explanation&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;explicación&#34;&gt;
+  Explicación
+  &lt;a href=&#34;#explicaci%c3%b3n&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;With &lt;em&gt;&amp;ldquo;ffmpeg -i input.mp4&amp;rdquo;&lt;/em&gt; we say we want to use the video called &lt;em&gt;&amp;ldquo;input.mp4&amp;rdquo;&lt;/em&gt;. It&amp;rsquo;s important to use the mp4 file extension.&lt;/p&gt;
+&lt;p&gt;Con &lt;em&gt;&amp;ldquo;ffmpeg -i input.mp4&amp;rdquo;&lt;/em&gt; decimos que queremos usar el vídeo llamado &lt;em&gt;&amp;ldquo;input.mp4&amp;rdquo;&lt;/em&gt;. Es importante usar la extensión de archivo mp4.&lt;/p&gt;
           
         
         </description>
@@ -245,11 +434,11 @@ use a terminal utility called &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/str
   &lt;/div&gt;
 
 
-&lt;h2 id=&#34;hello-my-name-is-francisco-torres&#34;&gt;
-  Hello, my name is Francisco Torres
-  &lt;a href=&#34;#hello-my-name-is-francisco-torres&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;h2 id=&#34;hola-mi-nombre-es-francisco-torres&#34;&gt;
+  Hola, mi nombre es Francisco Torres
+  &lt;a href=&#34;#hola-mi-nombre-es-francisco-torres&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;I&amp;rsquo;m an electronic engineer and a software developer.&lt;/p&gt;
+&lt;p&gt;Soy ingeniero en electrónica y desarrollador de software.&lt;/p&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://deimoshall.dev/css/two-columns.css&#34;&gt;
 
 &lt;div class=&#34;two-columns&#34;&gt;
@@ -257,7 +446,7 @@ use a terminal utility called &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/str
     &lt;link rel=&#34;stylesheet&#34; href=&#34;https://deimoshall.dev/css/two-columns.css&#34;&gt;
 
 &lt;div class=&#34;column&#34;&gt;
-        My main languages are:
+        Mis lenguages principales son:
         &lt;ul&gt;
     
             &lt;li&gt;
@@ -290,7 +479,7 @@ use a terminal utility called &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/str
     &lt;link rel=&#34;stylesheet&#34; href=&#34;https://deimoshall.dev/css/two-columns.css&#34;&gt;
 
 &lt;div class=&#34;column&#34;&gt;
-        My technology stack is:
+        Mi stack de tecnologías es:
         &lt;ul&gt;
     
             &lt;li&gt;

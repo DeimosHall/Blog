@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     
       <title>
-        Compress Video Using The Terminal ::
+        Comprime Video Usando La Terminal ::
         Deimos Hall
       </title>
     
@@ -11,8 +11,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="FFmpeg is a command line tool that offers a lot of options to manipulate video and audio files. In this post I will show you how to compress a video file using it.
-We usually use FFmpeg in a terminal, there are also graphical interfaces that use it as a backend. For example, HandBrake is a graphical interface that uses FFmpeg to compress video files. But in this post we will use FFmpeg directly.
+  content="FFmpeg es una herramienta de línea de comandos que ofrece muchas opciones para manipular archivos de video y audio. En este post te mostraré cómo comprimir un archivo de video usando FFmpeg.
+Normalmente usamos FFmpeg en la terminal, también hay interfaces gráficas que lo usan como backend. Por ejemplo, HandBrake es una interfaz gráfica que usa FFmpeg para comprimir archivos de video. Pero en este post usaremos FFmpeg directamente.
+Instalar FFmpeg # Para instalar FFmpeg en Ubuntu, puedes usar el siguiente comando:
 "
 />
 <meta
@@ -47,18 +48,20 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Compress Video Using The Terminal">
-  <meta name="twitter:description" content="FFmpeg is a command line tool that offers a lot of options to manipulate video and audio files. In this post I will show you how to compress a video file using it.
-We usually use FFmpeg in a terminal, there are also graphical interfaces that use it as a backend. For example, HandBrake is a graphical interface that uses FFmpeg to compress video files. But in this post we will use FFmpeg directly.">
+  <meta name="twitter:title" content="Comprime Video Usando La Terminal">
+  <meta name="twitter:description" content="FFmpeg es una herramienta de línea de comandos que ofrece muchas opciones para manipular archivos de video y audio. En este post te mostraré cómo comprimir un archivo de video usando FFmpeg.
+Normalmente usamos FFmpeg en la terminal, también hay interfaces gráficas que lo usan como backend. Por ejemplo, HandBrake es una interfaz gráfica que usa FFmpeg para comprimir archivos de video. Pero en este post usaremos FFmpeg directamente.
+Instalar FFmpeg # Para instalar FFmpeg en Ubuntu, puedes usar el siguiente comando:">
 
 
 
 <meta property="og:url" content="https://deimoshall.dev/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/">
   <meta property="og:site_name" content="Deimos Hall">
-  <meta property="og:title" content="Compress Video Using The Terminal">
-  <meta property="og:description" content="FFmpeg is a command line tool that offers a lot of options to manipulate video and audio files. In this post I will show you how to compress a video file using it.
-We usually use FFmpeg in a terminal, there are also graphical interfaces that use it as a backend. For example, HandBrake is a graphical interface that uses FFmpeg to compress video files. But in this post we will use FFmpeg directly.">
-  <meta property="og:locale" content="en">
+  <meta property="og:title" content="Comprime Video Usando La Terminal">
+  <meta property="og:description" content="FFmpeg es una herramienta de línea de comandos que ofrece muchas opciones para manipular archivos de video y audio. En este post te mostraré cómo comprimir un archivo de video usando FFmpeg.
+Normalmente usamos FFmpeg en la terminal, también hay interfaces gráficas que lo usan como backend. Por ejemplo, HandBrake es una interfaz gráfica que usa FFmpeg para comprimir archivos de video. Pero en este post usaremos FFmpeg directamente.
+Instalar FFmpeg # Para instalar FFmpeg en Ubuntu, puedes usar el siguiente comando:">
+  <meta property="og:locale" content="es">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
     <meta property="article:published_time" content="2023-07-25T21:59:06-06:00">
@@ -93,12 +96,12 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
 </a>
 
     <div class="dropdown">
-    <button class="dropbtn">English ▼</button>
+    <button class="dropbtn">Español ▼</button>
     <div class="dropdown-content">
         
-        <a href="https://deimoshall.dev/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/">English</a>
+        <a href="https://deimoshall.dev/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/">Español</a>
         
-        <a href="https://deimoshall.dev/es/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/">Español</a>
+        <a href="https://deimoshall.dev/en/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/">English</a>
         
     </div>
 </div>
@@ -110,7 +113,7 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
     
       
         
-          <li><a href="/">Home</a></li>
+          <li><a href="/">Inicio</a></li>
         
       
         
@@ -118,13 +121,13 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
         
       
         
-          <li><a href="/about">About</a></li>
+          <li><a href="/about">Acerca de mí</a></li>
         
       
       
         <ul class="menu__sub-inner">
           <li class="menu__sub-inner-more-trigger">
-            Show more
+            Mostrar mas
             <span class="menu__sub-inner-more-trigger-icon"
               ><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
   <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
@@ -135,7 +138,7 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
           <ul class="menu__sub-inner-more hidden">
             
               
-                <li><a href="/">Terms and conditions</a></li>
+                <li><a href="/">Terminos y condiciones</a></li>
               
             
           </ul>
@@ -147,7 +150,7 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
   <ul class="menu__inner menu__inner--mobile">
     
       
-        <li><a href="/">Home</a></li>
+        <li><a href="/">Inicio</a></li>
       
     
       
@@ -155,11 +158,11 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
       
     
       
-        <li><a href="/about">About</a></li>
+        <li><a href="/about">Acerca de mí</a></li>
       
     
       
-        <li><a href="/">Terms and conditions</a></li>
+        <li><a href="/">Terminos y condiciones</a></li>
       
     
   </ul>
@@ -200,7 +203,7 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
   
 
   <article class="post">
-    <h1 class="post-title">Compress Video Using The Terminal</h1>
+    <h1 class="post-title">Comprime Video Usando La Terminal</h1>
     <div class="post-meta">
       
         <time class="post-date">
@@ -212,13 +215,13 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
 
       
         <span class="post-author"
-          >— Written by Francisco Torres</span
+          >— Escrito por Francisco Torres</span
         >
 
 
       
         <span class="post-read-time"
-          >— 2 min read</span
+          >— 2 minutos de lectura</span
         >
       
     </div>
@@ -228,11 +231,11 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
     
       <figure class="post-cover">
   
-    <img src="https://drive.google.com/thumbnail?id=1EWxo425Vl7Imj94LxVaYmlhibk1c7LFs&amp;sz=w1920-h1080" alt="Compress Video Using The Terminal"/>
+    <img src="https://drive.google.com/thumbnail?id=1EWxo425Vl7Imj94LxVaYmlhibk1c7LFs&amp;sz=w1920-h1080" alt="Comprime Video Usando La Terminal"/>
   
 
   
-    <figcaption class="center">Photo by <a href="https://unsplash.com/@_sanjeev_ngrj_">Sanjeev Nagaraj</a> on Unsplash</figcaption>
+    <figcaption class="center">Imagen por <a href="https://unsplash.com/@_sanjeev_ngrj_">Sanjeev Nagaraj</a> en Unsplash</figcaption>
   
 </figure>
 
@@ -243,34 +246,34 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
         
       
 
-      <p><a href="https://ffmpeg.org/download.html">FFmpeg</a> is a command line tool that offers a lot of options to manipulate video and audio files. In this post I will show you how to compress a video file using it.</p>
-<p>We usually use FFmpeg in a terminal, there are also graphical interfaces that use it as a backend. For example, <a href="https://handbrake.fr/">HandBrake</a> is a graphical interface that uses FFmpeg to compress video files. But in this post we will use FFmpeg directly.</p>
-<h2 id="install-ffmpeg">
-  Install FFmpeg
-  <a href="#install-ffmpeg" class="h-anchor" aria-hidden="true">#</a>
+      <p><a href="https://ffmpeg.org/download.html">FFmpeg</a> es una herramienta de línea de comandos que ofrece muchas opciones para manipular archivos de video y audio. En este post te mostraré cómo comprimir un archivo de video usando FFmpeg.</p>
+<p>Normalmente usamos FFmpeg en la terminal, también hay interfaces gráficas que lo usan como backend. Por ejemplo, <a href="https://handbrake.fr/">HandBrake</a> es una interfaz gráfica que usa FFmpeg para comprimir archivos de video. Pero en este post usaremos FFmpeg directamente.</p>
+<h2 id="instalar-ffmpeg">
+  Instalar FFmpeg
+  <a href="#instalar-ffmpeg" class="h-anchor" aria-hidden="true">#</a>
 </h2>
-<p>To install FFmpeg in Ubuntu, you can use the following command:</p>
+<p>Para instalar FFmpeg en Ubuntu, puedes usar el siguiente comando:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install ffmpeg
-</span></span></code></pre></div><p>To install FFmpeg in macOS, you can use the following command:</p>
+</span></span></code></pre></div><p>Para instalar FFmpeg en macOS, puedes usar el siguiente comando:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install ffmpeg
-</span></span></code></pre></div><p>To install FFmpeg in Windows, you can download the binary from <a href="https://ffmpeg.org/download.html">here</a>.</p>
-<h2 id="compress-video">
-  Compress Video
-  <a href="#compress-video" class="h-anchor" aria-hidden="true">#</a>
+</span></span></code></pre></div><p>Para instalar FFmpeg en Windows, puedes descargar el binario de <a href="https://ffmpeg.org/download.html">aquí</a>.</p>
+<h2 id="comprimir-video">
+  Comprimir Video
+  <a href="#comprimir-video" class="h-anchor" aria-hidden="true">#</a>
 </h2>
-<p>We need to open a terminal and go to the directory where the video file is located. Then we can use the following command to compress it:</p>
+<p>Necesitamos abrir una terminal e ir al directorio donde se encuentra el archivo de video. Luego podemos usar el siguiente comando para comprimirlo:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ffmpeg -i <span style="color:#e6db74">&#34;input_file&#34;</span> -vcodec libx264 -crf <span style="color:#ae81ff">23</span> -acodec aac -b:a 128k -map_metadata <span style="color:#ae81ff">0</span> <span style="color:#e6db74">&#34;output_file&#34;</span>
-</span></span></code></pre></div><p>Where:</p>
+</span></span></code></pre></div><p>Donde:</p>
 <ul>
-<li><code>{input_file}</code> is the name of the input video file. For example, <code>video.mp4</code>.</li>
-<li><code>{output_file}</code> is the name of the output video file. For example, <code>video_compressed.mp4</code>.</li>
-<li><code>-vcodec libx264</code> is the video codec to use. In this case we use <code>libx264</code> which is a H.264/MPEG-4 AVC codec.</li>
-<li><code>-crf 23</code> is the quality of the video. The value can be between 0 and 51, where 0 is lossless and 51 is worst quality. The default value is 23. You can use a lower value to get a better quality video, but the file size will be bigger.</li>
-<li><code>-acodec aac</code> is the audio codec to use. In this case we use <code>aac</code> which is a Advanced Audio Coding codec.</li>
-<li><code>-b:a 128k</code> is the audio bitrate. The default value is 128k. You can use a lower value to get a smaller file size, but the audio quality will be worse.</li>
-<li><code>-map_metadata 0</code> is to copy the metadata from the input file to the output file.</li>
+<li><code>{input_file}</code> es el nombre del archivo de video de entrada. Por ejemplo, <code>video.mp4</code>.</li>
+<li><code>{output_file}</code> es el nombre del archivo de video de salida. Por ejemplo, <code>video_compressed.mp4</code>.</li>
+<li><code>-vcodec libx264</code> es el códec de video a usar. En este caso usamos <code>libx264</code> que es un códec H.264/MPEG-4 AVC.</li>
+<li><code>-crf 23</code> es la calidad del video. El valor puede estar entre 0 y 51, donde 0 es sin pérdida y 51 es la peor calidad. El valor por defecto es 23. Puedes usar un valor más bajo para obtener un video de mejor calidad, pero el tamaño del archivo será más grande.</li>
+<li><code>-acodec aac</code> es el códec de audio a usar. En este caso usamos <code>aac</code> que es un códec Advanced Audio Coding.</li>
+<li><code>-b:a 128k</code> es el bitrate de audio. El valor por defecto es 128k. Puedes usar un valor más bajo para obtener un archivo de menor tamaño, pero la calidad de audio será peor.</li>
+<li><code>-map_metadata 0</code> es para copiar los metadatos del archivo de entrada al archivo de salida.</li>
 </ul>
-<p>For example, if we have a video file called <code>video.mp4</code> and we want to compress it to <code>video_compressed.mp4</code>, we can use the following command:</p>
+<p>Por ejemplo, si queremos comprimir el archivo <code>video.mp4</code> y obtener el archivo <code>video_compressed.mp4</code>, podemos usar el siguiente comando:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ffmpeg -i <span style="color:#e6db74">&#34;video.mp4&#34;</span> -vcodec libx264 -crf <span style="color:#ae81ff">23</span> -acodec aac -b:a 128k -map_metadata <span style="color:#ae81ff">0</span> <span style="color:#e6db74">&#34;video_compressed.mp4&#34;</span>
 </span></span></code></pre></div>
     </div>
@@ -287,7 +290,7 @@ We usually use FFmpeg in a terminal, there are also graphical interfaces that us
         <footer class="footer">
   <div class="footer__inner">
     
-      <div class="copyright copyright--user">© 2025 By Francisco Torres | All rights reserved</div>
+      <div class="copyright copyright--user">© 2025 Por Deimos Hall | Todos los derechos reservados</div>
     
   </div>
 </footer>
