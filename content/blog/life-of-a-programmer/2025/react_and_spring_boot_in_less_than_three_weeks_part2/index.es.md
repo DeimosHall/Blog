@@ -1,5 +1,5 @@
 ---
-title: React y Spring Boot and menos de tres semanas - Parte 2
+title: React y Spring Boot en menos de tres semanas - Parte 2
 date: 2025-03-02T11:56:01-06:00
 author: Francisco Torres
 showAuthor: true
