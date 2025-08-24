@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux diary on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/en/blog/linux-diary/</link>
+    <description>Recent content in Linux diary on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Jun 2025 16:45:28 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/en/blog/linux-diary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FUTO Keyboard, first impressions</title>
+      <link>https://deimoshall.dev/en/blog/linux-diary/2025/futo-keyboard-first-impressions/</link>
+      <pubDate>Sun, 24 Aug 2025 09:08:29 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/en/blog/linux-diary/2025/futo-keyboard-first-impressions/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=12DZHCJYs3MWqF6KrgR7e_sbcCC513kDV&amp;sz=w1083-h609&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;I&amp;rsquo;ve been using FUTO keyboard since three days ago, I wanted to write about it since day one to consider it as a real first impressions, but I had no time for it.&lt;/p&gt;
+&lt;p&gt;Anyway, there are things I like and I don&amp;rsquo;t, but in general I could say it is good enough to consider using it as my daily keyboard for more days.&lt;/p&gt;
+&lt;h2 id=&#34;what-i-like&#34;&gt;
+  What I like
+  &lt;a href=&#34;#what-i-like&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Let me start with what I like. It&amp;rsquo;s an open source project with a focus on privacy, and only for that I truly believe it&amp;rsquo;s worth to try it.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

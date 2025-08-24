@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://deimoshall.dev/en/blog/linux-diary/2025/futo-keyboard-first-impressions/</loc>
+    <lastmod>2025-08-24T09:08:29-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/blog/linux-diary/2025/futo-keyboard-first-impressions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/en/blog/linux-diary/2025/futo-keyboard-first-impressions/"
+                />
+  </url><url>
+    <loc>https://deimoshall.dev/en/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/</loc>
+    <lastmod>2025-08-16T17:08:06-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/en/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/"
+                />
+  </url><url>
+    <loc>https://deimoshall.dev/en/blog/linux-diary/</loc>
+    <lastmod>2025-06-16T16:45:28-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/blog/linux-diary/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/en/blog/linux-diary/"
+                />
+  </url><url>
     <loc>https://deimoshall.dev/en/blog/tutorials/linux/utilities/2025/git-submodules/</loc>
     <lastmod>2025-04-10T13:49:32-06:00</lastmod>
     <xhtml:link

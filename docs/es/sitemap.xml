@@ -2,22 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://deimoshall.dev/blog/linux-diary/2025/futo-keyboard-first-impressions/</loc>
+    <lastmod>2025-08-24T09:08:29-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/en/blog/linux-diary/2025/futo-keyboard-first-impressions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/blog/linux-diary/2025/futo-keyboard-first-impressions/"
+                />
+  </url><url>
     <loc>https://deimoshall.dev/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/</loc>
     <lastmod>2025-08-16T17:08:06-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/en/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/"
+                />
   </url><url>
     <loc>https://deimoshall.dev/blog/life-of-a-programmer/2025/30-days-to-learn-kotlin/</loc>
     <lastmod>2025-07-26T10:07:59-06:00</lastmod>
   </url><url>
-    <loc>https://deimoshall.dev/blog/diario-linuxero/2025/improve-fonts/</loc>
+    <loc>https://deimoshall.dev/blog/linux-diary/2025/improve-fonts/</loc>
     <lastmod>2025-07-20T13:07:34-06:00</lastmod>
   </url><url>
     <loc>https://deimoshall.dev/blog/tutorials/linux/update-fedora-grub/</loc>
     <lastmod>2025-07-07T10:55:30-06:00</lastmod>
   </url><url>
-    <loc>https://deimoshall.dev/blog/diario-linuxero/</loc>
+    <loc>https://deimoshall.dev/blog/linux-diary/</loc>
     <lastmod>2025-06-16T16:45:28-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/en/blog/linux-diary/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/blog/linux-diary/"
+                />
   </url><url>
-    <loc>https://deimoshall.dev/blog/diario-linuxero/2025/back-to-linux/</loc>
+    <loc>https://deimoshall.dev/blog/linux-diary/2025/back-to-linux/</loc>
     <lastmod>2025-06-16T06:57:30-06:00</lastmod>
   </url><url>
     <loc>https://deimoshall.dev/blog/tutorials/linux/utilities/2025/git-submodules/</loc>

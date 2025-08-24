@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diario Linuxero on Deimos Hall</title>
+    
+    
+    
+    <link>https://deimoshall.dev/blog/linux-diary/</link>
+    <description>Recent content in Diario Linuxero on Deimos Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 16 Jun 2025 16:45:28 -0600</lastBuildDate>
+    
+	<atom:link href="https://deimoshall.dev/blog/linux-diary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Teclado FUTO, primeras impresiones</title>
+      <link>https://deimoshall.dev/blog/linux-diary/2025/futo-keyboard-first-impressions/</link>
+      <pubDate>Sun, 24 Aug 2025 09:08:29 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/linux-diary/2025/futo-keyboard-first-impressions/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=12DZHCJYs3MWqF6KrgR7e_sbcCC513kDV&amp;sz=w1083-h609&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Llevo usando el teclado FUTO desde hace tres días. Quería escribir sobre él desde el primer día para que fuera una primera impresión real, pero no he tenido tiempo.&lt;/p&gt;
+&lt;p&gt;En cualquier caso, hay cosas que me gustan y otras que no, pero en general podría decir que es lo suficientemente bueno como para plantearme utilizarlo como mi teclado habitual durante más días.&lt;/p&gt;
+&lt;h2 id=&#34;lo-que-me-gusta&#34;&gt;
+  Lo que me gusta
+  &lt;a href=&#34;#lo-que-me-gusta&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Empecemos por lo que me gusta. Se trata de un proyecto de código abierto centrado en la privacidad, y solo por eso creo que realmente vale la pena probarlo.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Mejorar renderizado de fuentes en Linux</title>
+      <link>https://deimoshall.dev/blog/linux-diary/2025/improve-fonts/</link>
+      <pubDate>Sun, 20 Jul 2025 13:07:34 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/linux-diary/2025/improve-fonts/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1a8OFLR1Btg4uSVTwJow69ffQcyBZcvgQ&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Una de las cosas que más echo de menos desde que me cambie de macOS a Linux es como de bien se ven las fuentes en macOS. Si has tenido la oportunidad de ver este detalle en una mac sabras a lo que me refiero, tienen un estilo muy particular que resulta muy agradable al momento de leer.&lt;/p&gt;
+&lt;h2 id=&#34;el-script&#34;&gt;
+  El script
+  &lt;a href=&#34;#el-script&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Hay un usuario en GitHub que ha creado un script para realizar ciertos ajustes en configuraciones del sistema que mejoran la visibilidad de las fuentes, especialmente las de tamaño pequeño y mediano. Esto no es para cambiar la fuente del sistema, si tú tienes alguna personalizada no la va a reemplazar por ninguna otra, así que no te preocupes por eso.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Regreso a Linux</title>
+      <link>https://deimoshall.dev/blog/linux-diary/2025/back-to-linux/</link>
+      <pubDate>Mon, 16 Jun 2025 06:57:30 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/linux-diary/2025/back-to-linux/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=126pQ1x9X-yguGsCBue87O8NsMLa991K9&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;La noche del día 16 del mes pasado instalé Fedora 42 en mi PC de escritorio y estoy muy satisfecho con mi decisión aunque los problemas no han faltado.&lt;/p&gt;
+&lt;h2 id=&#34;mis-comienzos&#34;&gt;
+  Mis comienzos
+  &lt;a href=&#34;#mis-comienzos&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;No soy nuevo en Linux, mi historia con estos sistemas operativos se remonta a hace ya varios años cuando instalé Ubuntu 18.04 en una vieja laptop que usaba para la universidad. Ha pasado bastante tiempo desde entonces y no puedo recordar cuánto tiempo duró esa aventura, pero sí sé que regresé a Windows por el mismo motivo que muchos, no me terminé de adaptar a Linux y la falta de cierta suite ofimática propietaria además de otro software que requería instalar durante mi carrera universitaria solo estaba para Windows.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
