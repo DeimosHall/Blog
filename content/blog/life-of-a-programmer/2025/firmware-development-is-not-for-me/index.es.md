@@ -1,13 +1,13 @@
 ---
 title: El desarrollo de firmware no es para mí
 date: 2025-08-16T17:08:06-06:00
-author: Francisco Torres
+author: Deimos Hall
 showAuthor: true
 draft: false
 section: post
 cover: https://drive.google.com/thumbnail?id=105jOxOFphuQFif7l0sO-b_37skf0X_IM&sz=w1920-h1080
 useRelativeCover: false
-CoverCaption: 
+CoverCaption:
 toc: false
 showReadingTime: true
 ---
@@ -53,7 +53,7 @@ Sobre esto quiero poner como ejemplo el uso común de llamadas de registros que 
 
 Otro aspecto importante que se me viene a la mente ahora mismo es el sobre uso de variables mal nombradas. Es demasiado común encontrarte en proyectos de firmware variables tipo `crf = 39`, `ui_p = false` o `a = 1`. Así sin contexto es imposible de entender lo que significan y ese tipo de decisiones se extrapolan al proyecto en general, es por eso que digo que mucho del firmware que me he encontrado es complicado de entender y esta hecho así por malas decisiones de diseño.
 
-En mi experiencia estos últimos años era la excepción y no la norma encontrarme con un proyecto bien hecho. No pido perfección, solo un mínimo de calidad pero lamentablemente es muy escaso. Y aclaro que tampoco creo que mi código sea perfecto, si me voy a mis comienzos veré un montón de estas cosas que hoy crítico, pero no puedo creer que mucho del firmware que me encuentro esté al nivel del trabajo de mi yo de practicante.
+En mi experiencia estos últimos años era la excepción y no la norma encontrarme con un proyecto bien hecho. No pido perfección, solo un mínimo de calidad pero lamentablemente es muy escaso. Y aclaro que tampoco creo que mi código sea perfecto, si me voy a mis comienzos veré un montón de estas cosas que hoy crítico, pero no puedo creer que mucho del firmware que me encuentro esté al nivel del trabajo de mi yo de practicante. Y de nuevo, no porque no funcione, sino porque no sigue buenas practicas en términos de calidad de código.
 
 Aún tengo poca experiencia en este campo del firmware, capaz que aún no he entendido el verdadero transfondo del por qué se hacen las cosas así, pero lo que sí puedo decir es que no me siento cómodo programando más en este campo.
 
