@@ -15,6 +15,26 @@
     
     
     <item>
+      <title>No more HDDs for me</title>
+      <link>https://deimoshall.dev/en/blog/linux-diary/2025/no-more-hdds-for-me/</link>
+      <pubDate>Sat, 13 Sep 2025 18:09:51 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/en/blog/linux-diary/2025/no-more-hdds-for-me/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1iD3-Dqkx4Je0dIgHCsxqB1XhR8PAIw6e&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;I started my self hosting journey a while ago using an old laptop with Debian 12. It was fine with the internal SSD for a while, but I rapidly had to buy more storage, and I chose a 4 TB external HDD for that purpose.&lt;/p&gt;
+&lt;p&gt;I didn&amp;rsquo;t use the HDD for much time, in fact it has damaged sectors, but fortunately I didn&amp;rsquo;t loose any data. The funniest part is I should have suspected of it since the beginning, because I was unable to format it using EXT4 neither on my desktop or laptop. To deal with that issue, I had to format it using BTRFS, it worked, yeah, but now I think the reason of why I wasn&amp;rsquo;t able to format it using EXT4 could be because of the damaged sectors, but I didn&amp;rsquo;t know it in that moment. Maybe it was damaged on shipping, who knows?&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>FUTO Keyboard, first impressions</title>
       <link>https://deimoshall.dev/en/blog/linux-diary/2025/futo-keyboard-first-impressions/</link>
       <pubDate>Sun, 24 Aug 2025 09:08:29 -0600</pubDate>
