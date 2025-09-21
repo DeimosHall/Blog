@@ -5,7 +5,7 @@ author: Deimos Hall
 showAuthor: true
 draft: false
 section: post
-cover: https://drive.google.com/thumbnail?id=105jOxOFphuQFif7l0sO-b_37skf0X_IM&sz=w1920-h1080
+cover: https://drive.google.com/thumbnail?id=1W2_8TbI23vX4cRJter57zw4r0cAsXdl0&sz=w1920-h1080
 useRelativeCover: false
 CoverCaption:
 toc: false
