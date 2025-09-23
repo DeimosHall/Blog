@@ -12,20 +12,17 @@ showReadingTime: false
 
 ## Hola, mi nombre es Francisco Torres
 
-Soy ingeniero en electrónica y desarrollador de software.
+Soy un desarrollador de software que disfruta construir cosas que hacen de este mundo un lugar mejor para vivir.
 
 {{< two-columns >}}
     {{< column >}}
         Mis lenguages principales son:
         {{< ul >}}
-            {{< li >}}HTML{{< /li >}}
-            {{< li >}}XML{{< /li >}}
-            {{< li >}}CSS{{< /li >}}
-            {{< li >}}Shell/bash scripting{{< /li >}}
-            {{< li >}}Javascript{{< /li >}}
+            {{< li >}}TypeScript{{< /li >}}
+            {{< li >}}Java{{< /li >}}
             {{< li >}}Python{{< /li >}}
             {{< li >}}Kotlin{{< /li >}}
-            {{< li >}}Java{{< /li >}}
+            {{< li >}}Shell/bash scripting{{< /li >}}
         {{< /ul >}}
     {{< /column >}}
     {{< column >}}

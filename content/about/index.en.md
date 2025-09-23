@@ -10,22 +10,19 @@ showReadingTime: false
 
 {{< image src="discord_profile_rounded.png" alt="Hello Friend" position="center" style="border-radius: 50%;" >}}
 
-## Hello, my name is Francisco Torres
+## Hello people, my name is Francisco Torres
 
-I'm an electronic engineer and a software developer.
+I'm a software developer who enjoys building things that make this world a better place to live in.
 
 {{< two-columns >}}
     {{< column >}}
         My main languages are:
         {{< ul >}}
-            {{< li >}}HTML{{< /li >}}
-            {{< li >}}XML{{< /li >}}
-            {{< li >}}CSS{{< /li >}}
-            {{< li >}}Shell/bash scripting{{< /li >}}
-            {{< li >}}Javascript{{< /li >}}
+            {{< li >}}TypeScript{{< /li >}}
+            {{< li >}}Java{{< /li >}}
             {{< li >}}Python{{< /li >}}
             {{< li >}}Kotlin{{< /li >}}
-            {{< li >}}Java{{< /li >}}
+            {{< li >}}Shell/bash scripting{{< /li >}}
         {{< /ul >}}
     {{< /column >}}
     {{< column >}}
@@ -38,3 +35,11 @@ I'm an electronic engineer and a software developer.
         {{< /ul >}}
     {{< /column >}}
 {{< /two-columns >}}
+
+## Contact me
+
+- GitHub: [deimoshall](https://github.com/deimoshall)
+- LinkedIn: [Francisco Torres](https://www.linkedin.com/in/jftg)
+- Email: [contactme.francisco@proton.me](mailto:contactme.francisco@proton.me)
+- Mastodon: [@deimoshall](https://mastodon.social/@deimoshall)
+- X/Twitter: [@deimoshall](https://twitter.com/deimoshall)
