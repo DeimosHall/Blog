@@ -15,6 +15,27 @@
     
     
     <item>
+      <title>Nextcloud, strange feelings</title>
+      <link>https://deimoshall.dev/en/blog/linux-diary/2025/nextcloud-strange-feelings/</link>
+      <pubDate>Mon, 22 Sep 2025 19:09:52 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/en/blog/linux-diary/2025/nextcloud-strange-feelings/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1JGZk_2rIUKOkqqxHXI85eZQfVPi0qL1o&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;I stopped using Nextcloud a couple of days ago because I broke my home server, and I realized I don&amp;rsquo;t miss it.&lt;/p&gt;
+&lt;p&gt;I find myself using more frequently the local data I have on my PC rather than the one on Nextcloud, the only useful case was for watching some anime chapters on my tablet, but even that could change in the future if I start using &lt;a href=&#34;https://jellyfin.org/&#34;&gt;Jellyfin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;When I tried to use some of the office integrations that Nextcloud offers, I failed. It was hard to figure out what should I do, I even ended watching tutorials for something I shouldn&amp;rsquo;t, I mean, I&amp;rsquo;m a technical person, but the UX is just not intuitive.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>No more HDDs for me</title>
       <link>https://deimoshall.dev/en/blog/linux-diary/2025/no-more-hdds-for-me/</link>
       <pubDate>Sat, 13 Sep 2025 18:09:51 -0600</pubDate>
