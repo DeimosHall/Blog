@@ -1,41 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutoriales on Deimos Hall</title>
+    <title>Tutorials on Deimos Hall</title>
     
     
     
     <link>https://deimoshall.dev/blog/tutorials/</link>
-    <description>Recent content in Tutoriales on Deimos Hall</description>
+    <description>Recent content in Tutorials on Deimos Hall</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
+    <language>en</language>
     <lastBuildDate>Tue, 25 Jul 2023 09:07:29 -0600</lastBuildDate>
     
 	<atom:link href="https://deimoshall.dev/blog/tutorials/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>GRUB no detecta Windows</title>
-      <link>https://deimoshall.dev/blog/tutorials/linux/update-fedora-grub/</link>
-      <pubDate>Mon, 07 Jul 2025 10:55:30 -0600</pubDate>
-      
-      <guid>https://deimoshall.dev/blog/tutorials/linux/update-fedora-grub/</guid>
-      <description>
-        
-          &lt;img src=&#34;https://drive.google.com/thumbnail?id=10cmLuW2fvrO9ahI-VSElxfw23QPhj6Gv&amp;sz=w4096-h2304&#34;/&gt;
-          
-        
-        
-        
-          &lt;p&gt;Si hemos instalado Linux lo primero que veremos al encender nuestra PC es el GRUB, ese programita que nos permite elegir el sistema operativo en el que queremos iniciar. En mi caso en particular fui acumulando inconsistencias en el grub, me aparecía una instalación de Ubuntu que ya no existía, varias versiones del kernel para Fedora y para mi sorpresa cuando volví a instalar Windows este no aparecía.&lt;/p&gt;
-&lt;p&gt;En un principio no le dí mucha importancia a ese problema, ya que casi no uso Windows, pero aún así era un poco molesto tener que cambiar la opción de boot en la BIOS cada vez que lo necesitaba. Así que si estás en un problema similar al mío, donde por ejemplo hayas instalado Windows después de Linux, déjame mostrarte la solución.&lt;/p&gt;
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Agregar submódulos de Git</title>
+      <title>Add Git submodules</title>
       <link>https://deimoshall.dev/blog/tutorials/linux/utilities/2025/git-submodules/</link>
       <pubDate>Thu, 10 Apr 2025 13:49:32 -0600</pubDate>
       
@@ -48,22 +28,22 @@
         
         
           &lt;blockquote&gt;
-&lt;p&gt;Este post no fue escrito por ningún modelo de inteligencia artificial&lt;/p&gt;
+&lt;p&gt;This post was not written by any artificial intelligence model.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto para usarlo como dependencia, tenemos una estructura de directorios que necesita tenerlo dentro de un directorio en específico. Por ejemplo, digamos que tenemos algo como esto:&lt;/p&gt;
+&lt;p&gt;Sometimes when we want to add another git repository to our project to use it as a dependency, we have a directories structure that needs to have it inside a specific directory. For exmaple, let&amp;rsquo;s say we have something like this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── lib
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│  └── our_submodule_should_be_here
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└── src
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   └── main.c
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Así que sólo tenemos que ir a ese directorio, por ejemplo:&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So, you just have to go to that directoy, for example:&lt;/p&gt;
           
         
         </description>
     </item>
     
     <item>
-      <title>Comprime Video Usando La Terminal</title>
+      <title>Compress Video Using The Terminal</title>
       <link>https://deimoshall.dev/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/</link>
       <pubDate>Tue, 25 Jul 2023 21:59:06 -0600</pubDate>
       
@@ -75,20 +55,15 @@
         
         
         
-          &lt;p&gt;&lt;a href=&#34;https://ffmpeg.org/download.html&#34;&gt;FFmpeg&lt;/a&gt; es una herramienta de línea de comandos que ofrece muchas opciones para manipular archivos de video y audio. En este post te mostraré cómo comprimir un archivo de video usando FFmpeg.&lt;/p&gt;
-&lt;p&gt;Normalmente usamos FFmpeg en la terminal, también hay interfaces gráficas que lo usan como backend. Por ejemplo, &lt;a href=&#34;https://handbrake.fr/&#34;&gt;HandBrake&lt;/a&gt; es una interfaz gráfica que usa FFmpeg para comprimir archivos de video. Pero en este post usaremos FFmpeg directamente.&lt;/p&gt;
-&lt;h2 id=&#34;instalar-ffmpeg&#34;&gt;
-  Instalar FFmpeg
-  &lt;a href=&#34;#instalar-ffmpeg&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;Para instalar FFmpeg en Ubuntu, puedes usar el siguiente comando:&lt;/p&gt;
+          &lt;p&gt;&lt;a href=&#34;https://ffmpeg.org/download.html&#34;&gt;FFmpeg&lt;/a&gt; is a command line tool that offers a lot of options to manipulate video and audio files. In this post I will show you how to compress a video file using it.&lt;/p&gt;
+&lt;p&gt;We usually use FFmpeg in a terminal, there are also graphical interfaces that use it as a backend. For example, &lt;a href=&#34;https://handbrake.fr/&#34;&gt;HandBrake&lt;/a&gt; is a graphical interface that uses FFmpeg to compress video files. But in this post we will use FFmpeg directly.&lt;/p&gt;
           
         
         </description>
     </item>
     
     <item>
-      <title>Cómo usar el sensor de temperatura de la Raspberry Pi Pico (Arduino)</title>
+      <title>How to Use Onboard Raspberry Pi Pico Temperature Sensor (Arduino)</title>
       <link>https://deimoshall.dev/blog/tutorials/iot/2023/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</link>
       <pubDate>Sun, 16 Jul 2023 09:26:04 -0600</pubDate>
       
@@ -100,22 +75,16 @@
         
         
         
-          &lt;p&gt;Hace unos días, intenté usar el sensor de temperatura de la Raspberry Pi Pico usando Arduino, pero solo encontré tutoriales para &lt;a href=&#34;https://micropython.org/&#34;&gt;MicroPython&lt;/a&gt;. Afortunadamente, encontré un issue de Github donde alguien respondió cómo hacerlo. Así que decidí crear una biblioteca basada en ese código y quiero compartirla contigo. El issue está &lt;a href=&#34;https://github.com/arduino/ArduinoCore-mbed/issues/220&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+          &lt;p&gt;Some days ago, I tried to use the onboard temperature sensor of the Raspberry Pi Pico using Arduino, but I only found tutorials for &lt;a href=&#34;https://micropython.org/&#34;&gt;MicroPython&lt;/a&gt;. Affortunately, I found a Github issue where someone answered how to do it. So, I decided to create a library based on that code and I want to share it with you. The issue is &lt;a href=&#34;https://github.com/arduino/ArduinoCore-mbed/issues/220&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Considera darle una estrella al repositorio si te resulta útil. Puedes encontrarlo &lt;a href=&#34;https://github.com/DeimosHall/RP2040_CPU_Temperature.git&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;instala-la-biblioteca&#34;&gt;
-  Instala la biblioteca
-  &lt;a href=&#34;#instala-la-biblioteca&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;Puedes usar el &lt;code&gt;Administrador de bibliotecas de Arduino&lt;/code&gt; o &lt;code&gt;arduino-cli&lt;/code&gt; para instalarla.&lt;/p&gt;
+&lt;p&gt;Consider giving a star to the repository if you find it useful. You can find it &lt;a href=&#34;https://github.com/DeimosHall/RP2040_CPU_Temperature.git&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
           
         
         </description>
     </item>
     
     <item>
-      <title>Copiar al portapapeles usando Jetpack Compose</title>
+      <title>Copy to Clipboard using Jetpack Compose</title>
       <link>https://deimoshall.dev/blog/tutorials/android/2023/copy-to-clipboard/</link>
       <pubDate>Sat, 28 Jan 2023 08:56:07 -0600</pubDate>
       
@@ -127,25 +96,15 @@
         
         
         
-          &lt;p&gt;En este artículo aprenderemos a crear una función para copiar texto al portapapeles. La manera de manejar el contexto en la aplicación es ligeramente diferente.&lt;/p&gt;
-&lt;p&gt;La app que estoy usando para este ejemplo es un administrador de contraseñas donde necesito copiar al portapapeles desde el text field. Puedes encontrar el proyecto en mi Github en este link: &lt;a href=&#34;https://github.com/DeimosHall/Glocker.git&#34;&gt;https://github.com/DeimosHall/Glocker.git&lt;/a&gt;. &lt;strong&gt;Sin embargo, puedes seguir los pasos en tu propia app&lt;/strong&gt;.&lt;/p&gt;
-
-  &lt;div style=&#34;padding: 15px&#34;&gt;
-    &lt;a &gt;
-      &lt;img src=&#34;https://drive.google.com/thumbnail?id=1ZGvW_YuWtK2nbneBE68SaE0j9mx2-8Np&amp;amp;sz=w1366-h768&#34;  alt=&#34;General project&#34;  class=&#34;center&#34; style=&#34;width: auto; border-radius: 10px;&#34; /&gt;
-    &lt;/a&gt;
-    
-  &lt;/div&gt;
-
-
-&lt;p&gt;Como puedes ver en la imagen, estoy usando una función llamada &lt;code&gt;copyToClipboard&lt;/code&gt; que recibe dos parámetros, el contexto y un texto. Obtener el texto a copiar depende de tu lógica y es muy fácil, así que veamos cómo obtener el contexto.&lt;/p&gt;
+          &lt;p&gt;In this article we&amp;rsquo;ll learn how to create a function for copying text to the clipboard. The method for managing context in the application is slightly different.&lt;/p&gt;
+&lt;p&gt;The app I&amp;rsquo;m using for this example is a password manager where I need to copy to clipboard the text from the text field. You can find the project on my Github at this link: &lt;a href=&#34;https://github.com/DeimosHall/Glocker.git&#34;&gt;https://github.com/DeimosHall/Glocker.git&lt;/a&gt;. &lt;strong&gt;However, you can follow the steps in your own app&lt;/strong&gt;.&lt;/p&gt;
           
         
         </description>
     </item>
     
     <item>
-      <title>Cortar vídeo en una terminal de linux</title>
+      <title>Cut video on a linux terminal</title>
       <link>https://deimoshall.dev/blog/tutorials/linux/utilities/2022/cut-video-ffmpeg/</link>
       <pubDate>Sat, 24 Dec 2022 20:20:49 -0600</pubDate>
       
@@ -157,17 +116,17 @@
         
         
         
-          &lt;p&gt;Si quieres recortar un vídeo pero no quieres abrir un editor de vídeo, puedes usar
-una utilidad de terminal llamada &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;En sistemas basados en Debian/Ubuntu podemos instalarlo con:&lt;/p&gt;
+          &lt;p&gt;If you want to cut a video but you don&amp;rsquo;t want to open a video editor, you can
+use a terminal utility called &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;On Debian/Ubuntu based systems we can install it with:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install ffmpeg
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ahora podemos usar el siguiente comando para cortar un vídeo:&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now we can use the following command to cut a video:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ffmpeg -i input.mp4 -ss 01:29:23 -to 01:35:02 -c copy output.mp4
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;explicación&#34;&gt;
-  Explicación
-  &lt;a href=&#34;#explicaci%c3%b3n&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;explanation&#34;&gt;
+  Explanation
+  &lt;a href=&#34;#explanation&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Con &lt;em&gt;&amp;ldquo;ffmpeg -i input.mp4&amp;rdquo;&lt;/em&gt; decimos que queremos usar el vídeo llamado &lt;em&gt;&amp;ldquo;input.mp4&amp;rdquo;&lt;/em&gt;. Es importante usar la extensión de archivo mp4.&lt;/p&gt;
+&lt;p&gt;With &lt;em&gt;&amp;ldquo;ffmpeg -i input.mp4&amp;rdquo;&lt;/em&gt; we say we want to use the video called &lt;em&gt;&amp;ldquo;input.mp4&amp;rdquo;&lt;/em&gt;. It&amp;rsquo;s important to use the mp4 file extension.&lt;/p&gt;
           
         
         </description>

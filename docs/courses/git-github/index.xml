@@ -1,98 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git y Github on Deimos Hall</title>
+    <title>Git and Github on Deimos Hall</title>
     
     
     
     <link>https://deimoshall.dev/courses/git-github/</link>
-    <description>Recent content in Git y Github on Deimos Hall</description>
+    <description>Recent content in Git and Github on Deimos Hall</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
+    <language>en</language>
     <lastBuildDate>Mon, 17 Apr 2023 20:24:38 -0600</lastBuildDate>
     
 	<atom:link href="https://deimoshall.dev/courses/git-github/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Configuración de Git</title>
-      <link>https://deimoshall.dev/courses/git-github/quickstart/</link>
-      <pubDate>Wed, 19 Apr 2023 09:20:38 -0600</pubDate>
-      
-      <guid>https://deimoshall.dev/courses/git-github/quickstart/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          &lt;p&gt;Git necesita conocer tu nombre y tu correo para poder vincularlos a los commits que vayas creando. Para configurar tu nombre puedes usar el siguiente comando, reemplaza &lt;code&gt;deimos&lt;/code&gt; por tu nombre de usuario, no tiene que ser tu nombre real.&lt;/p&gt;
-
-
-
-  &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;349278165&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;349278165&#34;&gt;
-      &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
-      
-      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
-    &lt;/label&gt;
-    &lt;pre class=&#34;language-bash&#34; &gt;&lt;code&gt;
-git config --global user.name &amp;#34;deimos&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/div&gt;
-
-
-&lt;p&gt;Para configurar tu correo puedes hacerlo de esta manera:&lt;/p&gt;
-
-
-
-  &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;238975614&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;238975614&#34;&gt;
-      &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
-      
-      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
-    &lt;/label&gt;
-    &lt;pre class=&#34;language-bash&#34; &gt;&lt;code&gt;
-git config --global user.email &amp;#34;deimoshall@gmail.com&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/div&gt;
-
-
-&lt;p&gt;Puedes elegir el editor de tu preferencia para el momento en que vayas a escribir los mensajes para los commits, yo te recomiendo &lt;code&gt;nano&lt;/code&gt; ya que es fácil de utilizar, pero si gustas puedes utilizar &lt;code&gt;vim&lt;/code&gt;, &lt;code&gt;vscode&lt;/code&gt; o el editor de tu preferencia.&lt;/p&gt;
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Instalación de Git</title>
+      <title>Git Installation</title>
       <link>https://deimoshall.dev/courses/git-github/installation/</link>
       <pubDate>Mon, 17 Apr 2023 20:46:37 -0600</pubDate>
       
       <guid>https://deimoshall.dev/courses/git-github/installation/</guid>
       <description>
         
-          
-          
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1HrKvmMYB88lM9nBie7mViLQpjvllEbTB&#34;/&gt;
           
         
         
         
-          &lt;h2 id=&#34;git-para-windows&#34;&gt;
-  Git para Windows
-  &lt;a href=&#34;#git-para-windows&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+          &lt;h2 id=&#34;git-for-windows&#34;&gt;
+  Git for Windows
+  &lt;a href=&#34;#git-for-windows&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Descarga la última versión de &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;Git para Windows&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Selecciona el &lt;code&gt;standalone installer&lt;/code&gt; de acuerdo con la arquitectura de tu sistema operativo (32 o 64 bits).&lt;/p&gt;
+&lt;p&gt;Download the latest version of &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;Git for Windows&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Select the standalone installer according to your system architecture (32 or 64 bits).&lt;/p&gt;
 
   &lt;figure class=&#34;center&#34; &gt;
-    &lt;img src=&#34;https://lh3.googleusercontent.com/drive-viewer/AKGpihZqh7eRErFsERYF2mbLNzOaBvuAZDVcvAQxQo5JG85NJKCUfPcbIHLzaBeh-DQoj5krsmJcthiZDXPzta3eMipfyeCxehi-Oa0=s1600-rw-v1&#34;  alt=&#34;Selecciona el instalador para descargar&#34;  style=&#34;border-radius: 10px&#34; /&gt;
+    &lt;img src=&#34;https://lh3.googleusercontent.com/drive-viewer/AKGpihZqh7eRErFsERYF2mbLNzOaBvuAZDVcvAQxQo5JG85NJKCUfPcbIHLzaBeh-DQoj5krsmJcthiZDXPzta3eMipfyeCxehi-Oa0=s1600-rw-v1&#34;  alt=&#34;Select the installer to download&#34;  style=&#34;border-radius: 10px&#34; /&gt;
     
-      &lt;figcaption class=&#34;center&#34; &gt;Selecciona el instalador para descargar&lt;/figcaption&gt;
+      &lt;figcaption class=&#34;center&#34; &gt;Select the installer to download&lt;/figcaption&gt;
     
   &lt;/figure&gt;
           

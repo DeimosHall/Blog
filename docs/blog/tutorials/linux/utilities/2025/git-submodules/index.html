@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     
       <title>
-        Agregar submódulos de Git ::
+        Add Git submodules ::
         Deimos Hall
       </title>
     
@@ -11,9 +11,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content=" Este post no fue escrito por ningún modelo de inteligencia artificial
-Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto para usarlo como dependencia, tenemos una estructura de directorios que necesita tenerlo dentro de un directorio en específico. Por ejemplo, digamos que tenemos algo como esto:
-. ├── lib │ └── our_submodule_should_be_here └── src └── main.c Así que sólo tenemos que ir a ese directorio, por ejemplo:
+  content=" This post was not written by any artificial intelligence model.
+Sometimes when we want to add another git repository to our project to use it as a dependency, we have a directories structure that needs to have it inside a specific directory. For exmaple, let&rsquo;s say we have something like this:
+. ├── lib │ └── our_submodule_should_be_here └── src └── main.c So, you just have to go to that directoy, for example:
 "
 />
 <meta
@@ -47,20 +47,20 @@ Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Agregar submódulos de Git">
-  <meta name="twitter:description" content="Este post no fue escrito por ningún modelo de inteligencia artificial
-Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto para usarlo como dependencia, tenemos una estructura de directorios que necesita tenerlo dentro de un directorio en específico. Por ejemplo, digamos que tenemos algo como esto:
-. ├── lib │ └── our_submodule_should_be_here └── src └── main.c Así que sólo tenemos que ir a ese directorio, por ejemplo:">
+  <meta name="twitter:title" content="Add Git submodules">
+  <meta name="twitter:description" content="This post was not written by any artificial intelligence model.
+Sometimes when we want to add another git repository to our project to use it as a dependency, we have a directories structure that needs to have it inside a specific directory. For exmaple, let’s say we have something like this:
+. ├── lib │ └── our_submodule_should_be_here └── src └── main.c So, you just have to go to that directoy, for example:">
 
 
 
 <meta property="og:url" content="https://deimoshall.dev/blog/tutorials/linux/utilities/2025/git-submodules/">
   <meta property="og:site_name" content="Deimos Hall">
-  <meta property="og:title" content="Agregar submódulos de Git">
-  <meta property="og:description" content="Este post no fue escrito por ningún modelo de inteligencia artificial
-Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto para usarlo como dependencia, tenemos una estructura de directorios que necesita tenerlo dentro de un directorio en específico. Por ejemplo, digamos que tenemos algo como esto:
-. ├── lib │ └── our_submodule_should_be_here └── src └── main.c Así que sólo tenemos que ir a ese directorio, por ejemplo:">
-  <meta property="og:locale" content="es">
+  <meta property="og:title" content="Add Git submodules">
+  <meta property="og:description" content="This post was not written by any artificial intelligence model.
+Sometimes when we want to add another git repository to our project to use it as a dependency, we have a directories structure that needs to have it inside a specific directory. For exmaple, let’s say we have something like this:
+. ├── lib │ └── our_submodule_should_be_here └── src └── main.c So, you just have to go to that directoy, for example:">
+  <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
     <meta property="article:published_time" content="2025-04-10T13:49:32-06:00">
@@ -78,7 +78,7 @@ Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto
       <header class="header">
   <span class="header__inner">
     <a
-  href="/"
+  href="/en"
   class="logo"
   style="text-decoration: none;"
 >
@@ -95,12 +95,12 @@ Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto
 </a>
 
     <div class="dropdown">
-    <button class="dropbtn">Español ▼</button>
+    <button class="dropbtn">English ▼</button>
     <div class="dropdown-content">
         
-        <a href="https://deimoshall.dev/blog/tutorials/linux/utilities/2025/git-submodules/">Español</a>
+        <a href="https://deimoshall.dev/es/blog/tutorials/linux/utilities/2025/git-submodules/">Español</a>
         
-        <a href="https://deimoshall.dev/en/blog/tutorials/linux/utilities/2025/git-submodules/">English</a>
+        <a href="https://deimoshall.dev/blog/tutorials/linux/utilities/2025/git-submodules/">English</a>
         
     </div>
 </div>
@@ -112,7 +112,7 @@ Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto
     
       
         
-          <li><a href="/">Inicio</a></li>
+          <li><a href="/en">Home</a></li>
         
       
         
@@ -120,13 +120,13 @@ Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto
         
       
         
-          <li><a href="/about">Acerca de mí</a></li>
+          <li><a href="/en/about">About</a></li>
         
       
       
         <ul class="menu__sub-inner">
           <li class="menu__sub-inner-more-trigger">
-            Mostrar mas
+            Show more
             <span class="menu__sub-inner-more-trigger-icon"
               ><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
   <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
@@ -137,7 +137,7 @@ Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto
           <ul class="menu__sub-inner-more hidden">
             
               
-                <li><a href="/">Terminos y condiciones</a></li>
+                <li><a href="/en">Terms and conditions</a></li>
               
             
           </ul>
@@ -149,7 +149,7 @@ Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto
   <ul class="menu__inner menu__inner--mobile">
     
       
-        <li><a href="/">Inicio</a></li>
+        <li><a href="/en">Home</a></li>
       
     
       
@@ -157,11 +157,11 @@ Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto
       
     
       
-        <li><a href="/about">Acerca de mí</a></li>
+        <li><a href="/en/about">About</a></li>
       
     
       
-        <li><a href="/">Terminos y condiciones</a></li>
+        <li><a href="/en">Terms and conditions</a></li>
       
     
   </ul>
@@ -202,7 +202,7 @@ Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto
   
 
   <article class="post">
-    <h1 class="post-title">Agregar submódulos de Git</h1>
+    <h1 class="post-title">Add Git submodules</h1>
     <div class="post-meta">
       
         <time class="post-date">
@@ -214,13 +214,13 @@ Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto
 
       
         <span class="post-author"
-          >— Escrito por Francisco Torres</span
+          >— Written by Francisco Torres</span
         >
 
 
       
         <span class="post-read-time"
-          >— 2 minutos de lectura</span
+          >— 2 min read</span
         >
       
     </div>
@@ -230,7 +230,7 @@ Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto
     
       <figure class="post-cover">
   
-    <img src="https://drive.google.com/thumbnail?id=1mFZn7XJsOpZGizXCmeVBQ5RCt5pbDGvj&amp;sz=w1920-h1080" alt="Agregar submódulos de Git"/>
+    <img src="https://drive.google.com/thumbnail?id=1mFZn7XJsOpZGizXCmeVBQ5RCt5pbDGvj&amp;sz=w1920-h1080" alt="Add Git submodules"/>
   
 
   
@@ -244,43 +244,43 @@ Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto
       
 
       <blockquote>
-<p>Este post no fue escrito por ningún modelo de inteligencia artificial</p>
+<p>This post was not written by any artificial intelligence model.</p>
 </blockquote>
-<p>Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto para usarlo como dependencia, tenemos una estructura de directorios que necesita tenerlo dentro de un directorio en específico. Por ejemplo, digamos que tenemos algo como esto:</p>
+<p>Sometimes when we want to add another git repository to our project to use it as a dependency, we have a directories structure that needs to have it inside a specific directory. For exmaple, let&rsquo;s say we have something like this:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>.
 </span></span><span style="display:flex;"><span>├── lib
 </span></span><span style="display:flex;"><span>│  └── our_submodule_should_be_here
 </span></span><span style="display:flex;"><span>└── src
 </span></span><span style="display:flex;"><span>   └── main.c
-</span></span></code></pre></div><p>Así que sólo tenemos que ir a ese directorio, por ejemplo:</p>
+</span></span></code></pre></div><p>So, you just have to go to that directoy, for example:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd project/lib/
-</span></span></code></pre></div><p>Y luego ejecutar el siguiente comando, reemplazando el repositorio que queremos por supuesto.</p>
+</span></span></code></pre></div><p>And then run the following command, replacing the repository we want of course.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/hextreeio/faultier.git
 </span></span></code></pre></div><blockquote>
-<p>Si quisiéramos ese submódulo en la raíz del proyecto simplemente tendríamos que hacerlo en la raíz</p>
+<p>If you wanted that submodule in the root of the project you would simply have to do it in the root.</p>
 </blockquote>
-<p>Si quisieras que el nombre del directorio generado fuera diferente a <code>faultier</code> que es el que se generaría por el propio nombre del repositorio, tendrías que hacerlo agregando como opción al final</p>
+<p>If you wanted the name of the generated directory to be different than <code>faultier</code> which is the one that would be generated by the repository name itself, you would have to do it by adding as an option at the end</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/hextreeio/faultier.git other_dir_name
-</span></span></code></pre></div><h2 id="submódulo-con-submódulos">
-  Submódulo con submódulos
-  <a href="#subm%c3%b3dulo-con-subm%c3%b3dulos" class="h-anchor" aria-hidden="true">#</a>
+</span></span></code></pre></div><h2 id="submodule-with-submodules">
+  Submodule with submodules
+  <a href="#submodule-with-submodules" class="h-anchor" aria-hidden="true">#</a>
 </h2>
-<p>Si el submódulo que agregamos tiene submódulos como dependencias, lo que tenemos que hacer es lo siguiente:</p>
+<p>If the submodule that we add has submodules as dependencies, what we have to do is the following:</p>
 <ol>
-<li>Navegar dentro del submodulo, para el ejemplo:</li>
+<li>Navigate inside the submodule, for the example:</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd faultier/
 </span></span></code></pre></div><ol start="2">
-<li>Registrar los submódulos</li>
+<li>Register the submodules</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule init
 </span></span></code></pre></div><ol start="3">
-<li>Actualizar los submódulos</li>
+<li>Update the submodules</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule update
-</span></span></code></pre></div><p>Tendríamos algo como lo siguiente:</p>
+</span></span></code></pre></div><p>We would have something like the following:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>❯ git submodule init
-</span></span><span style="display:flex;"><span>Submodule <span style="color:#e6db74">&#39;nanopb&#39;</span> <span style="color:#f92672">(</span>https://github.com/nanopb/nanopb.git<span style="color:#f92672">)</span> registered <span style="color:#66d9ef">for</span> path <span style="color:#e6db74">&#39;nanopb&#39;</span>
+</span></span><span style="display:flex;"><span>Submodule <span style="color:#e6db74">&#39;nanopb&#39;</span> <span style="color:#f92672">(</span>https://github.com/nanopb/nanopb.git<span style="color:#f92672">)</span> registered <span style="color:#66d9ef">for</span> path <span style="color:#e6db74">&#39;nanopb&#39;</span>.
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>faultier on main via C v16.0.0-clang via △ v3.30.3
 </span></span><span style="display:flex;"><span>❯ git submodule update
@@ -301,7 +301,7 @@ Algunas veces cuando queremos agregar otro repositorio de git a nuestro proyecto
         <footer class="footer">
   <div class="footer__inner">
     
-      <div class="copyright copyright--user">© 2025 Por Deimos Hall | Todos los derechos reservados</div>
+      <div class="copyright copyright--user">© 2025 By Deimos Hall | All rights reserved</div>
     
   </div>
 </footer>

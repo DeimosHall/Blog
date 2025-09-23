@@ -15,6 +15,51 @@
     
     
     <item>
+      <title>Teclado FUTO, primeras impresiones</title>
+      <link>https://deimoshall.dev/es/blog/linux-diary/2025/futo-keyboard-first-impressions/</link>
+      <pubDate>Sun, 24 Aug 2025 09:08:29 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/linux-diary/2025/futo-keyboard-first-impressions/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=12DZHCJYs3MWqF6KrgR7e_sbcCC513kDV&amp;sz=w1083-h609&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Llevo usando el teclado FUTO desde hace tres días. Quería escribir sobre él desde el primer día para que fuera una primera impresión real, pero no he tenido tiempo.&lt;/p&gt;
+&lt;p&gt;En cualquier caso, hay cosas que me gustan y otras que no, pero en general podría decir que es lo suficientemente bueno como para plantearme utilizarlo como mi teclado habitual durante más días.&lt;/p&gt;
+&lt;h2 id=&#34;lo-que-me-gusta&#34;&gt;
+  Lo que me gusta
+  &lt;a href=&#34;#lo-que-me-gusta&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Empecemos por lo que me gusta. Se trata de un proyecto de código abierto centrado en la privacidad, y solo por eso creo que realmente vale la pena probarlo.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>El desarrollo de firmware no es para mí</title>
+      <link>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/</link>
+      <pubDate>Sat, 16 Aug 2025 17:08:06 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=105jOxOFphuQFif7l0sO-b_37skf0X_IM&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Ayer fue mi último día como ingeniero de firmware. Estuve en ese puesto por poco más de dos años o casi tres si cuento mi tiempo como practicante, pero a pesar de que lo disfrutaba ya fue momento para mí de decirle adiós.&lt;/p&gt;
+&lt;p&gt;Yo estudié ingeniería Electrónica, así que de cierta forma se podría decir que sí que estuve ejerciendo mi profesión durante este tiempo, aunque sinceramente me gusta más la programación que el diseño de circuitos o cualquier otra cosa que se supone que tenga que hacer un ingeniero electrónico.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>30 días para aprender Kotlin</title>
       <link>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/30-days-to-learn-kotlin/</link>
       <pubDate>Sat, 26 Jul 2025 10:07:59 -0600</pubDate>
@@ -35,10 +80,10 @@
     
     <item>
       <title>Mejorar renderizado de fuentes en Linux</title>
-      <link>https://deimoshall.dev/es/blog/diario-linuxero/2025/improve-fonts/</link>
+      <link>https://deimoshall.dev/es/blog/linux-diary/2025/improve-fonts/</link>
       <pubDate>Sun, 20 Jul 2025 13:07:34 -0600</pubDate>
       
-      <guid>https://deimoshall.dev/es/blog/diario-linuxero/2025/improve-fonts/</guid>
+      <guid>https://deimoshall.dev/es/blog/linux-diary/2025/improve-fonts/</guid>
       <description>
         
           &lt;img src=&#34;https://drive.google.com/thumbnail?id=1a8OFLR1Btg4uSVTwJow69ffQcyBZcvgQ&amp;sz=w1920-h1080&#34;/&gt;
@@ -79,10 +124,10 @@
     
     <item>
       <title>Regreso a Linux</title>
-      <link>https://deimoshall.dev/es/blog/diario-linuxero/2025/back-to-linux/</link>
+      <link>https://deimoshall.dev/es/blog/linux-diary/2025/back-to-linux/</link>
       <pubDate>Mon, 16 Jun 2025 06:57:30 -0600</pubDate>
       
-      <guid>https://deimoshall.dev/es/blog/diario-linuxero/2025/back-to-linux/</guid>
+      <guid>https://deimoshall.dev/es/blog/linux-diary/2025/back-to-linux/</guid>
       <description>
         
           &lt;img src=&#34;https://drive.google.com/thumbnail?id=126pQ1x9X-yguGsCBue87O8NsMLa991K9&amp;sz=w1920-h1080&#34;/&gt;
@@ -130,7 +175,7 @@
     </item>
     
     <item>
-      <title>React y Spring Boot and menos de tres semanas - Parte 2</title>
+      <title>React y Spring Boot en menos de tres semanas - Parte 2</title>
       <link>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks_part2/</link>
       <pubDate>Sun, 02 Mar 2025 11:56:01 -0600</pubDate>
       
@@ -260,8 +305,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;713468592&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;713468592&#34;&gt;
+    &lt;input id=&#34;257981436&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;257981436&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -277,8 +322,8 @@ git config --global user.name &amp;#34;deimos&amp;#34;
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;315276984&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;315276984&#34;&gt;
+    &lt;input id=&#34;345798621&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;345798621&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;

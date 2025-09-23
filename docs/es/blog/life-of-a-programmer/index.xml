@@ -15,6 +15,26 @@
     
     
     <item>
+      <title>El desarrollo de firmware no es para mí</title>
+      <link>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/</link>
+      <pubDate>Sat, 16 Aug 2025 17:08:06 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=105jOxOFphuQFif7l0sO-b_37skf0X_IM&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Ayer fue mi último día como ingeniero de firmware. Estuve en ese puesto por poco más de dos años o casi tres si cuento mi tiempo como practicante, pero a pesar de que lo disfrutaba ya fue momento para mí de decirle adiós.&lt;/p&gt;
+&lt;p&gt;Yo estudié ingeniería Electrónica, así que de cierta forma se podría decir que sí que estuve ejerciendo mi profesión durante este tiempo, aunque sinceramente me gusta más la programación que el diseño de circuitos o cualquier otra cosa que se supone que tenga que hacer un ingeniero electrónico.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>30 días para aprender Kotlin</title>
       <link>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/30-days-to-learn-kotlin/</link>
       <pubDate>Sat, 26 Jul 2025 10:07:59 -0600</pubDate>
@@ -34,7 +54,7 @@
     </item>
     
     <item>
-      <title>React y Spring Boot and menos de tres semanas - Parte 2</title>
+      <title>React y Spring Boot en menos de tres semanas - Parte 2</title>
       <link>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks_part2/</link>
       <pubDate>Sun, 02 Mar 2025 11:56:01 -0600</pubDate>
       
