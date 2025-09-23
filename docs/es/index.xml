@@ -305,8 +305,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;257981436&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;257981436&#34;&gt;
+    &lt;input id=&#34;173592486&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;173592486&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -322,8 +322,8 @@ git config --global user.name &amp;#34;deimos&amp;#34;
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;345798621&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;345798621&#34;&gt;
+    &lt;input id=&#34;867352914&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;867352914&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -457,7 +457,7 @@ una utilidad de terminal llamada &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/
   Hola, mi nombre es Francisco Torres
   &lt;a href=&#34;#hola-mi-nombre-es-francisco-torres&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Soy ingeniero en electrónica y desarrollador de software.&lt;/p&gt;
+&lt;p&gt;Soy un desarrollador de software que disfruta construir cosas que hacen de este mundo un lugar mejor para vivir.&lt;/p&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://deimoshall.dev/css/two-columns.css&#34;&gt;
 
 &lt;div class=&#34;two-columns&#34;&gt;
@@ -469,19 +469,10 @@ una utilidad de terminal llamada &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/
         &lt;ul&gt;
     
             &lt;li&gt;
-    HTML
+    TypeScript
 &lt;/li&gt;
             &lt;li&gt;
-    XML
-&lt;/li&gt;
-            &lt;li&gt;
-    CSS
-&lt;/li&gt;
-            &lt;li&gt;
-    Shell/bash scripting
-&lt;/li&gt;
-            &lt;li&gt;
-    Javascript
+    Java
 &lt;/li&gt;
             &lt;li&gt;
     Python
@@ -490,7 +481,7 @@ una utilidad de terminal llamada &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/
     Kotlin
 &lt;/li&gt;
             &lt;li&gt;
-    Java
+    Shell/bash scripting
 &lt;/li&gt;
         
 &lt;/ul&gt;
