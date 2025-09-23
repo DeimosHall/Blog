@@ -1,7 +1,7 @@
 baseURL = 'https://deimoshall.dev/'
-languageCode = 'es'
+languageCode = 'en'
 title = 'Deimos Hall'
-defaultContentLanguage = "es"
+defaultContentLanguage = "en"
 
 theme = "hello-friend"
 [pagination]
