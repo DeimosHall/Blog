@@ -28,8 +28,7 @@
         
         
           &lt;blockquote&gt;
-&lt;p&gt;This post was not written by any artificial intelligence model.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;This post was not written by any artificial intelligence model.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Sometimes when we want to add another git repository to our project to use it as a dependency, we have a directories structure that needs to have it inside a specific directory. For exmaple, let&amp;rsquo;s say we have something like this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── lib

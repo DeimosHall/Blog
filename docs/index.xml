@@ -15,6 +15,26 @@
     
     
     <item>
+      <title>My First Fedora Update | The Good And The Bad</title>
+      <link>https://deimoshall.dev/blog/linux-diary/2025/my-first-fedora-update/</link>
+      <pubDate>Sat, 08 Nov 2025 07:11:39 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/linux-diary/2025/my-first-fedora-update/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1L5r6yyV1XYMTXDklfKR61wUFasBQp9db&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;I&amp;rsquo;m not sure how many times I tried to use a Linux distro as my main OS in the past, but this is the first time it lasted long enough to allow me to do the transition between major versions. In fact, this is also my first time using Fedora as my daily driver, so my experience with this process has been only with this distro.&lt;/p&gt;
+&lt;p&gt;I found out about the new Fedora 43 release on Twitter and I was excited to update, but at the same time I was expecting bugs to happen, so I waited a couple of days before making the decision.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Nextcloud, strange feelings</title>
       <link>https://deimoshall.dev/blog/linux-diary/2025/nextcloud-strange-feelings/</link>
       <pubDate>Mon, 22 Sep 2025 19:09:52 -0600</pubDate>
@@ -114,8 +134,7 @@
         
         
           &lt;blockquote&gt;
-&lt;p&gt;This post was not written by any artificial intelligence model.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;This post was not written by any artificial intelligence model.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Sometimes when we want to add another git repository to our project to use it as a dependency, we have a directories structure that needs to have it inside a specific directory. For exmaple, let&amp;rsquo;s say we have something like this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── lib
