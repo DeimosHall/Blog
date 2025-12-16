@@ -367,19 +367,25 @@ use a terminal utility called &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/str
         
         
         
-          &lt;div style=&#34;padding: 15px&#34;&gt;
-    &lt;a &gt;
-      &lt;img src=&#34;discord_profile_rounded.png&#34;  alt=&#34;Hello Friend&#34;  class=&#34;center&#34; style=&#34;border-radius: 50%;&#34; /&gt;
-    &lt;/a&gt;
-    
-  &lt;/div&gt;
-
-
-&lt;h2 id=&#34;hello-people-my-name-is-francisco-torres&#34;&gt;
+          &lt;h2 id=&#34;hello-people-my-name-is-francisco-torres&#34;&gt;
   Hello people, my name is Francisco Torres
   &lt;a href=&#34;#hello-people-my-name-is-francisco-torres&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;m a software developer who enjoys building things that make this world a better place to live in.&lt;/p&gt;
+&lt;p&gt;My daily work focuses on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Working as a &lt;strong&gt;Software Engineer&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Writing at &lt;a href=&#34;https://deimoshall.dev/&#34;&gt;&lt;strong&gt;my blog&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Contributing to &lt;strong&gt;Open Source Projects&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Mapping on &lt;strong&gt;OpenStreetMap&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;my-open-source-projects&#34;&gt;
+  My open source projects:
+  &lt;a href=&#34;#my-open-source-projects&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://crates.io/crates/random_str&#34;&gt;random_str&lt;/a&gt; - A Rust library to generate random strings, chars, booleans, and integers. It currently has +29,000 downloads.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://deimoshall.dev/css/two-columns.css&#34;&gt;
 
 &lt;div class=&#34;two-columns&#34;&gt;
@@ -397,13 +403,10 @@ use a terminal utility called &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/str
     Java
 &lt;/li&gt;
             &lt;li&gt;
-    Python
+    Rust
 &lt;/li&gt;
             &lt;li&gt;
     Kotlin
-&lt;/li&gt;
-            &lt;li&gt;
-    Shell/bash scripting
 &lt;/li&gt;
         
 &lt;/ul&gt;
@@ -415,16 +418,16 @@ use a terminal utility called &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/str
         &lt;ul&gt;
     
             &lt;li&gt;
-    Git
+    GNU/Linux
+&lt;/li&gt;
+            &lt;li&gt;
+    Docker
+&lt;/li&gt;
+            &lt;li&gt;
+    AWS
 &lt;/li&gt;
             &lt;li&gt;
     Android
-&lt;/li&gt;
-            &lt;li&gt;
-    Windows
-&lt;/li&gt;
-            &lt;li&gt;
-    GNU/Linux
 &lt;/li&gt;
         
 &lt;/ul&gt;

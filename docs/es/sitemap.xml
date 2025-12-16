@@ -264,18 +264,6 @@
                 href="https://deimoshall.dev/es/"
                 />
   </url><url>
-    <loc>https://deimoshall.dev/es/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/about/"
-                />
-  </url><url>
     <loc>https://deimoshall.dev/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
