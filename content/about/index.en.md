@@ -8,11 +8,20 @@ CoverCaption: ""
 showReadingTime: false
 ---
 
-{{< image src="discord_profile_rounded.png" alt="Hello Friend" position="center" style="border-radius: 50%;" >}}
-
 ## Hello people, my name is Francisco Torres
 
 I'm a software developer who enjoys building things that make this world a better place to live in.
+
+My daily work focuses on:
+
+- Working as a **Software Engineer**
+- Writing at [**my blog**](https://deimoshall.dev/)
+- Contributing to **Open Source Projects**
+- Mapping on **OpenStreetMap**
+
+## My open source projects:
+
+- [random_str](https://crates.io/crates/random_str) - A Rust library to generate random strings, chars, booleans, and integers. It currently has +29,000 downloads.
 
 {{< two-columns >}}
     {{< column >}}
@@ -20,18 +29,17 @@ I'm a software developer who enjoys building things that make this world a bette
         {{< ul >}}
             {{< li >}}TypeScript{{< /li >}}
             {{< li >}}Java{{< /li >}}
-            {{< li >}}Python{{< /li >}}
+            {{< li >}}Rust{{< /li >}}
             {{< li >}}Kotlin{{< /li >}}
-            {{< li >}}Shell/bash scripting{{< /li >}}
         {{< /ul >}}
     {{< /column >}}
     {{< column >}}
         My technology stack is:
         {{< ul >}}
-            {{< li >}}Git{{< /li >}}
-            {{< li >}}Android{{< /li >}}
-            {{< li >}}Windows{{< /li>}}
             {{< li >}}GNU/Linux{{< /li >}}
+            {{< li >}}Docker{{< /li >}}
+            {{< li >}}AWS{{< /li >}}
+            {{< li >}}Android{{< /li>}}
         {{< /ul >}}
     {{< /column >}}
 {{< /two-columns >}}
