@@ -15,6 +15,25 @@
     
     
     <item>
+      <title>Construyendo Una App Para Linux</title>
+      <link>https://deimoshall.dev/es/blog/life-of-a-programmer/2026/building-an-app-for-linux/</link>
+      <pubDate>Sat, 18 Apr 2026 13:04:50 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/life-of-a-programmer/2026/building-an-app-for-linux/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1d61z77KY4r8MU66JU4n0GcY0TrDZ1_qJ&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Hace aproximadamente un año comencé una transición de Google Fotos a Immich. Mi frustración llegó cuando algunos videos y fotos aparecieron en la parte superior de la línea de tiempo, y la razón es que los tomé de grupos de WhatsApp donde amigos los compartían. Podría usar simplemente la función incorporada de Immich para corregir la fecha, pero al parecer tomé la misma decisión con Google Photos hace años y ahora me arrepiento de ello.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>El desarrollo de firmware no es para mí</title>
       <link>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/</link>
       <pubDate>Sat, 16 Aug 2025 17:08:06 -0600</pubDate>

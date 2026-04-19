@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://deimoshall.dev/blog/life-of-a-programmer/2026/building-an-app-for-linux/</loc>
+    <lastmod>2026-04-18T13:04:50-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/life-of-a-programmer/2026/building-an-app-for-linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/life-of-a-programmer/2026/building-an-app-for-linux/"
+                />
+  </url><url>
     <loc>https://deimoshall.dev/blog/life-of-a-programmer/2026/hello-world/</loc>
     <lastmod>2026-02-28T10:02:00-06:00</lastmod>
   </url><url>

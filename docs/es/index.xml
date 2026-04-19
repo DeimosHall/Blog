@@ -15,6 +15,25 @@
     
     
     <item>
+      <title>Construyendo Una App Para Linux</title>
+      <link>https://deimoshall.dev/es/blog/life-of-a-programmer/2026/building-an-app-for-linux/</link>
+      <pubDate>Sat, 18 Apr 2026 13:04:50 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/es/blog/life-of-a-programmer/2026/building-an-app-for-linux/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1d61z77KY4r8MU66JU4n0GcY0TrDZ1_qJ&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Hace aproximadamente un año comencé una transición de Google Fotos a Immich. Mi frustración llegó cuando algunos videos y fotos aparecieron en la parte superior de la línea de tiempo, y la razón es que los tomé de grupos de WhatsApp donde amigos los compartían. Podría usar simplemente la función incorporada de Immich para corregir la fecha, pero al parecer tomé la misma decisión con Google Photos hace años y ahora me arrepiento de ello.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Mi Primera Actualización de Fedora | Lo Bueno Y Lo Malo</title>
       <link>https://deimoshall.dev/es/blog/linux-diary/2025/my-first-fedora-update/</link>
       <pubDate>Sat, 08 Nov 2025 07:11:39 -0600</pubDate>
@@ -325,8 +344,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;832475961&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;832475961&#34;&gt;
+    &lt;input id=&#34;472195386&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;472195386&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -342,8 +361,8 @@ git config --global user.name &amp;#34;deimos&amp;#34;
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;713964528&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;713964528&#34;&gt;
+    &lt;input id=&#34;291348567&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;291348567&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
