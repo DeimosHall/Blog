@@ -15,6 +15,26 @@
     
     
     <item>
+      <title>Zen is...</title>
+      <link>https://deimoshall.dev/blog/linux-diary/2026/zen-is-almost-perfect/</link>
+      <pubDate>Fri, 22 May 2026 08:05:53 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/linux-diary/2026/zen-is-almost-perfect/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=19c_D0BDs8C0B72UMbRiMJLBnO3_9k_XZ&amp;sz=w1920-h1080&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;I was a Firefox user for a long time, even before I started using Linux. I still like it, but I don&amp;rsquo;t like what Mozilla does, so using a different browser is my way of protesting.&lt;/p&gt;
+&lt;p&gt;Then, I knew the Zen browser. It&amp;rsquo;s Firefox based, elegant, and it has the new vertical tabs trending that started some time ago. I&amp;rsquo;ve been using it for maybe year, maybe a little more, and everything went fine until a week ago.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Building An App For Linux</title>
       <link>https://deimoshall.dev/blog/life-of-a-programmer/2026/building-an-app-for-linux/</link>
       <pubDate>Sat, 18 Apr 2026 13:04:50 -0600</pubDate>
@@ -226,7 +246,7 @@
 &lt;p&gt;This post was not written by any artificial intelligence model.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Sometimes when we want to add another git repository to our project to use it as a dependency, we have a directories structure that needs to have it inside a specific directory. For exmaple, let&amp;rsquo;s say we have something like this:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── lib
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│  └── our_submodule_should_be_here
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└── src
