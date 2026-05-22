@@ -3,7 +3,15 @@ languageCode = 'en'
 title = 'Deimos Hall'
 defaultContentLanguage = "en"
 
+[author]
+  name = "Deimos Hall"
+  email = "deimoshall.dev@proton.me"
+
 theme = "hello-friend"
+[module]
+  [[module.imports]]
+    path = "hello-friend"
+
 [pagination]
   pagerSize = 5
 
