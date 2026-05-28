@@ -469,56 +469,9 @@ use a terminal utility called &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/str
   &lt;a href=&#34;#my-open-source-projects&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://crates.io/crates/random_str&#34;&gt;random_str&lt;/a&gt; - A Rust library to generate random strings, chars, booleans, and integers. It currently has +29,000 downloads.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://flathub.org/en/apps/dev.deimoshall.Metamorphosis&#34;&gt;Metamorphosis&lt;/a&gt; A desktop application to edit file&amp;rsquo;s metadata with +300 installs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://crates.io/crates/random_str&#34;&gt;random_str&lt;/a&gt; - A Rust library to generate random strings, chars, booleans, and integers with +100,000 downloads.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://deimoshall.dev/css/two-columns.css&#34;&gt;
-
-&lt;div class=&#34;two-columns&#34;&gt;
-  
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://deimoshall.dev/css/two-columns.css&#34;&gt;
-
-&lt;div class=&#34;column&#34;&gt;
-        My main languages are:
-        &lt;ul&gt;
-    
-            &lt;li&gt;
-    TypeScript
-&lt;/li&gt;
-            &lt;li&gt;
-    Java
-&lt;/li&gt;
-            &lt;li&gt;
-    Rust
-&lt;/li&gt;
-            &lt;li&gt;
-    Kotlin
-&lt;/li&gt;
-        
-&lt;/ul&gt;
-    &lt;/div&gt;
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://deimoshall.dev/css/two-columns.css&#34;&gt;
-
-&lt;div class=&#34;column&#34;&gt;
-        My technology stack is:
-        &lt;ul&gt;
-    
-            &lt;li&gt;
-    GNU/Linux
-&lt;/li&gt;
-            &lt;li&gt;
-    Docker
-&lt;/li&gt;
-            &lt;li&gt;
-    AWS
-&lt;/li&gt;
-            &lt;li&gt;
-    Android
-&lt;/li&gt;
-        
-&lt;/ul&gt;
-    &lt;/div&gt;
-
-&lt;/div&gt;
 &lt;h2 id=&#34;contact-me&#34;&gt;
   Contact me
   &lt;a href=&#34;#contact-me&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
@@ -528,7 +481,8 @@ use a terminal utility called &lt;strong&gt;&amp;ldquo;ffmpeg&amp;rdquo;&lt;/str
 &lt;li&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/in/jftg&#34;&gt;Francisco Torres&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Email: &lt;a href=&#34;mailto:contactme.francisco@proton.me&#34;&gt;contactme.francisco@proton.me&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mastodon: &lt;a href=&#34;https://mastodon.social/@deimoshall&#34;&gt;@deimoshall&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;X/Twitter: &lt;a href=&#34;https://twitter.com/deimoshall&#34;&gt;@deimoshall&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter: &lt;a href=&#34;https://twitter.com/deimoshall&#34;&gt;@deimoshall&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Matrix: &lt;a href=&#34;https://matrix.to/#/@deimoshall:matrix.org&#34;&gt;@deimoshall&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
           
         
