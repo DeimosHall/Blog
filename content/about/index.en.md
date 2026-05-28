@@ -21,28 +21,8 @@ My daily work focuses on:
 
 ## My open source projects:
 
-- [random_str](https://crates.io/crates/random_str) - A Rust library to generate random strings, chars, booleans, and integers. It currently has +29,000 downloads.
-
-{{< two-columns >}}
-    {{< column >}}
-        My main languages are:
-        {{< ul >}}
-            {{< li >}}TypeScript{{< /li >}}
-            {{< li >}}Java{{< /li >}}
-            {{< li >}}Rust{{< /li >}}
-            {{< li >}}Kotlin{{< /li >}}
-        {{< /ul >}}
-    {{< /column >}}
-    {{< column >}}
-        My technology stack is:
-        {{< ul >}}
-            {{< li >}}GNU/Linux{{< /li >}}
-            {{< li >}}Docker{{< /li >}}
-            {{< li >}}AWS{{< /li >}}
-            {{< li >}}Android{{< /li>}}
-        {{< /ul >}}
-    {{< /column >}}
-{{< /two-columns >}}
+- [Metamorphosis](https://flathub.org/en/apps/dev.deimoshall.Metamorphosis) A desktop application to edit file's metadata with +300 installs.
+- [random_str](https://crates.io/crates/random_str) - A Rust library to generate random strings, chars, booleans, and integers with +100,000 downloads.
 
 ## Contact me
 
@@ -50,4 +30,5 @@ My daily work focuses on:
 - LinkedIn: [Francisco Torres](https://www.linkedin.com/in/jftg)
 - Email: [contactme.francisco@proton.me](mailto:contactme.francisco@proton.me)
 - Mastodon: [@deimoshall](https://mastodon.social/@deimoshall)
-- X/Twitter: [@deimoshall](https://twitter.com/deimoshall)
+- Twitter: [@deimoshall](https://twitter.com/deimoshall)
+- Matrix: [@deimoshall](https://matrix.to/#/@deimoshall:matrix.org)
