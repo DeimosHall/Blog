@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -6,52 +7,52 @@
     <lastmod>2026-04-18T13:04:50-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/life-of-a-programmer/2026/building-an-app-for-linux/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/life-of-a-programmer/2026/building-an-app-for-linux/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/life-of-a-programmer/2026/building-an-app-for-linux/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/life-of-a-programmer/2026/building-an-app-for-linux/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/linux-diary/2025/my-first-fedora-update/</loc>
     <lastmod>2025-11-08T07:11:39-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/linux-diary/2025/my-first-fedora-update/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/linux-diary/2025/my-first-fedora-update/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/linux-diary/2025/my-first-fedora-update/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/linux-diary/2025/my-first-fedora-update/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/linux-diary/2025/futo-keyboard-first-impressions/</loc>
     <lastmod>2025-08-24T09:08:29-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/linux-diary/2025/futo-keyboard-first-impressions/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/linux-diary/2025/futo-keyboard-first-impressions/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/linux-diary/2025/futo-keyboard-first-impressions/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/linux-diary/2025/futo-keyboard-first-impressions/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/</loc>
     <lastmod>2025-08-16T17:08:06-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/life-of-a-programmer/2025/firmware-development-is-not-for-me/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/30-days-to-learn-kotlin/</loc>
@@ -67,13 +68,13 @@
     <lastmod>2025-06-16T16:45:28-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/linux-diary/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/linux-diary/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/linux-diary/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/linux-diary/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/linux-diary/2025/back-to-linux/</loc>
@@ -83,117 +84,117 @@
     <lastmod>2025-04-10T13:49:32-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/tutorials/linux/utilities/2025/git-submodules/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/tutorials/linux/utilities/2025/git-submodules/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/tutorials/linux/utilities/2025/git-submodules/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/tutorials/linux/utilities/2025/git-submodules/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks_part2/</loc>
     <lastmod>2025-03-02T11:56:01-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks_part2/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks_part2/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks_part2/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks_part2/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks/</loc>
     <lastmod>2025-01-15T13:31:50-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/life-of-a-programmer/2025/react_and_spring_boot_in_less_than_three_weeks/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/life-of-a-programmer/</loc>
     <lastmod>2025-01-15T13:18:00-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/life-of-a-programmer/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/life-of-a-programmer/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/life-of-a-programmer/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/life-of-a-programmer/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/</loc>
     <lastmod>2023-07-25T21:59:06-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/tutorials/linux/utilities/2023/compress-video-ffmpeg/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/tutorials/</loc>
     <lastmod>2023-07-25T09:07:29-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/tutorials/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/tutorials/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/tutorials/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/tutorials/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/tutorials/iot/2023/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/</loc>
     <lastmod>2023-07-16T09:26:04-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/tutorials/iot/2023/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/tutorials/iot/2023/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/tutorials/iot/2023/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/tutorials/iot/2023/how-to-use-onboard-raspberry-pi-pico-temperature-sensor/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/life-of-a-programmer/2023/how-did-i-get-my-first-it-job/</loc>
     <lastmod>2023-07-15T19:52:01-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/life-of-a-programmer/2023/how-did-i-get-my-first-it-job/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/life-of-a-programmer/2023/how-did-i-get-my-first-it-job/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/life-of-a-programmer/2023/how-did-i-get-my-first-it-job/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/life-of-a-programmer/2023/how-did-i-get-my-first-it-job/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/courses/</loc>
     <lastmod>2023-04-19T09:20:38-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/courses/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/courses/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/courses/"
+                hreflang="en"
+                href="https://deimoshall.dev/courses/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/courses/git-github/quickstart/</loc>
@@ -203,102 +204,102 @@
     <lastmod>2023-04-17T20:46:37-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/courses/git-github/installation/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/courses/git-github/installation/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/courses/git-github/installation/"
+                hreflang="en"
+                href="https://deimoshall.dev/courses/git-github/installation/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/courses/git-github/</loc>
     <lastmod>2023-04-17T20:24:38-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/courses/git-github/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/courses/git-github/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/courses/git-github/"
+                hreflang="en"
+                href="https://deimoshall.dev/courses/git-github/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/tutorials/android/2023/copy-to-clipboard/</loc>
     <lastmod>2023-01-28T08:56:07-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/tutorials/android/2023/copy-to-clipboard/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/tutorials/android/2023/copy-to-clipboard/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/tutorials/android/2023/copy-to-clipboard/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/tutorials/android/2023/copy-to-clipboard/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/</loc>
     <lastmod>2022-12-25T21:27:07-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/blog/tutorials/linux/utilities/2022/cut-video-ffmpeg/</loc>
     <lastmod>2022-12-24T20:20:49-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/blog/tutorials/linux/utilities/2022/cut-video-ffmpeg/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/blog/tutorials/linux/utilities/2022/cut-video-ffmpeg/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/blog/tutorials/linux/utilities/2022/cut-video-ffmpeg/"
+                hreflang="en"
+                href="https://deimoshall.dev/blog/tutorials/linux/utilities/2022/cut-video-ffmpeg/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/</loc>
     <lastmod>2022-12-24T19:48:58-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/"
+                hreflang="en"
+                href="https://deimoshall.dev/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/categories/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/categories/"
+                hreflang="en"
+                href="https://deimoshall.dev/categories/"
                 />
   </url><url>
     <loc>https://deimoshall.dev/es/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://deimoshall.dev/tags/"
+                hreflang="es"
+                href="https://deimoshall.dev/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="https://deimoshall.dev/es/tags/"
+                hreflang="en"
+                href="https://deimoshall.dev/tags/"
                 />
   </url>
 </urlset>
