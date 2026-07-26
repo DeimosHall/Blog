@@ -15,6 +15,41 @@
     
     
     <item>
+      <title>New App Idea: Kanban App</title>
+      <link>https://deimoshall.dev/blog/life-of-a-programmer/2026/kanban-app/</link>
+      <pubDate>Sat, 25 Jul 2026 21:17:40 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/life-of-a-programmer/2026/kanban-app/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1Wsj7IQ8Co9uOsFJNHuOqT4vNi3Ev3pOx&amp;sz=w1424-h873&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;Yes. Another kanban app.&lt;/p&gt;
+&lt;h2 id=&#34;description&#34;&gt;
+  Description
+  &lt;a href=&#34;#description&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Project management tool with a self-hosted backend and a desktop application targeting Linux.&lt;/p&gt;
+&lt;p&gt;What I&amp;rsquo;d like to build is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Backend written in Rust&lt;/li&gt;
+&lt;li&gt;GUI app written in GTK + Rust (Linux only for now)&lt;/li&gt;
+&lt;li&gt;Mobile app (maybe in the future)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;
+  Motivation
+  &lt;a href=&#34;#motivation&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Kanban + time tracking is a setup I had when I worked in Electronic Cats. They used &lt;a href=&#34;https://kanbanflow.com/&#34;&gt;kanbanflow&lt;/a&gt; for that purpose and I really fell in love with that workflow.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>My Pc Is About to Die</title>
       <link>https://deimoshall.dev/blog/linux-diary/2026/my-pc-is-about-to-die/</link>
       <pubDate>Sat, 11 Jul 2026 20:33:43 -0600</pubDate>
