@@ -21,7 +21,7 @@ My daily work focuses on:
 
 ## My open source projects:
 
-- [Metamorphosis](https://flathub.org/en/apps/dev.deimoshall.Metamorphosis) A desktop application to edit file's metadata with +300 installs.
+- [Metamorphosis](https://flathub.org/en/apps/dev.deimoshall.Metamorphosis) A desktop application to edit file's metadata with +2,000 installs.
 - [random_str](https://crates.io/crates/random_str) - A Rust library to generate random strings, chars, booleans, and integers with +100,000 downloads.
 
 ## Contact me
