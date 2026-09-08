@@ -15,7 +15,7 @@ showReadingTime: true
 
 Ladies and gentlemen, welcome to this experiment.
 
-Having a YouTube channel is something I've wanted to do since a lot of years age, so here I am. You know, it's never too late to follow your dreams, and I definitely don't want to grow old without having tried.
+Having a YouTube channel is something I've wanted to do since a lot of years ago, so here I am. You know, it's never too late to follow your dreams, and I definitely don't want to grow old without having tried.
 
 What I intend to do with this channel is talk about two topics I like a lot, open source software and software development. It could change in the future, of course, but right now it is what I want.
 
