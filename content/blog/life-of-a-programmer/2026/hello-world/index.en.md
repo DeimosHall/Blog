@@ -5,7 +5,7 @@ author: Deimos Hall
 showAuthor: true
 draft: false
 section: post
-cover: https://drive.google.com/thumbnail?id=1M47pIY2Nyh4r1f3GYifsu2rYMU7i9pzx&sz=w1920-h1080
+cover: https://raw.githubusercontent.com/DeimosHall/blog_images/refs/heads/main/blog/life-of-a-programmer/2026/hello-world/cove.png
 useRelativeCover: false
 CoverCaption: ""
 toc: false

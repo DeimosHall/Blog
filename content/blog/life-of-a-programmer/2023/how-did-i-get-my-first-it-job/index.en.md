@@ -4,7 +4,7 @@ date: 2023-07-15T19:52:01-06:00
 author: Francisco Torres
 draft: false
 section: post
-cover: https://drive.google.com/thumbnail?id=17z2lE8imwYcL1dSD30-ookxJttv92y9l&sz=w1152-h768
+cover: https://raw.githubusercontent.com/DeimosHall/blog_images/refs/heads/main/blog/life-of-a-programmer/2023/how-did-i-get-my-first-it-job/cover.png
 useRelativeCover: false
 CoverCaption: ""
 toc: false

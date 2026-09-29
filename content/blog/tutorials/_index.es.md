@@ -5,9 +5,9 @@ author: Francisco Torres
 showAuthor: false
 draft: false
 section: post
-cover: https://drive.google.com/thumbnail?id=1a8TJX_VEpED8NT_lX4wpzRnR0jANQQGU&sz=w1152-h648
+cover: https://raw.githubusercontent.com/DeimosHall/blog_images/refs/heads/main/blog/tutorials/cover.png
 useRelativeCover: false
-CoverCaption: Creado con [Unstable Diffusion](https://www.unstability.ai/).
+CoverCaption: 
 toc: false
 showReadingTime: true
 ---

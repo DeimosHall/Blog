@@ -9,6 +9,6 @@ draft: false
 
 ## [Blog](blog/)
 {{< image
-src="https://drive.google.com/thumbnail?id=1dWTi5kzVoQZupxMb4V-1IGtVvQQYHv1o&sz=w1920-h1080"
+src="https://raw.githubusercontent.com/DeimosHall/blog_images/refs/heads/main/blog/blog.png"
 alt="Imagen de portada para el blog"
 link="blog/" >}}

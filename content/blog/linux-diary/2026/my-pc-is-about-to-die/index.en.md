@@ -5,7 +5,7 @@ author: Deimos Hall
 showAuthor: true
 draft: false
 section: "post"
-cover: "https://drive.google.com/thumbnail?id=1fbOYMkWedDnrK9zZYhjZnlkrh1SzevTj&sz=w5472-h3096"
+cover: "https://raw.githubusercontent.com/DeimosHall/blog_images/refs/heads/main/blog/linux-diary/2026/my-pc-is-about-to-die/Cover.jpg"
 useRelativeCover: false
 CoverCaption: ""
 toc: false
@@ -25,7 +25,7 @@ It was the second time I had to go through the process of reinstalling/fixing th
 I fixed it. Yeah, but in the process of booting from the USB drive live session I got a kernel panic. My first kernel panic. I didn't even know how that screen looks like, but I have to say it looks cool.
 
 {{< image
-src="https://drive.google.com/thumbnail?id=1rD5XCIj_ksVfnoG-MPAMPTkXWkGBisER&sz=w1280-h720"
+src="https://raw.githubusercontent.com/DeimosHall/blog_images/refs/heads/main/blog/linux-diary/2026/my-pc-is-about-to-die/Kernel%20Panic.jpg"
 caption="Kernel Panic"
 alt="Kernel Panic"
 style="width: auto; border-radius: 10px;" >}}
@@ -35,7 +35,7 @@ However, having a kernel panic while trying to boot in a live session from a USB
 Once I recovered my Fedora boot entry, I logged into my system and everything looked fine. I used my PC for a couple of hours, and then I turn it off. The next morning (today) I found another screen with more error messages and this time they were clear and explicit. Hardware Error.
 
 {{< image
-src="https://drive.google.com/thumbnail?id=131SXCFp-PFaEqqR10Bm6p1OXgJfR2Uzy&sz=w1280-h720"
+src="https://raw.githubusercontent.com/DeimosHall/blog_images/refs/heads/main/blog/linux-diary/2026/my-pc-is-about-to-die/Hardware%20Errors.jpg"
 caption="Hardware Error"
 alt="Hardware Error"
 style="width: auto; border-radius: 10px;" >}}
