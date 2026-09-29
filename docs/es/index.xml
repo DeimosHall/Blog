@@ -313,7 +313,7 @@
       <guid>https://deimoshall.dev/es/blog/life-of-a-programmer/2023/how-did-i-get-my-first-it-job/</guid>
       <description>
         
-          &lt;img src=&#34;https://drive.google.com/thumbnail?id=17z2lE8imwYcL1dSD30-ookxJttv92y9l&amp;sz=w1152-h768&#34;/&gt;
+          &lt;img src=&#34;https://raw.githubusercontent.com/DeimosHall/blog_images/refs/heads/main/blog/life-of-a-programmer/2023/how-did-i-get-my-first-it-job/cover.png&#34;/&gt;
           
         
         
@@ -344,8 +344,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;469138725&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;469138725&#34;&gt;
+    &lt;input id=&#34;289367415&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;289367415&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -361,8 +361,8 @@ git config --global user.name &amp;#34;deimos&amp;#34;
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;814569732&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;814569732&#34;&gt;
+    &lt;input id=&#34;218497365&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;218497365&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
