@@ -15,6 +15,46 @@
     
     
     <item>
+      <title>Vibe Coding, Love &amp; Hate</title>
+      <link>https://deimoshall.dev/blog/life-of-a-programmer/2026/vibe-coding-love-and-hate/</link>
+      <pubDate>Sat, 10 Oct 2026 19:39:25 -0600</pubDate>
+      
+      <guid>https://deimoshall.dev/blog/life-of-a-programmer/2026/vibe-coding-love-and-hate/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://raw.githubusercontent.com/DeimosHall/blog_images/refs/heads/main/blog/life-of-a-programmer/2026/vibe-coding-love-and-hate/cover.png&#34;/&gt;
+          
+        
+        
+        
+          &lt;p&gt;When I created this entry using a &lt;a href=&#34;&#34;&gt;hugo&lt;/a&gt; command, I found these warnings:&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;189642537&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;189642537&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
+      
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-bash&#34; &gt;&lt;code&gt;
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+WARN  deprecated: project config key languages.en.languageName was deprecated in Hugo v0.158.0 and will be removed in a future release. Use languages.e
+n.label instead.
+WARN  deprecated: project config key languages.es.languageName was deprecated in Hugo v0.158.0 and will be removed in a future release. Use languages.e
+s.label instead
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;And to be completely honest with you, something in my mind asked me to copy the text to an AI and wait for a solution. In fact, I did it. But in the process of waiting for the answer I immediately realized how lazy I&amp;rsquo;m becoming. I went back to my terminal and I took the time to read line by line. And boom, nothing serious. I only had to replace some deprecated keys.&lt;/p&gt;
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>New App Idea: Kanban App</title>
       <link>https://deimoshall.dev/blog/life-of-a-programmer/2026/kanban-app/</link>
       <pubDate>Sat, 25 Jul 2026 21:17:40 -0600</pubDate>
