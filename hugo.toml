@@ -1,5 +1,5 @@
 baseURL = 'https://deimoshall.dev/'
-languageCode = 'en'
+locale = 'en'
 title = 'Deimos Hall'
 defaultContentLanguage = "en"
 
@@ -44,7 +44,7 @@ theme = "hello-friend"
 [languages]
   [languages.en]
     title = "Deimos Hall"
-    languageName = "English"
+    label = "English"
     weight = 2
 
     [languages.en.params]
@@ -97,7 +97,7 @@ theme = "hello-friend"
 
   [languages.es]
     title = "Deimos Hall"
-    languageName = "Español"
+    label = "Español"
     weight = 1
     [languages.es.params]
       keywords = ""
