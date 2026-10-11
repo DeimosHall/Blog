@@ -1,5 +1,5 @@
 deploy:
-	hugo -d docs/
+	hugo --cleanDestinationDir -d docs/
 
 commit:
 	git add .

@@ -32,8 +32,8 @@
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;189642537&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;189642537&#34;&gt;
+    &lt;input id=&#34;765394821&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;765394821&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;bash&lt;/span&gt;
       
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;
@@ -469,37 +469,6 @@ s.label instead
         
           &lt;p&gt;Hello, I&amp;rsquo;m Francisco Torres, a software developer from Mexico. I studied electronics engineering, it is not too related to software development, but I learned programming by myself. Yes, I saw some of C progamming in college, but it was not in a deep way and I didn&amp;rsquo;t have too many programming related subjects.&lt;/p&gt;
 &lt;p&gt;I was looking for an internship since 2022 winter. In that time I was almost in my last semester of the university, and I had the option to do an internship while I was studying the last semester. I sent my resume to some companies in Linkedin, but no one called me. It wasn&amp;rsquo;t something bad for me, because I was still studying and I had time to find a job.&lt;/p&gt;
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Git Installation</title>
-      <link>https://deimoshall.dev/courses/git-github/installation/</link>
-      <pubDate>Mon, 17 Apr 2023 20:46:37 -0600</pubDate>
-      
-      <guid>https://deimoshall.dev/courses/git-github/installation/</guid>
-      <description>
-        
-          &lt;img src=&#34;https://drive.google.com/thumbnail?id=1HrKvmMYB88lM9nBie7mViLQpjvllEbTB&#34;/&gt;
-          
-        
-        
-        
-          &lt;h2 id=&#34;git-for-windows&#34;&gt;
-  Git for Windows
-  &lt;a href=&#34;#git-for-windows&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;Download the latest version of &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;Git for Windows&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Select the standalone installer according to your system architecture (32 or 64 bits).&lt;/p&gt;
-
-  &lt;figure class=&#34;center&#34; &gt;
-    &lt;img src=&#34;https://lh3.googleusercontent.com/drive-viewer/AKGpihZqh7eRErFsERYF2mbLNzOaBvuAZDVcvAQxQo5JG85NJKCUfPcbIHLzaBeh-DQoj5krsmJcthiZDXPzta3eMipfyeCxehi-Oa0=s1600-rw-v1&#34;  alt=&#34;Select the installer to download&#34;  style=&#34;border-radius: 10px&#34; /&gt;
-    
-      &lt;figcaption class=&#34;center&#34; &gt;Select the installer to download&lt;/figcaption&gt;
-    
-  &lt;/figure&gt;
           
         
         </description>

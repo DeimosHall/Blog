@@ -1,6 +1,6 @@
 #!/bin/bash
 
-hugo -d docs/
+hugo --cleanDestinationDir -d docs/
 git add .
 git commit -m "chore: deploy content"
 git push origin development
